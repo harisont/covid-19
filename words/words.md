@@ -698,12 +698,24 @@ Here's the rough idea, with some (less-consensus) backup plans:
 
 So what does this mean for YOU, right now?
 
+Quindi cosa significa questo per TE, ora?
+
 **For everyone:** Respect the lockdown so we can get out of Phase I asap. Keep washing those hands. Make your own masks. Download a *privacy-protecting* contact tracing app when those are available next month. Stay healthy, physically & mentally! And write your local policymaker to get off their butt and...
+
+**Per tutti:** Rispetta il lockdown in modo che possiamo uscire dalla fase 1 il prima possibile. Continua a lavarti le mane. Fatti una maschera. Scarica una app di tracciamento contatti (che sia *rispettosa della privacy*) quando saranno disponibili il prossimo mese. Mantieni in forma, sia fisicamente che psicologicamente! E scrivi ai tuoi referenti politici, "alza il culo e..."
 
 **For policymakers:** Make laws to support folks who have to self-isolate/quarantine. Hire more manual contact tracers, *supported* by privacy-protecting contact tracing apps. Direct more funds into the stuff we should be building, like...
 
+**Per i politici:** Fai leggi che supportino la gente che che deve auto isolarsi o stare in quarantena. Assumi più tracciatori di contatti manuali, *supportati* da app di tracciamente rispettose della privacy. Sposta fondi verso cose che dovremmo produrre di più, tipo...
+
 **For builders:** Build tests. Build ventilators. Build personal protective equipment for hospitals. Build tests. Build masks. Build apps. Build antivirals, prophylactics, and other treatments that aren't vaccines. Build vaccines. Build tests. Build tests. Build tests. Build hope. 
+
+**Per i produttori:** Produci più test. Produci più ventilatori. Produci più dispositivi di protezione personale per gli ospedali. Più test. Più maschere. Più app. Produci antivirali, trattementi profilattici ed altri trattamenti diversi dai vaccini. Lavora sui vaccini. Produci test. Più test. Ancora test. Costruisci speranza. 
 
 Don't downplay fear to build up hope. Our fear should *team up* with our hope, like the inventors of airplanes & parachutes. Preparing for horrible futures is how we *create* a hopeful future.
 
+Non minimizzare la paura per costruire speranza. La nostra paura dovrebbe *allearsi* con la speranza, come gli inventori di aereoplani e paracaduti. Prepararandosi a futuri terribili è il modo in cui *creaimo* futuri in cui sperare.
+
 The only thing to fear is the idea that the only thing to fear is fear itself.
+
+L'unica cosa di cui aver paura è l'idea che la paura sia l'unica cosa di cui aver paura.
