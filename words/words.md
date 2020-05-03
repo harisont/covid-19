@@ -850,17 +850,25 @@ So finally, let's return to...
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>Adesso</div>
+        <div><!--Now-->Adesso</div>
     </div>
 </div>
 
-Plane's sunk. We've scrambled onto the life rafts. It's time to find dry land.[^dry_land]
+<!--Plane's sunk. We've scrambled onto the life rafts. It's time to find dry land.[^dry_land]-->
 
-[^dry_land]: Dry land metaphor [from Marc Lipsitch & Yonatan Grad, on STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
+L'aereo è affondato. Siamo corsi sulle scialuppe di salvataggio. E' ora di toccare terra.
 
-Teams of epidemiologists and policymakers ([left](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [right](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), and [multi-partisan](https://ethics.harvard.edu/covid-roadmap)) have come to a consensus on how to beat COVID-19, while protecting our lives *and* liberties.
+<!--[^dry_land]: Dry land metaphor [from Marc Lipsitch & Yonatan Grad, on STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)-->
 
-Here's the rough idea, with some (less-consensus) backup plans:
+[^dry_land]: Metafora del toccare terra [da Marc Lipsitch e Yonatan Grad, su STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
+
+<!--Teams of epidemiologists and policymakers ([left](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [right](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), and [multi-partisan](https://ethics.harvard.edu/covid-roadmap)) have come to a consensus on how to beat COVID-19, while protecting our lives *and* liberties.-->
+
+Alcune squadre di epidemiologi e politici ([di sinstra](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [di destra](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), e [trasversali](https://ethics.harvard.edu/covid-roadmap)) hanno raggiunto un consenso su come sconfiggere il COVID-19, proteggendo allo stesso tempo le nostre vite *e* le nostre libertà.
+
+<!--Here's the rough idea, with some (less-consensus) backup plans:-->
+
+Questa è l'idea generaleHere's the rough idea, con dei piani B (su cui c'è meno consenso):
 
 ![](pics/plan.png)
 
@@ -870,11 +878,11 @@ Quindi cosa significa questo per TE, ora?
 
 <!--**For everyone:** Respect the lockdown so we can get out of Phase I asap. Keep washing those hands. Make your own masks. Download a *privacy-protecting* contact tracing app when those are available next month. Stay healthy, physically & mentally! And write your local policymaker to get off their butt and...-->
 
-**Per tutti:** Rispetta il lockdown in modo che possiamo uscire dalla fase 1 il prima possibile. Continua a lavarti le mane. Fatti una maschera. Scarica una app di tracciamento contatti (che sia *rispettosa della privacy*) quando saranno disponibili il prossimo mese. Mantieni in forma, sia fisicamente che psicologicamente! E scrivi ai tuoi referenti politici, "alza il culo e..."
+**Per tutti:** Rispetta il lockdown in modo che possiamo uscire dalla fase 1 il prima possibile. Continua a lavarti le mani. Fatti una maschera. Scarica una app di tracciamento contatti (che sia *rispettosa della privacy*) quando saranno disponibili il prossimo mese. Mantieniti in forma, sia fisicamente che psicologicamente! E scrivi ai tuoi referenti politici, "alza il culo e..."
 
 <!--**For policymakers:** Make laws to support folks who have to self-isolate/quarantine. Hire more manual contact tracers, *supported* by privacy-protecting contact tracing apps. Direct more funds into the stuff we should be building, like...-->
 
-**Per i politici:** Fai leggi che supportino la gente che che deve auto isolarsi o stare in quarantena. Assumi più tracciatori di contatti manuali, *supportati* da app di tracciamente rispettose della privacy. Sposta fondi verso cose che dovremmo produrre di più, tipo...
+**Per i politici:** Fai leggi che supportino la gente che che deve autoisolarsi o stare in quarantena. Assumi più tracciatori di contatti manuali, *che siano supportati* da app di tracciamento rispettose della privacy. Sposta fondi verso cose che dovremmo produrre di più, tipo...
 
 <!--**For builders:** Build tests. Build ventilators. Build personal protective equipment for hospitals. Build tests. Build masks. Build apps. Build antivirals, prophylactics, and other treatments that aren't vaccines. Build vaccines. Build tests. Build tests. Build tests. Build hope.-->
 
@@ -882,7 +890,7 @@ Quindi cosa significa questo per TE, ora?
 
 <!--Don't downplay fear to build up hope. Our fear should *team up* with our hope, like the inventors of airplanes & parachutes. Preparing for horrible futures is how we *create* a hopeful future.-->
 
-Non minimizzare la paura per costruire speranza. La nostra paura dovrebbe *allearsi* con la speranza, come gli inventori di aereoplani e paracaduti. Prepararandosi a futuri terribili è il modo in cui *creaimo* futuri in cui sperare.
+Non minimizzare la paura per costruire speranza. La nostra paura dovrebbe *allearsi* con la speranza, come gli inventori di aereoplani e gli inventori di paracaduti. Prepararandosi a futuri terribili è il modo in cui *creaimo* futuri in cui sperare.
 
 <!--The only thing to fear is the idea that the only thing to fear is fear itself.-->
 
