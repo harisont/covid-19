@@ -2,41 +2,43 @@
     <div>
     	<iframe id="splash" width="960" height="480" src="banners/splash.html"></iframe>
         <div style="top: 70px;font-size: 75px;font-weight: bold;">
-        	<--!What Happens Next?-->
+        	<!--What Happens Next?-->
 		E adesso cosa succede?
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
-			<--!COVID-19 Futures, Explained With Playable Simulations-->
+			<!--COVID-19 Futures, Explained With Playable Simulations-->
 			Futuri possibili per COVID-19, spiegati con simulazioni giocabili
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
-				🕐 30 min <--!play/read-->lettura/gioco
+				🕐 30 min <!--play/read-->lettura/gioco
 				&nbsp;&middot;&nbsp;
 			</b>
-			<--!by-->di
+			<!--by-->di
 			<a href="https://scholar.google.com/citations?user=_wHMGkUAAAAJ&amp;hl=en">Marcel Salathé</a>
-			(<--!epidemiologist-->epidemiologo)
-			&
+			(<!--epidemiologist-->epidemiologo)
+			e
 			<a href="https://ncase.me/">Nicky Case</a>
-			(<--!art/code-->arte/codice)
+			(<!--art/code-->arte/codice)
 		</div>
 	</div>
 </div>
 
-<--!"The only thing to fear is fear itself" was stupid advice.-->
+<!---
+	"The only thing to fear is fear itself" was stupid advice.
+-->
 
 "L'unica cosa di cui avere paura è la paura stessa" è un consiglio stupido.
 
-<--!Sure, don't hoard toilet paper – but if policymakers fear fear itself, they'll downplay real dangers to avoid "mass panic". Fear's not the problem, it's how we *channel* our fear. Fear gives us energy to deal with dangers now, and prepare for dangers later.-->
+<!--Sure, don't hoard toilet paper – but if policymakers fear fear itself, they'll downplay real dangers to avoid "mass panic". Fear's not the problem, it's how we *channel* our fear. Fear gives us energy to deal with dangers now, and prepare for dangers later.-->
 
 Certo, non fare scorta di carta igienica (o di pasta - ma se i politici hanno paura della paura, minimizzeranno i veri pericoli per evitare il "panico di massa".
 
-<--!Honestly, we (Marcel, epidemiologist + Nicky, art/code) are worried. We bet you are, too! That's why we've channelled our fear into making these **playable simulations**, so that *you* can channel your fear into understanding:-->
+<!--Honestly, we (Marcel, epidemiologist + Nicky, art/code) are worried. We bet you are, too! That's why we've channelled our fear into making these **playable simulations**, so that *you* can channel your fear into understanding:-->
 
 Onestamente, noi (Marcel, epidemiologo e Nicky, arte/codice) siamo preoccupati. E crediamo che lo sia anche tu! Ecco perché abbiamo incanalato la nostra paura nel fare queste **simulazioni giocabili**, in modo che *tu* possa incanalare la tua paura verso la comprensione.
 
-<--!
+<!--
 * **The Last Few Months** (epidemiology 101, SEIR model, R & R<sub>0</sub>)
 * **The Next Few Months** (lockdowns, contact tracing, masks)
 * **The Next Few Years** (loss of immunity? no vaccine?)
@@ -572,7 +574,7 @@ Not to mention all the *other* interventions we could do, to further push R down
 * [Replacing hand-shaking with foot-bumping](https://twitter.com/V_actually/status/1233785527788285953)
 * And all else human ingenuity shall bring
 
-. . .
+<p>. . .</p>
 
 We hope these plans give you hope. 
 
@@ -679,7 +681,7 @@ Even in the nightmare "no-vaccine" scenario, we still have 3 ways out. From most
 
 Even under the *worst* worst-case scenario... life perseveres.
 
-. . .
+<p>. . .</p>
 
 Maybe you'd like to challenge our assumptions, and try different R<sub>0</sub>'s or numbers. Or try simulating your *own* combination of intervention plans!
 
@@ -710,26 +712,26 @@ Here's the rough idea, with some (less-consensus) backup plans:
 
 ![](pics/plan.png)
 
-<--!So what does this mean for YOU, right now?-->
+<!--So what does this mean for YOU, right now?-->
 
 Quindi cosa significa questo per TE, ora?
 
-<--!**For everyone:** Respect the lockdown so we can get out of Phase I asap. Keep washing those hands. Make your own masks. Download a *privacy-protecting* contact tracing app when those are available next month. Stay healthy, physically & mentally! And write your local policymaker to get off their butt and...-->
+<!--**For everyone:** Respect the lockdown so we can get out of Phase I asap. Keep washing those hands. Make your own masks. Download a *privacy-protecting* contact tracing app when those are available next month. Stay healthy, physically & mentally! And write your local policymaker to get off their butt and...-->
 
 **Per tutti:** Rispetta il lockdown in modo che possiamo uscire dalla fase 1 il prima possibile. Continua a lavarti le mane. Fatti una maschera. Scarica una app di tracciamento contatti (che sia *rispettosa della privacy*) quando saranno disponibili il prossimo mese. Mantieni in forma, sia fisicamente che psicologicamente! E scrivi ai tuoi referenti politici, "alza il culo e..."
 
-<--!**For policymakers:** Make laws to support folks who have to self-isolate/quarantine. Hire more manual contact tracers, *supported* by privacy-protecting contact tracing apps. Direct more funds into the stuff we should be building, like...-->
+<!--**For policymakers:** Make laws to support folks who have to self-isolate/quarantine. Hire more manual contact tracers, *supported* by privacy-protecting contact tracing apps. Direct more funds into the stuff we should be building, like...-->
 
 **Per i politici:** Fai leggi che supportino la gente che che deve auto isolarsi o stare in quarantena. Assumi più tracciatori di contatti manuali, *supportati* da app di tracciamente rispettose della privacy. Sposta fondi verso cose che dovremmo produrre di più, tipo...
 
-<--!**For builders:** Build tests. Build ventilators. Build personal protective equipment for hospitals. Build tests. Build masks. Build apps. Build antivirals, prophylactics, and other treatments that aren't vaccines. Build vaccines. Build tests. Build tests. Build tests. Build hope.-->
+<!--**For builders:** Build tests. Build ventilators. Build personal protective equipment for hospitals. Build tests. Build masks. Build apps. Build antivirals, prophylactics, and other treatments that aren't vaccines. Build vaccines. Build tests. Build tests. Build tests. Build hope.-->
 
 **Per i produttori:** Produci più test. Produci più ventilatori. Produci più dispositivi di protezione personale per gli ospedali. Più test. Più maschere. Più app. Produci antivirali, trattementi profilattici ed altri trattamenti diversi dai vaccini. Lavora sui vaccini. Produci test. Più test. Ancora test. Costruisci speranza. 
 
-<--!Don't downplay fear to build up hope. Our fear should *team up* with our hope, like the inventors of airplanes & parachutes. Preparing for horrible futures is how we *create* a hopeful future.-->
+<!--Don't downplay fear to build up hope. Our fear should *team up* with our hope, like the inventors of airplanes & parachutes. Preparing for horrible futures is how we *create* a hopeful future.-->
 
 Non minimizzare la paura per costruire speranza. La nostra paura dovrebbe *allearsi* con la speranza, come gli inventori di aereoplani e paracaduti. Prepararandosi a futuri terribili è il modo in cui *creaimo* futuri in cui sperare.
 
-<--!The only thing to fear is the idea that the only thing to fear is fear itself.-->
+<!--The only thing to fear is the idea that the only thing to fear is fear itself.-->
 
 L'unica cosa di cui aver paura è l'idea che la paura sia l'unica cosa di cui aver paura.
