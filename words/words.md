@@ -509,9 +509,11 @@ Era questo l'altro risultato del report dell'Imperial College del 16 Marzo, che 
 
 Cioé, non ci si può limitare ad "appiattire" la curva, la curva va *schiacciata*. Per esempio, tramite un...
 
-###Scenario 2: Months-Long Lockdown
+<!--###Scenario 2: Months-Long Lockdown-->
+###Scenario 2: Diversi Mesi Di Lockdown
 
-Let's see what happens if we *crush* the curve with a 5-month lockdown, reduce <icon i></icon> to nearly nothing, then finally – *finally* – return to normal life:
+<!--Let's see what happens if we *crush* the curve with a 5-month lockdown, reduce <icon i></icon> to nearly nothing, then finally – *finally* – return to normal life:-->
+Vediamo cosa succede se *schiacciamo* la curva con un lockdown di 5 mesi, riducendo il numero degli <icon i></icon> a quasi zero per poi finalmente - *finalmente* - ritornare alla vita normale:
 
 <div class="sim">
 		<iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
@@ -519,11 +521,14 @@ Let's see what happens if we *crush* the curve with a 5-month lockdown, reduce <
 
 Oh.
 
-This is the "second wave" everyone's talking about. As soon as we remove the lockdown, we get R > 1 again. So, a single leftover <icon i></icon> (or imported <icon i></icon>) can cause a spike in cases that's almost as bad as if we'd done Scenario 0: Absolutely Nothing.
+<!--This is the "second wave" everyone's talking about. As soon as we remove the lockdown, we get R > 1 again. So, a single leftover <icon i></icon> (or imported <icon i></icon>) can cause a spike in cases that's almost as bad as if we'd done Scenario 0: Absolutely Nothing.-->
+E' la "seconda ondata" di cui tutti parlano. Appena interrompiamo il lockdown, R torna ad essere > 1. Quindi, un singolo <icon i></icon> residui (o <icon i></icon> importato) è in grado di causare un picco di contagi drammatico quasi quanto se avessimo fatto quanto previsto nello Scenario 0: Assolutamente Niente.
 
-**A lockdown isn't a cure, it's just a restart.**
+<!--**A lockdown isn't a cure, it's just a restart.**-->
+**Un lockdown non è una cura, è solo un nuovo inizio.**
 
-So, what, do we just lockdown again & again?
+<!--So, what, do we just lockdown again & again?-->
+E quindi? Andiamo avanti di lockdown in lockdown?
 
 ###Scenario 3: Intermittent Lockdown
 
