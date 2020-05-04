@@ -735,8 +735,8 @@ Ecco come battiamo il COVID-19.
 <!--But what if things *still* go wrong? Things have gone horribly wrong already. That's fear, and that's good! Fear gives us energy to create *backup plans*.-->
 Ma che si fa se le cose vanno male *comunque*? Le cose sono già andate tremendamente male. E' paura, e questo è positivo! La paura ci dà le energie per creare *piani di backup*.
 
-<!--Il pessimista inventa il paracadute.-->
-The pessimist invents the parachute.
+<!--The pessimist invents the parachute.-->
+Il pessimista inventa il paracadute.
 
 <!--###Scenario 4+: Masks For All, Summer, Circuit Breakers-->
 ###Scenario 4+: Mascherine Per Tutti, Estate, Circuit Breakers
