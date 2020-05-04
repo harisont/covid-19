@@ -530,33 +530,45 @@ E' la "seconda ondata" di cui tutti parlano. Appena interrompiamo il lockdown, R
 <!--So, what, do we just lockdown again & again?-->
 E quindi? Andiamo avanti di lockdown in lockdown?
 
-###Scenario 3: Intermittent Lockdown
+<!--###Scenario 3: Intermittent Lockdown-->
+###Scenario 3: Lockdown Intermittente
 
-This solution was first suggested by the March 16 Imperial College report, and later again by a Harvard paper.[^lockdown_harvard]
+<!--This solution was first suggested by the March 16 Imperial College report, and later again by a Harvard paper.[^lockdown_harvard]-->
+Questa soluzione è stata suggerita prima dal report dell'Imperial College del 16 marzo, poi nuovamente da un paper di Harvard.[^lockdown_harvard]
 
-[^lockdown_harvard]: “Absent other interventions, a key metric for the success of social distancing is whether critical care capacities are exceeded. To avoid this, prolonged or intermittent social distancing may be necessary into 2022.” [Kissler and Tedijanto et al](https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
+<!--[^lockdown_harvard]: “Absent other interventions, a key metric for the success of social distancing is whether critical care capacities are exceeded. To avoid this, prolonged or intermittent social distancing may be necessary into 2022.” [Kissler and Tedijanto et al](https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)-->
+[^lockdown_harvard]: “In assenza di altri interventi, un modo per valutare il successo del distanziamento sociale è il superamento della capacità dei reparti di terapia intensiva. Per evitare che questo accada, potrebbe essere necessario un distanziamento sociale prolungato o intermittente fino al 2022.” [Kissler and Tedijanto et al](https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
 
-**Here's a simulation:** (After playing the "recorded scenario", you can try simulating your *own* lockdown schedule, by changing the sliders *while* the simulation is running! Remember you can pause & continue the sim, and change the simulation speed)
+<!--**Here's a simulation:** (After playing the "recorded scenario", you can try simulating your *own* lockdown schedule, by changing the sliders *while* the simulation is running! Remember you can pause & continue the sim, and change the simulation speed)-->
+**Ecco una simulazione:** (Dopo aver osservato lo "scenario preregistrato", puoi provare a simulare un *tuo* programma di lockdown spostando gli slider *durante* la simulazione! Ricorda che puoi mettere in pausa & riprenderla, oltre che cambiarne la velocità)
 
 <div class="sim">
 		<iframe src="sim?stage=int-4&format=lines" width="800" height="540"></iframe>
 </div>
 
-This *would* keep cases below ICU capacity! And it's *much* better than an 18-month lockdown until a vaccine is available. We just need to... shut down for a few months, open up for a few months, and repeat until a vaccine is available. (And if there's no vaccine, repeat until herd immunity is reached... in 2022.)
+<!--This *would* keep cases below ICU capacity! And it's *much* better than an 18-month lockdown until a vaccine is available. We just need to... shut down for a few months, open up for a few months, and repeat until a vaccine is available. (And if there's no vaccine, repeat until herd immunity is reached... in 2022.)-->
+In questo modo *si riuscirebbe* a non sforare la capacità dei reparti di terapia intensiva! Ed è *molto* meglio di un lockdown di 18 mesi che va avanti finché non è disponibile un vaccino. Basta semplicemente... chiudere tutto per qualche mese, riaprire per qualche altro mese, e così via finché il vaccino non è disponibile. (E se il vaccino non si trova, continuare finché non si raggiunge l'immmunità di gregge... nel 2022.)
 
-Look, it's nice to draw a line saying "ICU capacity", but there's lots of important things we *can't* simulate here. Like:
+<!--Look, it's nice to draw a line saying "ICU capacity", but there's lots of important things we *can't* simulate here. Like:-->
+Ma attenzione: sarebbe bello poter semplicemente tracciare una linea per rappresentare la capacità dei reparti di terapia intensiva, ma ci sono anche molti fattori importanti che *non possiamo* simulare qui. Per esempio:
 
-**Mental Health:** Loneliness is one of the biggest risk factors for depression, anxiety, and suicide. And it's as associated with an early death as smoking 15 cigarettes a day.[^loneliness]
+<!--**Mental Health:** Loneliness is one of the biggest risk factors for depression, anxiety, and suicide. And it's as associated with an early death as smoking 15 cigarettes a day.[^loneliness]-->
+**Salute Mentale:** La soluitudine è uno dei più importanti fattori di rischio legati a depressione, ansia e suicidi, ed è correlata alla morte precoce quando fumare 15 sigarette al giorno.[^loneliness]
 
-[^loneliness]: See [Figure 6 from Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Of course, big disclaimer that they found a *correlation*. But unless you want to try randomly assigning people to be lonely for life, observational evidence is all you're gonna get.
+<!--[^loneliness]: See [Figure 6 from Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Of course, big disclaimer that they found a *correlation*. But unless you want to try randomly assigning people to be lonely for life, observational evidence is all you're gonna get.-->
+[^loneliness]: Vedi la [Figura 6 di Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Certo, è importante tenere a mente che quella che viene riportata è soltanto una *correlazione*. Ma a meno di voler voler sperimentare condannando persone a caso alla soluitudine vita natural durante, non si può avere molto oltre all'evidenza osservativa.
 
-**Financial Health:** "What about the economy" sounds like you care more about dollars than lives, but "the economy" isn't just stocks: it's people's ability to provide food & shelter for their loved ones, to invest in their kids' futures, and enjoy arts, foods, videogames – the stuff that makes life worth living. And besides, poverty *itself* has horrible impacts on mental and physical health.
+<!--**Financial Health:** "What about the economy" sounds like you care more about dollars than lives, but "the economy" isn't just stocks: it's people's ability to provide food & shelter for their loved ones, to invest in their kids' futures, and enjoy arts, foods, videogames – the stuff that makes life worth living. And besides, poverty *itself* has horrible impacts on mental and physical health.-->
+**Solidità finanziaria:** "E l'economia?" suona come la frase di qualcuno che metter il denaro davanti alle vite umane, ma "l'economia" non riguarda solo il mercato azionario: riguarda la possibilità per le persone di procurare vitto e alloggio per i loro cari, di investire nel futuro dei loro figli, di godersi l'arte, il cibo, i videogiochi - quelle cose che rendono la vita degna di essere vissuta. E oltretutto, la povertà *stessa* ha un impatto tremendo sulla salute sia mentale che fisica.
 
-Not saying we *shouldn't* lock down again! We'll look at "circuit breaker" lockdowns later. Still, it's not ideal.
+<!--Not saying we *shouldn't* lock down again! We'll look at "circuit breaker" lockdowns later. Still, it's not ideal.-->
+Non sto dicendo che dovremmo *rifiutare* nuovi lockdown! Più avanti, guarderemo ai lockdown "circuit breaker". Ma non è l'ideale.
 
-But wait... haven't Taiwan and South Korea *already* contained COVID-19? For 4 whole months, *without* long-term lockdowns?
+<!--But wait... haven't Taiwan and South Korea *already* contained COVID-19? For 4 whole months, *without* long-term lockdowns?-->
+Ma un attimo... Taiwan e la Corea del Sud non hanno *già* contenuto il COVID-19? Per 4 mesi interi, *senza* lockdown di lunga durata?
 
-How?
+<!--How?-->
+Come?
 
 ###Scenario 4: Test, Trace, Isolate
 
