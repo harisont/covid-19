@@ -181,8 +181,8 @@ Ora, cosa succede se simuli la crescita logistica a forma di S *con* la guarigio
 
 Scopriamolo.
 
-<b style='color:#ff4040'><!--Red curve-->La curva rossa</b><!-- is *current* cases--> sono i casi *attuali*<icon i></icon>,    
-<b style='color:#999999'><!--Gray curve-->La curva grigia</b><!-- is *total* cases (current + recovered--> sono i casi *totali* <icon r></icon>),
+<b style='color:#ff4040'><!--Red curve-->La curva rossa</b><!-- is *current* cases--> sono i casi *attivi*<icon i></icon>,    
+<b style='color:#999999'><!--Gray curve-->La curva grigia</b><!-- is *total* cases (current + recovered)--> sono i casi *totali* <icon r></icon>),
 <!--starts at just 0.001%--> ed inizia proprio allo 0,001% <icon i></icon>:
 
 <div class="sim">
@@ -238,7 +238,7 @@ Per il COVID-19, si stima che tu sia <icon e></icon> infetto-ma-non-infettivo pe
 <b style='color:#888'>Gray curve</b> is *total* cases (current + recovered <icon r></icon>):
 -->
 
-<b style='color:#ff4040'>La curva rossa</b><b style='color:#FF9393'>+ rosa</b> sono i casi *attuali* (infettivi <icon i></icon> + esposti <icon e></icon>),    
+<b style='color:#ff4040'>La curva rossa</b><b style='color:#FF9393'>+ rosa</b> sono i casi *attivi* (infettivi <icon i></icon> + esposti <icon e></icon>),    
 <b style='color:#888'>La curva grigia</b> è i casi *totali* (attuali + guariti <icon r></icon>):
 
 <div class="sim">
@@ -311,7 +311,7 @@ Nelle nostre simulazione – *sia all'inizio che mediamente* – un <icon i></ic
 
 <!--But remember, the fewer <icon s></icon>s there are, the *slower* <icon s></icon>s become <icon i></icon>s. The *current* reproduction number (R) depends not just on the *basic* reproduction number (R<sub>0</sub>), but *also* on how many people are no longer <icon s></icon> Susceptible. (For example, by recovering & getting natural immunity.)-->
 
-Ma ricorda, meno <icon s></icon> ci sono, più *lentamente* i <icon s></icon> diventano <icon i></icon>. Il numero di riproduzione *attuale* (R) dipende non solo dal numero di riproduzione *di base* (R<sub>0</sub>), ma *anche* su qaunte persone non sono più <icon s></icon> Suscettibili. (Per esempio, perché guariscono e guadagnano una immunità naturale.)
+Ma ricorda, meno <icon s></icon> ci sono, più *lentamente* i <icon s></icon> diventano <icon i></icon>. Il numero di riproduzione *effettivo* (R) dipende non solo dal numero di riproduzione *di base* (R<sub>0</sub>), ma *anche* su qaunte persone non sono più <icon s></icon> Suscettibili. (Per esempio, perché guariscono e guadagnano una immunità naturale.)
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
