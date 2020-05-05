@@ -74,11 +74,11 @@ Quindi, tenetevi forte: stiamo per attraversare una zona di turbulenza.
 
 <!--Pilots use flight simulators to learn how not to crash planes.-->
 
-I piloti d'aereo usano i simulatori di volo per imparare a non far schiantare gli aereoplani.
+I piloti d'aereo usano i simulatori di volo per imparare come non far schiantare gli aereoplani.
 
 <!--**Epidemiologists use epidemic simulators to learn how not to crash humanity.**-->
 
-Gli epidemiologi usano simulatori di epidemia per imparare a non far schiantare l'umanità.
+Gli epidemiologi usano simulatori di epidemia per imparare come non far schiantare l'umanità.
 
 <!--So, let's make a very, *very* simple "epidemic flight simulator"! In this simulation, <icon i></icon> Infectious people can turn <icon s></icon> Susceptible people into more <icon i></icon> Infectious people:-->
 
