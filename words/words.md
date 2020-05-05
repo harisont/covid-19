@@ -32,11 +32,11 @@
 
 <!--Sure, don't hoard toilet paper – but if policymakers fear fear itself, they'll downplay real dangers to avoid "mass panic". Fear's not the problem, it's how we *channel* our fear. Fear gives us energy to deal with dangers now, and prepare for dangers later.-->
 
-Certo, non stare a fare scorte di carta igienica (o di pasta *NdT*) - ma se i politici hanno paura della paura, minimizzeranno i veri pericoli per evitare il "panico di massa".
+Certo, non stare a fare scorte di carta igienica (o di pasta *NdT*) - ma se i decisori politici hanno paura della paura stessa, minimizzeranno i veri pericoli per evitare il "panico di massa". Il problema non è la paura in sé, è come *incanaliamo* la nostra paura. La paura ci dà le energie per gestire i pericoli attuali e prepararci a quelli futuri.
 
 <!--Honestly, we (Marcel, epidemiologist + Nicky, art/code) are worried. We bet you are, too! That's why we've channelled our fear into making these **playable simulations**, so that *you* can channel your fear into understanding:-->
 
-Onestamente, noi (Marcel, epidemiologo e Nicky, arte/codice) siamo preoccupati. E crediamo che lo sia anche tu! Ecco perché abbiamo incanalato la nostra paura nel fare queste **simulazioni giocabili**, in modo che *tu* possa incanalare la tua paura verso la comprensione.
+Onestamente, noi (Marcel, epidemiologo e Nicky, artista/programmatore) siamo preoccupati, e crediamo che lo sia anche tu! Ecco perché abbiamo incanalato la nostra paura nel fare queste **simulazioni giocabili**, in modo che *tu* possa incanalare la tua paura verso la comprensione.
 
 <!--
 * **The Last Few Months** (epidemiology 101, SEIR model, R & R<sub>0</sub>)
