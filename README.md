@@ -1,4 +1,7 @@
-[Play it here!](https://ncase.me/covid-19/)
+[Play it here! (English version)](https://ncase.me/covid-19/)
+
+[Play it here! (Italian version)](https://harisont.github.io/covid-19/)
+
 
 # How To Translate
 
