@@ -112,7 +112,7 @@ Se simuliamo questo "raddoppiare ogni 4 giorni" *e nient'altro*, su una popolazi
 
     Esempio di semplificazione: Quando dici al simulatore "Infetta 1 nuova persona ogni X giorni", quello che il simulatore fa è aumentare il numero di infetti di 1/X ogni giorno. La stessa cosa vale per impostazioni che vedremo nelle prossime simulazioni – "Guarisci ogni X giorni" vuol dire in realtà "riduci il numero di infettati di 1/X ogni giorno".
 
-    Le due cose (quello che "dici" al simulatore e quello che "fa") non sono *esattamente* equivalenti, ma ci vanno vicino. A scopo didattico, è meno astruso che impostare direttamente un tasso di trasmissione/guarigione.
+    Le due cose (quello che "dici" al simulatore e quello che "fa") non sono *esattamente* equivalenti, ma ci vanno vicino. A scopo didattico, è meno astruso che impostare direttamente le velocità di trasmissione e guarigione.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-1" width="800" height="540"></iframe>
