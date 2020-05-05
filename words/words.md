@@ -3,7 +3,7 @@
     	<iframe id="splash" width="960" height="480" src="banners/splash.html"></iframe>
         <div style="top: 70px;font-size: 75px;font-weight: bold;">
         	<!--What Happens Next?-->
-		E adesso cosa succede?
+		E ora che succede?
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
 			<!--COVID-19 Futures, Explained With Playable Simulations-->
@@ -998,12 +998,12 @@ Questo semplice "simulatore di volo epidemiologico" ci ha insegnato così tanto.
 
 Quindi finalmente, torniamo a...
 
-<!-- NUOVO CAPITOLO - Adesso -->
+<!-- NUOVO CAPITOLO - Ora -->
 
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div><!--Now-->Adesso</div>
+        <div><!--Now-->Ora</div>
     </div>
 </div>
 
