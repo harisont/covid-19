@@ -44,9 +44,9 @@ Onestamente, noi (Marcel, epidemiologo e Nicky, artista/programmatore) siamo pre
 * **The Next Few Years** (loss of immunity? no vaccine?)
 -->
 
-* **Gli ultimi mesi** (epidemiologia di base, modello SEIR, R e R<sub>0</sub>)
-* **I prossimi mesi** (lockdown, contact tracing, mascherine)
-* **I prossimi anni** (perdita di immunità? nessun vaccino?)
+* **Gli Ultimi Mesi** (epidemiologia di base, modello SEIR, R e R<sub>0</sub>)
+* **I Prossimi Mesi** (lockdown, contact tracing, mascherine)
+* **I Prossimi Anni** (perdita di immunità? nessun vaccino?)
 
 <!--This guide (published May 1st, 2020. click this footnote!→[^timestamp]) is meant to give you hope *and* fear. To beat COVID-19 **in a way that also protects our mental & financial health**, we need optimism to create plans, and pessimism to create backup plans. As Gladys Bronwyn Stern once said, *“The optimist invents the airplane and the pessimist the parachute.”*-->
 
@@ -68,7 +68,7 @@ Quindi, tenetevi forte: stiamo per attraversare una zona di turbulenza.
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div><!--The Last Few Months-->Gli ultimi mesi</div>
+        <div><!--The Last Few Months-->Gli Ultimi Mesi</div>
     </div>
 </div>
 
@@ -401,7 +401,7 @@ Tenetevi forte per un atterraggio di emergenza...
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>I prossimi mesi</div>
+        <div>I Prossimi Mesi</div>
     </div>
 </div>
 
@@ -892,7 +892,7 @@ Perciò, adesso facciamo dei piani per qualche scenario *ancora peggiore*. Atter
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>I prossimi anni</div>
+        <div>I Prossimi Anni</div>
     </div>
 </div>
 
