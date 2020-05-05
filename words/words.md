@@ -88,7 +88,7 @@ Quindi, facciamo un "simulatore di volo epidemiologico" davvero, *davvero* sempl
 
 <!--It's estimated that, *at the start* of a COVID-19 outbreak, the virus jumps from an <icon i></icon> to an <icon s></icon> every 4 days, *on average*.[^serial_interval] (remember, there's a lot of variation)-->
 
-Si stima che, *all'inizio* di una epidemia di COVID-19, il virus viene trasmesso da un <icon i></icon> a un <icon s></icon> ogni 4 giorni, *in media*.[^serial_interval] (ricorda che c'è molta variabilità)
+Si stima che, *in media*, *all'inizio* di una epidemia di COVID-19, il virus venga trasmesso da un <icon i></icon> a un <icon s></icon> ogni 4 giorni.[^serial_interval] (ricorda che c'è molta variabilità)
 
 <!--[^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Disclaimer: Early release articles are not considered as final versions)-->
 
@@ -99,7 +99,7 @@ Se simuliamo questo "raddoppiare ogni 4 giorni" *e nient'altro*, su una popolazi
 
 <!--**Click "Start" to play the simulation! You can re-play it later with different settings:** (technical caveats: [^caveats])-->
 
-**Clicca "Gioca" per "giocare" con la simulazione! Dopo puoi rigiocarla con impostazioni diverse:** (avvertenze tecniche: [^caveats])
+**Clicca "Gioca" per "giocare" con la simulazione! Poi potrai rigiocarla con impostazioni diverse:** (avvertenze tecniche: [^caveats])
 
 <!--[^caveats]: **Remember: all these simulations are super simplified, for educational purposes.**
 
@@ -110,9 +110,9 @@ Se simuliamo questo "raddoppiare ogni 4 giorni" *e nient'altro*, su una popolazi
 
 [^caveats]: **Ricorda: tutte queste simulazioni sono ipersemplificate a scopo didattico.**
 
-    Esempio di semplificazione: Quanto dici al simulatore "Infetta 1 nuova persona ogni X giorni", quello che il simulatore fa è aumentare il numero di infettati di 1/X ogni giorno. La stessa cosa vale per impostazioni che vedremo nelle prossime simulazioni – "Guarisci ogni X giorni" vuol dire riduci il numero di infettati di 1/X ogni giorno.
+    Esempio di semplificazione: Quando dici al simulatore "Infetta 1 nuova persona ogni X giorni", quello che il simulatore fa è aumentare il numero di infetti di 1/X ogni giorno. La stessa cosa vale per impostazioni che vedremo nelle prossime simulazioni – "Guarisci ogni X giorni" vuol dire in realtà "riduci il numero di infettati di 1/X ogni giorno".
 
-    Le due cose (quello che "dici" al simulatore e quello che "fa") non sono *esattamente* equivalenti ma ci vanno vicino. A scopo didattico è meno comprensibile impostare direttamente un tasso di trasmissione/guarigione.
+    Le due cose (quello che "dici" al simulatore e quello che "fa") non sono *esattamente* equivalenti, ma ci vanno vicino. A scopo didattico, è meno astruso che impostare direttamente un tasso di trasmissione/guarigione.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-1" width="800" height="540"></iframe>
