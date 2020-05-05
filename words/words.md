@@ -44,13 +44,13 @@ Onestamente, noi (Marcel, epidemiologo e Nicky, artista/programmatore) siamo pre
 * **The Next Few Years** (loss of immunity? no vaccine?)
 -->
 
-* **Gli ultimi mesi** (epidemiologia di base, il modello SEIR, R e R<sub>0</sub>)
+* **Gli ultimi mesi** (epidemiologia di base, modello SEIR, R e R<sub>0</sub>)
 * **I prossimi mesi** (lockdown, contact tracing, mascherine)
-* **I prossimi anni** (perdita di immunità? assenza di vaccino?)
+* **I prossimi anni** (perdita di immunità? nessun vaccino?)
 
 <!--This guide (published May 1st, 2020. click this footnote!→[^timestamp]) is meant to give you hope *and* fear. To beat COVID-19 **in a way that also protects our mental & financial health**, we need optimism to create plans, and pessimism to create backup plans. As Gladys Bronwyn Stern once said, *“The optimist invents the airplane and the pessimist the parachute.”*-->
 
-Questa guida (originale pubblicato il 1 Maggio 2020. clicca questa nota!→[^timestamp]) vuole infonderti *sia* speranza *sia* paura. Per battere COVID-19 **in un modo che protegge anche la nostra salute mentale e finanziaria**, abbiamo bisogna di ottimismo per fare dei piani e di pessimismo per avere un piano B. Come disse Gladys Bronwyn Stern: *“L'ottimista inventa l'aereoplano e il pessimista il paracadute.”*
+Questa guida (originale pubblicato il 1 Maggio 2020. clicca questa nota!→[^timestamp]) vuole infonderti *sia* speranza *sia* paura. Per battere il COVID-19 **in un modo che protegge anche la nostra salute mentale e finanziaria**, abbiamo bisogna di ottimismo per fare dei piani e di pessimismo per avere un piano B. Come disse Gladys Bronwyn Stern: *“L'ottimista inventa l'aereoplano e il pessimista il paracadute.”*
 
 <!--[^timestamp]: These footnotes will have sources, links, or bonus commentary. Like this commentary!
 
@@ -59,7 +59,7 @@ Questa guida (originale pubblicato il 1 Maggio 2020. clicca questa nota!→[^tim
 
 [^timestamp]: Queste note conteranno fonti, link o commenti aggiuntivi. Tipo questo!
 
-    **Questa guida è stata pubblica il 1 Maggio, 2020.** Molti dettagli diventeranno obsoleti, ma siamo fiduciosi che questa guida coprirà il 95% dei possibili futuri, e che l'epidemiologia di base rimarrà sempre utile.
+    **Questa guida è stata resa pubblica il 1 Maggio, 2020.** Molti dettagli diventeranno obsoleti, ma siamo fiduciosi che questa guida coprirà il 95% dei possibili scenari futuri, e che l'epidemiologia di base rimarrà sempre utile.
 
 <!--So, buckle in: we're about to experience some turbulence.-->
 
