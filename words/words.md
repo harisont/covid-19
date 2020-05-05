@@ -45,7 +45,7 @@ Onestamente, noi (Marcel, epidemiologo e Nicky, artista/programmatore) siamo pre
 -->
 
 * **Gli ultimi mesi** (epidemiologia di base, il modello SEIR, R e R<sub>0</sub>)
-* **I prossimi mesi** (lockdown, tracciamento dei contatti, mascherine)
+* **I prossimi mesi** (lockdown, contact tracing, mascherine)
 * **I prossimi anni** (perdita di immunità? assenza di vaccino?)
 
 <!--This guide (published May 1st, 2020. click this footnote!→[^timestamp]) is meant to give you hope *and* fear. To beat COVID-19 **in a way that also protects our mental & financial health**, we need optimism to create plans, and pessimism to create backup plans. As Gladys Bronwyn Stern once said, *“The optimist invents the airplane and the pessimist the parachute.”*-->
@@ -972,7 +972,7 @@ Anche nel terribile scenario "nessun-vaccino", abbiamo ancora 3 vie di uscita. D
 
 1) Fare interventi R < 1 intermittenti o leggeri, per raggiungere la "immunità di gregge naturale". (Attenzione: questo causerà molte morti e polmoni danneggiati. *E* non funzionerà se l'immunità non dura.)
 
-2) Fare interventi R < 1 per sempre. Tracciamento dei contatti e indossare mascherine diventeranno la nuova normalità nel mondo post COVID-19, come i test HIV ed usare preservativi è diventato normale nel mondo post-HIV.
+2) Fare interventi R < 1 per sempre. Contact tracing e indossare mascherine diventeranno la nuova normalità nel mondo post COVID-19, come i test HIV ed usare preservativi è diventato normale nel mondo post-HIV.
 
 3) Fare interventi R < 1 finchè non svilupperemo trattamenti che ridurranno di molto il ricorrere a terapie intensive per il COVID-19. (Che dovremmo farlo *comunque!*) Ridurre l'uso delle terapie intensive di 10 volte è come incrementare il numero di terapie intensive di 10 volte:
 
