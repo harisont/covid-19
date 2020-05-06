@@ -210,7 +210,7 @@ la *seconda* idea più importate dell'epidemiologia di base:
 
 <!---Actually, let's add one more nuance: before an <icon s></icon> becomes an <span class="nowrap"><icon i></icon>,</span> they first become <icon e></icon> Exposed. This is when they have the virus but can't pass it on yet – infect*ed* but not yet infect*ious*.-->
 
-A dire il vero, aggiungiamo un'altra sfumature: prima che un <icon s></icon> diventi un <icon i></icon>, diventano <icon e></icon> Esposti. Si tratta di quando si ha il virus ma ancora non lo si trasmette - sei infett*o* ma non infett*ivo*.
+Però aggiungiamola, un'altra sfumatura: un <icon s></icon>, prima di diventare <icon i></icon>, passa per la fase <icon e></icon> "Esposto", quella in cui ha il virus ma ancora non può ancora trasmetterlo - sei *infetto*, ma non *contagioso*. <!-- In effetti qui "infettivo" serviva a mantenere il gioco di parole-->
 
 ![](pics/seir.png)
 
