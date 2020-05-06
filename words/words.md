@@ -119,14 +119,13 @@ Se simuliamo questo "raddoppiare ogni 4 giorni" *e nient'altro*, su una popolazi
 </div>
 
 <!--This is the **exponential growth curve.** Starts small, then explodes. "Oh it's just a flu" to "Oh right, flus don't create *mass graves in rich cities*". -->
-
 Questa è la **curva di crescita esponenziale.** Inizia piano, poi esplode. Da "Ah, è solo un'influenza" a "Ah bè, però le influenze non creano *fosse comuni nelle città ricche*".
 
 ![](pics/exponential.png)
 
 <!--But, this simulation is wrong. Exponential growth, thankfully, can't go on forever. One thing that stops a virus from spreading is if others *already* have the virus:-->
 
-Ma questa simulazione è sbagliata. La crescita esponenziale, grazie a dio, non può andare avanti per sempre. Una cosa che impedisce al virus di fermarsi è se altri hanno *già* il virus:
+Ma questa simulazione è sbagliata. La crescita esponenziale, grazie a dio, non può andare avanti per sempre. Una cosa che impedisce al virus di fermarsi è che gli altri abbiano *già* il virus:
 
 ![](pics/susceptibles.png)
 
@@ -144,7 +143,7 @@ Come cambia la crescita di un'epidemia? Scopriamolo:
 
 <!--This is the "S-shaped" **logistic growth curve.** Starts small, explodes, then slows down again.-->
 
-Questa è la **curva di crescita logistica** "a forma di S". Inizia piano, esplode, poi torna a rallentare.
+Questa è la **curva di crescita logistica**, "a forma di S". Inizia piano, esplode, poi torna a rallentare.
 
 <!--But, this simulation is *still* wrong. We're missing the fact that <icon i></icon> Infectious people eventually stop being infectious, either by 1) recovering, 2) "recovering" with lung damage, or 3) dying.-->
 
@@ -152,14 +151,14 @@ Ma questa simulazione è *ancora* sbagliata. Ci stiamo perdendo il fatto che le 
 
 <!--For simplicity's sake, let's pretend that all <icon i></icon> Infectious people become <icon r></icon> Recovered. (Just remember that in reality, some are dead.) <span class="nowrap"><icon r></icon>s</span> can't be infected again, and let's pretend – *for now!* – that they stay immune for life.-->
 
-Per semplicità, fingiamo che tutte le persone <icon i></icon> Infette diventano <icon r></icon> Guariti. (Ricorda però che in realtà, alcuni sono morti.) I <span class="nowrap"><icon r></icon>s</span> non possono essere infettati di nuovo e fingiamo - *per ora!* - che rimangano immuni a vita.
+Per semplicità, fingiamo che tutte le persone <icon i></icon> Infette diventano <icon r></icon> Guariti. (Ricorda però che, in realtà, alcuni sono morti.) I <span class="nowrap"><icon r></icon>s</span> non possono essere infettati di nuovo e fingiamo - *per ora!* - che rimangano immuni a vita.
 
 <!--With COVID-19, it's estimated you're <icon i></icon> Infectious for 10 days, *on average*.[^infectiousness] That means some folks will recover before 10 days, some after. **Here's what that looks like, with a simulation *starting* with 100% <span class="nowrap"><icon i></icon>:</span>**-->
-Si stima che con il COVID-19 rimani <icon i></icon> Infetto per 10 giorni, *in media*.[^infectiousness] Ciò significa che alcune persone recuperano prima di 10 giorni, altre dopo. **Ecco cosa vuol dire nel caso di una simulazione che *inizia* con 100% <span class="nowrap"><icon i></icon>:</span>**
+Si stima che, con il COVID-19, si rimanga <icon i></icon> Infetti per 10 giorni, *in media*.[^infectiousness] Ciò significa che alcune persone recuperano prima di 10 giorni, altre dopo. **Ecco cosa vuol dire, nel caso di una simulazione che *inizia* con il 100% di <span class="nowrap"><icon i></icon>:</span>**
 
 <!--[^infectiousness]: “The median communicable period \[...\] was 9.5 days.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Yes, we know "median" is not the same as "average". For simplified educational purposes, close enough.-->
 
-[^infectiousness]: “Il periodo di comunicabilità mediano \[...\] è stato di 9,5 giorni.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Sì, sappiamo che la "median" non è la stessa cosa della media. Ma a scopo didattico ci si avvicina.
+[^infectiousness]: “Il periodo di comunicabilità mediano \[...\] è stato di 9,5 giorni.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Sì, sappiamo che la "mediana" non è la stessa cosa della media. Ma, semplificando a scopo didattico, ci si avvicina.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-3" width="800" height="540"></iframe>
@@ -167,11 +166,11 @@ Si stima che con il COVID-19 rimani <icon i></icon> Infetto per 10 giorni, *in m
 
 <!--This is the opposite of exponential growth, the **exponential decay curve.**-->
 
-Questa è l'opposta della crescita esponenziale, è la **curva di decadimento esponenziale.**
+Questa è l'opposta della crescita esponenziale, la **curva di decadimento esponenziale.**
 
 <!--Now, what happens if you simulate S-shaped logistic growth *with* recovery?-->
 
-Ora, cosa succede se simuli la crescita logistica a forma di S *con* la guarigione?
+Ora, cosa succede se simuli la crescita logistica - quella a forma di S - *tenendo in considerazione* la guarigione?
 
 ![](pics/graphs_q.png)
 
