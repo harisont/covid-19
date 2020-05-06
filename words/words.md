@@ -188,7 +188,7 @@ Scopriamolo.
 
 <!--And *that's* where that famous curve comes from! It's not a bell curve, it's not even a "log-normal" curve. It has no name. But you've seen it a zillion times, and beseeched to flatten.-->
 
-E *questo* è il modo in cui quella famosa curva viene fuori! Non è una curva a campana, non è neanche una curva "log-normale". Non ha un nome. Ma l'hai vista millemila volta, pregando che si appiattisca.
+E *questo* è il modo in cui quella famosa curva viene fuori! Non è una curva a campana, non è neanche una curva "log-normale". Non ha un nome. Ma l'hai vista millemila volte, pregando che si appiattisca.
 
 <!--This is the the **SIR Model**,[^sir]    
 (<icon s></icon>**S**usceptible <icon i></icon>**I**nfectious <icon r></icon>**R**ecovered)      
@@ -206,7 +206,7 @@ la *seconda* idea più importate dell'epidemiologia di base:
 
 <!--**NOTE: The simulations that inform policy are way, *way* more sophisticated than this!** But the SIR Model can still explain the same general findings, even if missing the nuances.-->
 
-**NOTA: le simulazioni usate per guidare le decisioni politiche sono molto, *molto* più sofisticati di questa!** Ma il modello SIR è lo stesso adatto a spiegare i principi generali, anche se si perde le sfumature.
+**NOTA: le simulazioni usate per guidare le decisioni politiche sono molto, *molto* più sofisticate di questa!** Ma il modello SIR è comunque adatto a spiegare i principi generali, anche fa perdere le sfumature.
 
 <!---Actually, let's add one more nuance: before an <icon s></icon> becomes an <span class="nowrap"><icon i></icon>,</span> they first become <icon e></icon> Exposed. This is when they have the virus but can't pass it on yet – infect*ed* but not yet infect*ious*.-->
 
