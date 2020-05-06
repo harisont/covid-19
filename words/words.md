@@ -178,8 +178,8 @@ Ora, cosa succede se simuli la crescita logistica - quella a forma di S - *tenen
 
 Scopriamolo.
 
-<b style='color:#ff4040'><!--Red curve-->La curva rossa</b><!-- is *current* cases--> sono i casi *attivi*<span class="nowrap"><icon i></icon>,</span>,    
-<b style='color:#999999'><!--Gray curve-->La curva grigia</b><!-- is *total* cases (current + recovered)--> sono i casi *totali* <span class="nowrap"><icon r></icon>),</span>
+<b style='color:#ff4040'><!--Red curve-->La curva rossa</b><!-- is *current* cases--> rappresenta i casi *attivi*<span class="nowrap"><icon i></icon>,</span>,    
+<b style='color:#999999'><!--Gray curve-->La curva grigia</b><!-- is *total* cases (current + recovered)--> rappresenta i casi *totali* <span class="nowrap"><icon r></icon>),</span>
 <!--starts at just 0.001%--> ed inizia proprio allo 0,001% <span class="nowrap"><icon i></icon>:</span>
 
 <div class="sim">
@@ -235,8 +235,8 @@ Per il COVID-19, si stima che tu sia <icon e></icon> infetto-ma-non-infettivo pe
 <b style='color:#888'>Gray curve</b> is *total* cases (current + recovered <span class="nowrap"><icon r></icon>):</span>
 -->
 
-<b style='color:#ff4040'>La curva rossa</b><b style='color:#FF9393'>+ rosa</b> sono i casi *attivi* (infettivi <icon i></icon> + esposti <icon e></icon>),    
-<b style='color:#888'>La curva grigia</b> è i casi *totali* (attuali + guariti <span class="nowrap"><icon r></icon>):</span>
+<b style='color:#ff4040'>La curva rossa</b><b style='color:#FF9393'>+ rosa</b> rappresenta i casi *attivi* (infettivi <icon i></icon> + esposti <icon e></icon>),    
+<b style='color:#888'>La curva grigia</b> rappresenta i casi *totali* (attuali + guariti <span class="nowrap"><icon r></icon>):</span>
 
 <div class="sim">
 		<iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
