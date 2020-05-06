@@ -147,7 +147,7 @@ Questa è la **curva di crescita logistica**, "a forma di S". Inizia piano, espl
 
 <!--But, this simulation is *still* wrong. We're missing the fact that <icon i></icon> Infectious people eventually stop being infectious, either by 1) recovering, 2) "recovering" with lung damage, or 3) dying.-->
 
-Ma questa simulazione è *ancora* sbagliata. Ci stiamo perdendo il fatto che le persone <icon i></icon> Infette ad un certo punto smettono di essere infettivi, sia perché 1) guariscono 2) "guariscono" ma con danni ai polmoni o 3) muoiono.
+Ma questa simulazione è *ancora* sbagliata. Ci stiamo perdendo il fatto che le persone <icon i></icon> Infette ad un certo punto smettono di essere contagiosi, sia perché 1) guariscono 2) "guariscono" ma con danni ai polmoni o 3) muoiono.
 
 <!--For simplicity's sake, let's pretend that all <icon i></icon> Infectious people become <icon r></icon> Recovered. (Just remember that in reality, some are dead.) <span class="nowrap"><icon r></icon>s</span> can't be infected again, and let's pretend – *for now!* – that they stay immune for life.-->
 
@@ -224,7 +224,7 @@ A dire il vero, aggiungiamo un'altra sfumature: prima che un <icon s></icon> div
 
 <!--For COVID-19, it's estimated that you're <icon e></icon> infected-but-not-yet-infectious for 3 days, *on average*.[^latent] What happens if we add that to the simulation?-->
 
-Per il COVID-19, si stima che tu sia <icon e></icon> infetto-ma-non-infettivo per 3 giorni *in media*.[^latent] Cosa succede se lo aggiungiamo alla simulazione?
+Per il COVID-19, si stima che tu sia <icon e></icon> infetto-ma-non-contagioso per 3 giorni *in media*.[^latent] Cosa succede se lo aggiungiamo alla simulazione?
 
 <!--[^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)-->
 
@@ -235,7 +235,7 @@ Per il COVID-19, si stima che tu sia <icon e></icon> infetto-ma-non-infettivo pe
 <b style='color:#888'>Gray curve</b> is *total* cases (current + recovered <span class="nowrap"><icon r></icon>):</span>
 -->
 
-<b style='color:#ff4040'>La curva rossa</b><b style='color:#FF9393'>+ rosa</b> rappresenta i casi *attivi* (infettivi <icon i></icon> + esposti <icon e></icon>),    
+<b style='color:#ff4040'>La curva rossa</b><b style='color:#FF9393'>+ rosa</b> rappresenta i casi *attivi* (contagiosi <icon i></icon> + esposti <icon e></icon>),    
 <b style='color:#888'>La curva grigia</b> rappresenta i casi *totali* (attuali + guariti <span class="nowrap"><icon r></icon>):</span>
 
 <div class="sim">
@@ -296,7 +296,7 @@ Nelle nostre simulazione – *sia all'inizio che mediamente* – un <icon i></ic
 
 <!--[^r0_caveats_sim]: This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes.-->
 
-[^r0_caveats_sim]: Ciò fingendo che tu sia infettivo allo stesso modo durante il tuo "periodo di infettività". Di nuovo una semplificazione a scopo didattico.
+[^r0_caveats_sim]: Ciò fingendo che tu sia contagioso allo stesso modo durante il tuo "periodo di infettività". Di nuovo una semplificazione a scopo didattico.
 
 <!--**Play with this R<sub>0</sub> calculator, to see how R<sub>0</sub> depends on recovery time & new-infection time:**-->
 
