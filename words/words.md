@@ -216,7 +216,7 @@ Però aggiungiamola, un'altra sfumatura: un <icon s></icon>, prima di diventare 
 
 <!--(This variant is called the **SEIR Model**[^seir], where the "E" stands for <icon e></icon> "Exposed". Note this *isn't* the everyday meaning of "exposed", when you may or may not have the virus. In this technical definition, "Exposed" means you definitely have it. Science terminology is bad.)-->
 
-(Questa variante è chiamata il **modello SEIR**[^seir], dove la "E" sta per <icon e></icon> "Esposto". Nota che questo *non è* l'accezione comune di "esposto", per la quale puoi avere come non avere il virus. In questa definizione tecnica, "Esposto" significa che sicuramente ce l'hai. La terminologià scientifica è pessima.)
+(Questa variante è chiamata **modello SEIR**[^seir], dove la "E" sta per <icon e></icon> "Esposto". Nota che questa *non è* l'accezione comune del termine "esposto", per la quale puoi avere come non avere il virus. Secondo questa definizione tecnica, "Esposto" significa che sicuramente ce l'hai. La terminologia scientifica non è un granché.)
 
 <!--[^seir]: For more technical explanations of the SEIR Model, see [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) and [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SEIR_model)-->
 
@@ -224,7 +224,7 @@ Però aggiungiamola, un'altra sfumatura: un <icon s></icon>, prima di diventare 
 
 <!--For COVID-19, it's estimated that you're <icon e></icon> infected-but-not-yet-infectious for 3 days, *on average*.[^latent] What happens if we add that to the simulation?-->
 
-Per il COVID-19, si stima che tu sia <icon e></icon> infetto-ma-non-contagioso per 3 giorni *in media*.[^latent] Cosa succede se lo aggiungiamo alla simulazione?
+Per il COVID-19, si stima che una persona sia <icon e></icon> infetta-ma-non-contagiosa per 3 giorni *in media*.[^latent] Cosa succede se aggiungiamo anche questo alla simulazione?
 
 <!--[^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)-->
 
@@ -906,7 +906,7 @@ Prendi il COVID-19 e guarisci. Oppure ti vaccini per il COVID-19. In ogni caso, 
 
 Ma per il COVID-19 *negli umani*, al 1 Maggio 2020, "per quanto tempo" è la grande incognita.
 
-[^SARS immunity]: “Anticorpi SARS-specifici sono rimasti per una media di 2 anni [...] Quindi i pazienti SARS potrebbero essere suscettibili ad una reinfezione ≥3 anni dopo la prima esposizione.” [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) "Purtroppo" non sapremo mai quanto sarebbe durata l'immunità alla SARS perchè si è estinta troppo velocemente.
+[^SARS immunity]: “Anticorpi SARS-specifici sono rimasti per una media di 2 anni [...] Quindi i pazienti SARS potrebbero essere suscettibili ad una reinfezione ≥3 anni dopo la prima esposizione.” [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) "Purtroppo" non sapremo mai quanto sarebbe durata l'immunità alla SARS perché si è estinta troppo velocemente.
 
 [^cold immunity]: “Non abbiamo trovato differenze significative tra la probabilità di risultare positivi almeno una volta e la probabilità di una ricomparsa per i beta-coronavirus HKU1 e OC43 34 settimane dopo la prima infezione.” [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf)
 
@@ -945,7 +945,7 @@ Fortunatamente, dato che l'estate riduce R, la situazione migliorerà:
 
 Oh.
 
-Al contrario di quanto si pensi, l'estate rende i picchi peggiori *e* regolari! Questo perchè l'estate riducei i nuovi <span class="nowrap"><icon i></icon>s,</span> che di conseguenza riduce i nuovi <span class="nowrap"><icon r></icon></span> immuni. Questo significa che l'immunità precipita in estate, *creando* larghi picchi regolari in inverno.
+Al contrario di quanto si pensi, l'estate rende i picchi peggiori *e* regolari! Questo perché l'estate riducei i nuovi <span class="nowrap"><icon i></icon>s,</span> che di conseguenza riduce i nuovi <span class="nowrap"><icon r></icon></span> immuni. Questo significa che l'immunità precipita in estate, *creando* larghi picchi regolari in inverno.
 
 Fortunatamente, la soluzione è abbastanza diretta - basta vaccinare le persone ogni autunno/inverno, come facciamo per l'influenza:
 
@@ -959,7 +959,7 @@ Ma ecco la domanda più terrificante:
 
 Che succede se non ci sarà un vaccino per *anni*? Oppure *mai*?
 
-**Siamo chiari: questo è improbabile.** Molti epidemiologi si aspettano un vaccino tra 1 o 2 anni. E' vero che non esiste un vaccino per nessun altro coronavirus ma questo perchè la SARS è stata estinta velocemente e per "la" influenza non è mai valsa la pena investire.
+**Siamo chiari: questo è improbabile.** Molti epidemiologi si aspettano un vaccino tra 1 o 2 anni. E' vero che non esiste un vaccino per nessun altro coronavirus ma questo perché la SARS è stata estinta velocemente e per "la" influenza non è mai valsa la pena investire.
 
 Comunque, i ricercatori di malattie infettive hanno espresso qualche preoccupazione: E se non riusciamo a farne abbastanza?[^vax_enough] E se ci affrettiamo e non è sicuro?[^vax_safe]
 
