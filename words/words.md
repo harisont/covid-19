@@ -1014,11 +1014,11 @@ Quindi, finalmente, torniamo a...
 
 <!--Plane's sunk. We've scrambled onto the life rafts. It's time to find dry land.[^dry_land]-->
 
-L'aereo è affondato. Siamo corsi sulle scialuppe di salvataggio. E' ora di toccare terra.
+L'aereo è affondato. Siamo corsi sulle scialuppe di salvataggio. E' ora di raggiungere la terraferma.
 
 <!--[^dry_land]: Dry land metaphor [from Marc Lipsitch & Yonatan Grad, on STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)-->
 
-[^dry_land]: Metafora del toccare terra [da Marc Lipsitch e Yonatan Grad, su STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
+[^dry_land]: Metafora del raggiungere la terraferma [da Marc Lipsitch e Yonatan Grad, su STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
 
 <!--Teams of epidemiologists and policymakers ([left](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [right](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), and [multi-partisan](https://ethics.harvard.edu/covid-roadmap)) have come to a consensus on how to beat COVID-19, while protecting our lives *and* liberties.-->
 
