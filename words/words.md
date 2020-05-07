@@ -300,7 +300,7 @@ Nelle nostre simulazioni - *all'inizio e in media* - un <icon i></icon> contagia
 
 <!--**Play with this R<sub>0</sub> calculator, to see how R<sub>0</sub> depends on recovery time & new-infection time:**-->
 
-**Gioca con questo calcolatore di R<sub>0</sub>, in modo da vedere come R<sub>0</sub> dipende dal tempo di guarigione e dal tempo di nuova infezione:**
+**Gioca con questa calcolatrice di R<sub>0</sub>, in modo da vedere come R<sub>0</sub> dipende dal tempo di guarigione e dal tempo di nuova infezione:**
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
@@ -471,7 +471,7 @@ Nei Paesi ad alto reddito, lavarsi le mani più spesso diminuisce l'incidenza di
 [^london]: “Abbiamo osservato una riduzione del 73% nel numero medio di contatti quotidiani per partecipante. Questo sarebbe sufficiente per portare R0 da un valore di 2.6 prima del lockdown a 0.62 (0.37 - 0.89) durante il lockdown”. Per semplicità, in queste simulazioni abbiamo arrotondato per difetto al 70%. [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html)
 
 <!--**Play with this calculator to see how % of <span class="nowrap">non-<icon s></icon>,</span> handwashing, and distancing reduce R:** (this calculator visualizes their *relative* effects, which is why increasing one *looks* like it decreases the effect of the others.[^log_caveat])-->
-**Gioca con questo calcolatore per vedere come la percentuale di <span class="nowrap">non-<icon s></icon>,</span> il lavarsi le mani e il distanziamento sociale riducono R:** (questo calcolatore mostra i loro effetti *relativi*, per cui *sembra* che incrementare il valore di un parametro decrementi quello degli altri.[^log_caveat])
+**Gioca con questa calcolatrice per vedere come la percentuale di <span class="nowrap">non-<icon s></icon>,</span> il lavarsi le mani e il distanziamento sociale riducono R:** (questa calcolatrice mostra i loro effetti *relativi*, per cui *sembra* che incrementare il valore di un parametro decrementi quello degli altri.[^log_caveat])
 
 <!--[^log_caveat]: This distortion would go away if we plotted R on a logarithmic scale... but then we'd have to explain *logarithmic scales.*-->
 [^log_caveat]: Questa distorsione non ci sarebbe se R fosse proiettato su una scala logaritmica... ma in tal caso ci sarebbe da spiegare cosa sia una *scala logaritmica.*
