@@ -296,7 +296,7 @@ Nelle nostre simulazioni – *all'inizio e in media* – un <icon i></icon> cont
 
 <!--[^r0_caveats_sim]: This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes.-->
 
-[^r0_caveats_sim]: Ciò fingendo che tu sia contagioso allo stesso modo durante il tuo "periodo di infettività". Di nuovo una semplificazione a scopo didattico.
+[^r0_caveats_sim]: Questo fingendo che si sia ugualmente contagiosi per tutta la durata della fase contagiosa. Di nuovo una semplificazione a scopo didattico.
 
 <!--**Play with this R<sub>0</sub> calculator, to see how R<sub>0</sub> depends on recovery time & new-infection time:**-->
 
@@ -308,7 +308,7 @@ Nelle nostre simulazioni – *all'inizio e in media* – un <icon i></icon> cont
 
 <!--But remember, the fewer <span class="nowrap"><icon s></icon>s</span> there are, the *slower* <span class="nowrap"><icon s></icon>s</span> become <span class="nowrap"><icon i></icon>s.</span> The *current* reproduction number (R) depends not just on the *basic* reproduction number (R<sub>0</sub>), but *also* on how many people are no longer <icon s></icon> Susceptible. (For example, by recovering & getting natural immunity.)-->
 
-Ma ricorda, meno <span class="nowrap"><icon s></icon>s</span> ci sono, più *lentamente* i <span class="nowrap"><icon s></icon>s</span> diventano <span class="nowrap"><icon i></icon>s.</span>. Il numero di riproduzione *effettivo* (R) dipende non solo dal numero di riproduzione *di base* (R<sub>0</sub>), ma *anche* su qaunte persone non sono più <icon s></icon> Suscettibili. (Per esempio, perché guariscono e guadagnano una immunità naturale.)
+Ma ricorda, meno <span class="nowrap"><icon s></icon>s</span> ci sono, più *lentamente* i <span class="nowrap"><icon s></icon>s</span> diventano <span class="nowrap"><icon i></icon>s.</span>. Il numero di riproduzione *effettivo* (R) dipende non solo dal numero di riproduzione *di base* (R<sub>0</sub>), ma *anche* da quante persone sono non più <icon s></icon> Suscettibili. (Per esempio, perché guariscono e guadagnano una immunità naturale.)
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
@@ -316,11 +316,11 @@ Ma ricorda, meno <span class="nowrap"><icon s></icon>s</span> ci sono, più *len
 
 <!--When enough people have immunity, R < 1, and the virus is contained! This is called **herd immunity**. For flus, herd immunity is achieved *with a vaccine*. Trying to achieve "natural herd immunity" by letting folks get infected is a *terrible* idea. (But not for the reason you may think! We'll explain later.)-->
 
-Quando abbastanza persona hanno l'immunità, R < 1, e il virus è contenuto! Questa è chiamata **immunità di gregge**. Per l'influenza, l'immunità di gregge si raggiunge *tramite un vaccino*. Cercare di ottenere una "immunità di gregge naturale" lasciando che la gente si infetti è una idea *pessima*. (Ma non per le ragioni che magari pensi! Dopo spieghiamo.)
+Quando abbastanza persone sono immuni, si arriva ad avere R < 1 e il virus è contenuto! Questo si chiama **immunità di gregge**. Per l'influenza, l'immunità di gregge si raggiunge *tramite un vaccino*. Cercare di ottenere una "immunità di gregge naturale" lasciando che la gente si infetti è una idea *pessima*. (Ma non per le ragioni che forse hai in mente! Spiegheremo più avanti.)
 
 <!--Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, and the herd immunity threshold:-->
 
-Ora, giochiamo di nuovo con il modello SEIR, ma mostriamo R<sub>0</sub>, R nel tempo, e la soglia di immunità di gregge:
+Ora, giochiamo di nuovo con il modello SEIR, ma mostriamo R<sub>0</sub>, R nel tempo e la soglia di immunità di gregge:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-7" width="800" height="540"></iframe>
@@ -332,21 +332,21 @@ Ora, giochiamo di nuovo con il modello SEIR, ma mostriamo R<sub>0</sub>, R nel t
 
 <!--This is because when there are more <span class="nowrap">non-<icon s></icon>s</span> than the herd immunity threshold, you get R < 1. And when R < 1, new cases stop growing: a peak.-->
 
-Questo perché quando ci sono i <span class="nowrap">non-<icon s></icon>s</span> in numero maggiore della soglia di immunità di gregge, hai che R < 1. E quando R < 1, i nuovi casi smettono di crescere: un picco.
+Questo perché quando i <span class="nowrap">non-<icon s></icon>s</span> superano la soglia di immunità di gregge, R < 1. E quando R < 1, i nuovi casi smettono di crescere: un picco.
 
 <!--**If there's only one lesson you take away from this guide, here it is** – it's an extremely complex diagram so please take time to fully absorb it:-->
 
-**Se c'è una sola lezione che ti porti a casa da questa guide, eccola** – è un diagramma estremamente complesso quindi per favore prenditi il tempo che ti serve per capirlo per bene:
+**Se c'è una sola lezione che da portare a casa da questa guida, eccola** – è un diagramma estremamente complesso, quindi prenditi pure il tempo che ti serve per metabolizzarlo per bene:
 
 ![](pics/r3.png)
 
 <!--**This means: we do NOT need to catch all transmissions, or even nearly all transmissions, to stop COVID-19!**-->
 
-**Ciò significa: NON dobbiamo impedire tutte i contagi, o neanche quasi tutti i contagi, per fermare il COVID-19!**
+**Questo significa: NON è necessario intercettare tutti i contagi, e neanche "quasi tutti" i contagi, per fermare il COVID-19!**
 
 <!--It's a paradox. COVID-19 is extremely contagious, yet to contain it, we "only" need to stop more than 60% of infections. 60%?! If that was a school grade, that's a D-. But if R<sub>0</sub> = 2.5, cutting that by 61% gives us R = 0.975, which is R < 1, virus is contained! (exact formula:[^exact_formula])-->
 
-E' un paradosso. Il COVID-19 è estremamente contagioso, ma per fermarlo, dobbiamo "solo" impedire più del 60% delle infezioni. 60%?! Se fossimo a scuola sarebbe al più una sufficienza scarsa. Ma se R<sub>0</sub> è 2,5, tagliarlo del 61% ci dà R = 0,975, per cui R < 1, e il virus è fermato! (formula esatta:[^exact_formula])
+E' un paradosso. Il COVID-19 è estremamente contagioso, ma per fermarlo ci basta che la percentuale di contagi che impediamo sia superiore "solo" al 60%. 60%?! Se fossimo a scuola sarebbe al più una sufficienza scarsa. Ma se R<sub>0</sub> è 2,5, tagliarlo del 61% ci dà R = 0,975, per cui R < 1, e il virus è contenuto! (formula esatta:[^exact_formula])
 
 <!--[^exact_formula]: Remember R = R<sub>0</sub> * the ratio of transmissions still allowed. Remember also that ratio of transmissions allowed = 1 - ratio of transmissions *stopped*.
 
@@ -363,33 +363,33 @@ E' un paradosso. Il COVID-19 è estremamente contagioso, ma per fermarlo, dobbia
 
 [^exact_formula]: Ricorda che R = R<sub>0</sub> * il rapporto di contagi ancora permessi. Ricorda anche che il rapporto di contagi permessi = 1 - rapporto di contagi *impediti*.
 
-    Quindi, per avere R < 1, hai bisgno di avere R<sub>0</sub> * ContagiPermessi < 1.
+    Quindi, per arrivare a R < 1, serve che R<sub>0</sub> * ContagiPermessi < 1.
 
-    Quindi, ContagiPermessi < 1/R<sub>0</sub>
+    Quindi, che ContagiPermessi < 1/R<sub>0</sub>
 
-    Quindi, 1 - ContagiImpediti < 1/R<sub>0</sub>
+    Quindi, che 1 - ContagiImpediti < 1/R<sub>0</sub>
 
-    Qunidi, ContagiImpediti > 1 - 1/R<sub>0</sub>
+    Qunidi, che ContagiImpediti > 1 - 1/R<sub>0</sub>
 
-    Quindi, hai bisogno di impedire più di **1 - 1/R<sub>0</sub>** contagi per avere R < 1 e fermare il virus!
+    Quindi, è necessario impedire più di **1 - 1/R<sub>0</sub>** contagi per arrivare a R < 1, fermando il virus!
 
 ![](pics/r4.png)
 
 <!--(If you think R<sub>0</sub> or the other numbers in our simulations are too low/high, that's good you're challenging our assumptions! There'll be a "Sandbox Mode" at the end of this guide, where you can plug in your *own* numbers, and simulate what happens.)-->
 
-(Se pensi che R<sub>0</sub> or altri numeri nelle nostre simulazioni siano troppo alti o troppo bassi va bene, stai mettendo alla prova le nostre assuzioni! Ci sarà una "Modalità Sandbox" alla fine di questa guida, dove puoi inserire i *tuoi* numeri e simulare quello che succede.)
+(Se pensi che R<sub>0</sub> or altri numeri nelle nostre simulazioni siano troppo alti o troppo bassi, va bene, stai mettendo alla prova le nostre assuzioni! Alla fine di questa guida troverai una "Modalità Sandbox" dove puoi inserire i *tuoi* numeri e simulare quello che succede.)
 
 <!--*Every* COVID-19 intervention you've heard of – handwashing, social/physical distancing, lockdowns, self-isolation, contact tracing & quarantining, face masks, even "herd immunity" – they're *all* doing the same thing:-->
 
-*Ogni* intervento contro COVID-19 di cui hai sentito parlare – lavarsi le mani, distanziamento fisico/sociale, lockdown, autoisolamento, tracciamento di contatti e quarantena, mascherine, anche l'"immunità di gregge" – stanno *tutti* cercando di fare la stessa cosa:
+*Ogni* intervento contro il COVID-19 di cui hai sentito parlare – lavarsi le mani, distanziamento fisico/sociale, lockdown, autoisolamento, tracciamento di contatti e quarantena, mascherine e perfino l'"immunità di gregge" – sono *tutti* volti a fare la stessa cosa:
 
 <!--Getting R < 1.-->
 
-Avere R < 1.
+Arrivare a R < 1.
 
 <!--So now, let's use our "epidemic flight simulator" to figure this out: How can we get R < 1 in a way **that also protects our mental health *and* financial health?**-->
 
-Quindi ora, usiamo il nostro "simulatore di volo epidemio" per cercare di capire questa cosa: Come possiamo avere R < 1 in una modo **che siano protette anche la nostra salute mentale *e* le nostre finanze?**
+Quindi ora, usiamo il nostro "simulatore di volo epidemiologico" per cercare di capire questa cosa: Come possiamo avere R < 1 in una modo **che siano protette anche la nostra salute mentale *e* le nostre finanze?**
 
 <!--Brace yourselves for an emergency landing...-->
 
