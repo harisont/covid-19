@@ -236,7 +236,7 @@ Per il COVID-19, si stima che una persona sia <icon e></icon> infetta-ma-non-con
 -->
 
 <b style='color:#ff4040'>La curva rossa</b><b style='color:#FF9393'>+ rosa</b> rappresenta i casi *attivi* (contagiosi <icon i></icon> + esposti <icon e></icon>),    
-<b style='color:#888'>La curva grigia</b> rappresenta i casi *totali* (attuali + guariti <span class="nowrap"><icon r></icon>):</span>
+<b style='color:#888'>La curva grigia</b> rappresenta i casi *totali* (attivi + guariti <span class="nowrap"><icon r></icon>):</span>
 
 <div class="sim">
 		<iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
@@ -244,7 +244,7 @@ Per il COVID-19, si stima che una persona sia <icon e></icon> infetta-ma-non-con
 
 <!--Not much changes! How long you stay <icon e></icon> Exposed changes the ratio of <span class="nowrap"><icon e></icon>-to-<icon i></icon>,</span> and *when* current cases peak... but the *height* of that peak, and total cases in the end, stays the same.-->
 
-Non cambia molto! Quanto a lungo si resti <icon e></icon> Esposti cambia il rapporto tra <span class="nowrap"><icon e></icon> e <icon i></icon>,</span> e *il momento* in cui il numero dei casi attuali raggiunge il picco... ma *l'altezza* del picco ed il numero totale, finale dei casi rimangono gli stessi.
+Non cambia molto! Quanto a lungo si resti <icon e></icon> Esposti cambia il rapporto tra <span class="nowrap"><icon e></icon> e <icon i></icon>,</span> e *il momento* in cui il numero dei casi attivi raggiunge il picco... ma *l'altezza* del picco ed il numero totale, finale dei casi rimangono gli stessi.
 
 <!--Why's that? Because of the *first*-most important idea in Epidemiology 101:-->
 
