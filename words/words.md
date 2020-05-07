@@ -224,11 +224,11 @@ Però aggiungiamola, un'altra sfumatura: un <icon s></icon>, prima di diventare 
 
 <!--For COVID-19, it's estimated that you're <icon e></icon> infected-but-not-yet-infectious for 3 days, *on average*.[^latent] What happens if we add that to the simulation?-->
 
-Per il COVID-19, si stima che una persona sia <icon e></icon> infetta-ma-non-contagiosa per 3 giorni *in media*.[^latent] Cosa succede se aggiungiamo anche questo alla simulazione?
+Per il COVID-19, si stima che una persona sia <icon e></icon> infetta-ma-non-contagiosa *in media* per 3 giorni.[^latent] Cosa succede se aggiungiamo anche questo alla simulazione?
 
 <!--[^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)-->
 
-[^latent]: “Assumendo una distribuzione del periodo di incubazione con media a 5,2 giorni ricavara da uno studio dei primi casi di COVID-19, deduciamo che l'infettività ha inizio 2,3 giorni (IC 95%, 0,8–3,0 giorni) prima dell'inizio dei sintomi” (traduzione: Se i sintomi iniziano al giorno 5, l'infettività inizia 2 giorni prima, ovvero al giorno 3) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
+[^latent]: “Assumendo una distribuzione del periodo di incubazione media di 5,2 giorni ricavata da uno studio dei primi casi di COVID-19, deduciamo che la fase contagiosa ha inizio 2,3 giorni (IC 95%, 0,8–3,0 giorni) prima dell'inizio dei sintomi” (traduzione: Se i sintomi iniziano al giorno 5, la fase contagiosa inizia 2 giorni prima, ovvero al giorno 3) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
 
 <!--
 <b style='color:#ff4040'>Red <b style='color:#FF9393'>+ Pink</b> curve</b> is *current* cases (infectious <icon i></icon> + exposed <span class="nowrap"><icon e></icon>),</span>    
@@ -244,7 +244,7 @@ Per il COVID-19, si stima che una persona sia <icon e></icon> infetta-ma-non-con
 
 <!--Not much changes! How long you stay <icon e></icon> Exposed changes the ratio of <span class="nowrap"><icon e></icon>-to-<icon i></icon>,</span> and *when* current cases peak... but the *height* of that peak, and total cases in the end, stays the same.-->
 
-Non cambia molto! Quanto a lungo resti <icon e></icon> Esposto cambia il rapporto tra <span class="nowrap"><icon e></icon>-to-<icon i></icon>,</span> e cambia *quando* i casi attuali hanno il picco... ma *l'altezza* del picco, ed i casi totali alla fine rimangono gli stessi.
+Non cambia molto! Quanto a lungo si resti <icon e></icon> Esposti cambia il rapporto tra <span class="nowrap"><icon e></icon> e <icon i></icon>,</span> e *il momento* in cui il numero dei casi attuali raggiunge il picco... ma *l'altezza* del picco ed il numero totale, finale dei casi rimangono gli stessi.
 
 <!--Why's that? Because of the *first*-most important idea in Epidemiology 101:-->
 
