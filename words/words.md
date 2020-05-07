@@ -897,27 +897,31 @@ Adesso facciamo dei piani per qualche scenario *ancora peggiore*. Atterraggio in
     </div>
 </div>
 
-Prendi il COVID-19 e guarisci. Oppure ti vaccini per il COVID-19. In ogni caso, ora sei immune...
+Prendi il COVID-19 e guarisci. Oppure ti vaccini contro il COVID-19. In ogni caso, ora sei immune...
 
 ...*per quanto tempo?*
 
-* COVID-19 è molto simile alla SARS, che rende immuni i sopravvissuti per 2 anni.[^SARS immunity]
-* I coronavirus che causano "l'influenza comune" danno circa 8 mesi di immunità.[^cold immunity]
-* Ci sono casi di pazienti guariti dal COVID-19 risultati positivi di nuovo, ma non è chiaro se sono dei falsi positivi.[^unclear]
-* Uno studio sulle scimmie *non-ancora-verificato* ha mostrato che l'immunità al COVID-19 dura almeno 28 giorni.[^monkeys]
+* Il COVID-19 è molto simile alla SARS, che rende immuni i sopravvissuti per 2 anni.[^SARS immunity]
+* I coronavirus che causano "il" raffreddore comune assicurano circa 8 mesi di immunità.[^cold immunity]
+* Ci sono casi di pazienti guariti dal COVID-19 risultati positivi di nuovo, ma non è chiaro se siano dei falsi positivi.[^unclear]
+* Uno studio *non ancora revisionato* mostra che, nelle scimmie, l'immunità al COVID-19 dura almeno 28 giorni.[^monkeys]
 
-Ma per il COVID-19 *negli umani*, al 1 Maggio 2020, "per quanto tempo" è la grande incognita.
+Ma per il COVID-19 *negli umani*, al 1 Maggio 2020, "quanto tempo" è la grande incognita.
 
+<!--TODO-->
 [^SARS immunity]: “Anticorpi SARS-specifici sono rimasti per una media di 2 anni [...] Quindi i pazienti SARS potrebbero essere suscettibili ad una reinfezione ≥3 anni dopo la prima esposizione.” [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) "Purtroppo" non sapremo mai quanto sarebbe durata l'immunità alla SARS perché si è estinta troppo velocemente.
 
+<!--TODO-->
 [^cold immunity]: “Non abbiamo trovato differenze significative tra la probabilità di risultare positivi almeno una volta e la probabilità di una ricomparsa per i beta-coronavirus HKU1 e OC43 34 settimane dopo la prima infezione.” [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf)
 
+<!--TODO-->
 [^unclear]: “Una volta che una persona sconfigge il virus, le particelle virali tendono a permanere un po' di tempo. Queste non possono causare infezioni, ma possono far risultare un test ancora positivo.” [da STAT News by Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
 
+<!--TODO-->
 [^monkeys]: Da [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Avvertenza: Questo articolo è una prestampa e non è stato certificato da esperti (ancora).* Inoltre, per enfatizzare: hanno solo testato la re-infezione 28 giorni dopo.
 
-Per queste simulazioni, diciamo che dura 1 anno.
-**Questa è una simulazione che inizia 100% <span class="nowrap"><icon r></icon>**,</span> con decadimento esponenziale in suscettibili, no immunità <span class="nowrap"><icon s></icon>s</span> dopo 1 anno, in *media*, con variabilità:
+Per queste simulazioni, facciamo finta che duri 1 anno.
+**Questa è una simulazione che inizia il 100% di <span class="nowrap"><icon r></icon>**</span> che decadono esponenzialmente in suscettibili, <span class="nowrap"><icon s></icon>s</span> non più immuni dopo in *media* 1 anno, con variabilità:
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-1&format=lines&height=600" width="800" height="600"></iframe>
@@ -929,15 +933,15 @@ Questo è il **Modello SEIRS**. L'ultima "S" sta per <icon s></icon> Suscettibil
 
 ![](pics/seirs.png)
 
-Ora, simuliamo una epidemia COVID-19, in 10 anni, con nessun intervento... *se l'immunità dura solo un anno:*
+Ora, simuliamo una epidemia di COVID-19 nel corso 10 anni, con zero interventi... *se l'immunità dura solo un anno:*
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-2&format=lines&height=600" width="800" height="600"></iframe>
 </div>
 
-Nella simulazione precedente, avevamo solo *un* picco di saturazione di terapie intensive. Ora, ne abbiamo molte ed i casi <icon i></icon> portano *continuamente* le unità di terapia intensiva alla saturazione. (Che, ricordate, abbiamo *triplicato* per queste simulazioni)
+Nelle simulazioni precedenti, avevamo solo *un* picco che arrivava a superare la capacità dei reparti di terapia intensiva. Ora ne abbiamo svariati ed i casi <icon i></icon> portano *continuamente* le unità di terapia intensiva (che, ricordati, sono stati *triplicati* per queste simulazioni) alla saturazione.
 
-R = 1, è **endemica.**
+R = 1, la malattia è **endemica.**
 
 Fortunatamente, dato che l'estate riduce R, la situazione migliorerà:
 
@@ -947,11 +951,11 @@ Fortunatamente, dato che l'estate riduce R, la situazione migliorerà:
 
 Oh.
 
-Al contrario di quanto si pensi, l'estate rende i picchi peggiori *e* regolari! Questo perché l'estate riducei i nuovi <span class="nowrap"><icon i></icon>s,</span> che di conseguenza riduce i nuovi <span class="nowrap"><icon r></icon></span> immuni. Questo significa che l'immunità precipita in estate, *creando* larghi picchi regolari in inverno.
+In maniera abbastanza controintuitiva, l'estate rende i picchi peggiori *e* regolari! Questo perché l'estate riduce il numero dei nuovi <span class="nowrap"><icon i></icon>s,</span> che di conseguenza riduce quello dei nuovi <span class="nowrap"><icon r></icon></span> immuni. Questo significa che l'immunità precipita in estate, *creando* notevoli picchi regolari in inverno.
 
 Fortunatamente, la soluzione è abbastanza diretta - basta vaccinare le persone ogni autunno/inverno, come facciamo per l'influenza:
 
-**(Dopo aver eseguito la simulazione, prova a simulare le vostre campagne di vaccinazione! Ricorda che puoi interrompere/riavviare la simulazione in qualsiasi momento)**
+**(Dopo aver eseguito la simulazione, prova a simulare le tue campagne di vaccinazione! Ricorda che puoi interrompere/riavviare la simulazione in qualsiasi momento)**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-4&format=lines" width="800" height="540"></iframe>
@@ -959,11 +963,11 @@ Fortunatamente, la soluzione è abbastanza diretta - basta vaccinare le persone 
 
 Ma ecco la domanda più terrificante:
 
-Che succede se non ci sarà un vaccino per *anni*? Oppure *mai*?
+Che succederebbe se non ci fosse un vaccino per *anni*? Oppure *mai*?
 
-**Siamo chiari: questo è improbabile.** Molti epidemiologi si aspettano un vaccino tra 1 o 2 anni. E' vero che non esiste un vaccino per nessun altro coronavirus ma questo perché la SARS è stata estinta velocemente e per "la" influenza non è mai valsa la pena investire.
+**Siamo chiari: questo è improbabile.** Molti epidemiologi si aspettano un vaccino tra 1 o 2 anni. E' vero che non esiste un vaccino per nessun altro coronavirus ma questo perché la SARS è stata debellata velocemente e "il" raffreddore comune non è mai valso l'investimento.
 
-Comunque, i ricercatori di malattie infettive hanno espresso qualche preoccupazione: E se non riusciamo a farne abbastanza?[^vax_enough] E se ci affrettiamo e non è sicuro?[^vax_safe]
+Comunque, i ricercatori che si occupano di malattie infettive hanno espresso qualche preoccupazione: E se non riuscissimo a produrne abbastanza?[^vax_enough] E se il vaccino, sviluppato in tutta fretta, non fosse sicuro?[^vax_safe]
 
 [^vax_enough]: “Se arriverà un vaccino per il coronavirus, riuscirà il mondo a produrne abbastanza?” [by Roxanne Khamsi, su Nature](https://www.nature.com/articles/d41586-020-01063-8)
 
@@ -971,25 +975,25 @@ Comunque, i ricercatori di malattie infettive hanno espresso qualche preoccupazi
 
 Anche nel terribile scenario "nessun-vaccino", abbiamo ancora 3 vie di uscita. Dalla più alla meno terribile:
 
-1) Fare interventi R < 1 intermittenti o leggeri, per raggiungere la "immunità di gregge naturale". (Attenzione: questo causerà molte morti e polmoni danneggiati. *E* non funzionerà se l'immunità non dura.)
+1) Fare interventi intermittenti o leggeri per mantenere R < 1, in modo da raggiungere l'"immunità di gregge naturale". (Attenzione: questo causerà molte morti e polmoni danneggiati. *E* non funzionerà se l'immunità non è duratura.)
 
-2) Fare interventi R < 1 per sempre. Contact tracing e indossare mascherine diventeranno la nuova normalità nel mondo post COVID-19, come i test HIV ed usare preservativi è diventato normale nel mondo post-HIV.
+2) Fare interventi per mantenere R < 1 per sempre. Il contact tracing e l'uso mascherine diventera la nuova normalità nel mondo post COVID-19, come i test HIV e l'uso dei preservativi sono diventati normali nel mondo post-HIV.
 
-3) Fare interventi R < 1 finchè non svilupperemo trattamenti che ridurranno di molto il ricorrere a terapie intensive per il COVID-19. (Che dovremmo farlo *comunque!*) Ridurre l'uso delle terapie intensive di 10 volte è come incrementare il numero di terapie intensive di 10 volte:
+3) Fare interventi per mantenere R < 1 finchè non sviluppiamo trattamenti che riducono di molto la probabilità che sia necessario ricorrere alla terapia intensiva per il COVID-19. (Cosa che dovremmo fare *comunque!*) Ridurre l'uso delle terapie intensive di 10 volte è come incrementare il numero di terapie intensive di 10 volte:
 
-**Ecco una simulazione di *nessuna* immunità, *nessun* vaccino, e nessun intervento - solo aumentando lentamente la capacità per sopravvivere ai picchi nel lungo termine:**
+**Ecco una simulazione in cui l'immunità *non* è duratura, *non* c'é alcun vaccino e neanche alcun intervento - si pensa solo ad aumentare lentamente la capacità dei reparti di terapia intensiva per sopravvivere ai picchi che si riproporranno nel lungo termine:**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
 </div>
 
-Anche nel *peggiore* peggiore scenario... la vita va avanti.
+Anche nel *peggiore* peggiore scenario... la vita continua.
 
 <p>. . .</p>
 
-Forse vorresti sfidare le nostre ipotesi e provare diversi numeri di R<sub>0</sub>. Altrimenti prova a simulare la *tua* combinazione di piani di intervento!
+Forse vorresti mettere alla prova le nostre assunzioni e provare valori diversi di R<sub>0</sub> o provare a simulare la *tua* combinazione di piani di intervento!
 
-**Ecco una modalità di prova (opzionale), con *tutto* a disposizione. (scorri per vedere tutte le opzioni) Simula e divertiti con quello che ti pare:**
+**Ecco una Modalità Sandbox (opzionale), con *tutto* a disposizione. (scorri per vedere tutte le opzioni) Simula e divertiti con quello che ti pare:**
 
 <div class="sim">
 		<iframe src="sim?stage=SB&format=sb" width="800" height="540"></iframe>
@@ -997,7 +1001,7 @@ Forse vorresti sfidare le nostre ipotesi e provare diversi numeri di R<sub>0</su
 
 Questo semplice "simulatore di volo epidemiologico" ci ha insegnato così tanto. Ci ha permesso di rispondere alle domande dei mesi passati, dei prossimi mesi e prossimi anni.
 
-Quindi finalmente, torniamo a...
+Quindi, finalmente, torniamo a...
 
 <!-- NUOVO CAPITOLO - Adesso -->
 
