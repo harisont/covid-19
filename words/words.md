@@ -320,7 +320,7 @@ Quando abbastanza persone sono immuni, si arriva ad avere R < 1 e il virus è co
 
 <!--Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, and the herd immunity threshold:-->
 
-Ora, giochiamo di nuovo con il modello SEIR, ma mostriamo R<sub>0</sub>, R nel tempo e la soglia di immunità di gregge:
+Ora, giochiamo di nuovo con il modello SEIR, ma mostriamo R<sub>0</sub>, R nel tempo e la soglia dell'immunità di gregge:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-7" width="800" height="540"></iframe>
@@ -332,7 +332,7 @@ Ora, giochiamo di nuovo con il modello SEIR, ma mostriamo R<sub>0</sub>, R nel t
 
 <!--This is because when there are more <span class="nowrap">non-<icon s></icon>s</span> than the herd immunity threshold, you get R < 1. And when R < 1, new cases stop growing: a peak.-->
 
-Questo perché quando i <span class="nowrap">non-<icon s></icon>s</span> superano la soglia di immunità di gregge, R < 1. E quando R < 1, i nuovi casi smettono di crescere: un picco.
+Questo perché quando i <span class="nowrap">non-<icon s></icon>s</span> superano la soglia dell'immunità di gregge, R < 1. E quando R < 1, i nuovi casi smettono di crescere: un picco.
 
 <!--**If there's only one lesson you take away from this guide, here it is** - it's an extremely complex diagram so please take time to fully absorb it:-->
 
