@@ -30,7 +30,7 @@
 
 "L'unica cosa di cui avere paura è la paura stessa" è un consiglio stupido.
 
-<!--Sure, don't hoard toilet paper – but if policymakers fear fear itself, they'll downplay real dangers to avoid "mass panic". Fear's not the problem, it's how we *channel* our fear. Fear gives us energy to deal with dangers now, and prepare for dangers later.-->
+<!--Sure, don't hoard toilet paper - but if policymakers fear fear itself, they'll downplay real dangers to avoid "mass panic". Fear's not the problem, it's how we *channel* our fear. Fear gives us energy to deal with dangers now, and prepare for dangers later.-->
 
 Certo, non stare a fare scorte di carta igienica (o di pasta *NdT*) - ma se i decisori politici hanno paura della paura stessa, minimizzeranno i veri pericoli per evitare il "panico di massa". Il problema non è la paura in sé, è come *incanaliamo* la nostra paura. La paura ci dà le energie per gestire i pericoli attuali e prepararci a quelli futuri.
 
@@ -90,9 +90,9 @@ Quindi, facciamo un "simulatore di volo epidemiologico" davvero, *davvero* sempl
 
 Si stima che, *in media*, *all'inizio* di una epidemia di COVID-19, il virus venga trasmesso da un <icon i></icon> a un <icon s></icon> ogni 4 giorni.[^serial_interval] (ricorda che c'è molta variabilità)
 
-<!--[^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Disclaimer: Early release articles are not considered as final versions)-->
+<!--[^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53-4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Disclaimer: Early release articles are not considered as final versions)-->
 
-[^serial_interval]: “L'intervallo [seriale] medio è stato di 3,96 giorni (95% IC 3,53–4,39 giorni)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Attenzione: gli articoli pubblicati in anteprima non vanno considerati una versione finale)
+[^serial_interval]: “L'intervallo [seriale] medio è stato di 3,96 giorni (95% IC 3,53-4,39 giorni)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Attenzione: gli articoli pubblicati in anteprima non vanno considerati una versione finale)
 
 <!--If we simulate "double every 4 days" *and nothing else*, on a population starting with just 0.001% <span class="nowrap"><icon i></icon>,</span> what happens?-->
 Se simuliamo questo "raddoppiare ogni 4 giorni" *e nient'altro*, su una popolazione che inizia con solo lo 0,001% di <span class="nowrap"><icon i></icon>,</span> cosa succede?
@@ -103,14 +103,14 @@ Se simuliamo questo "raddoppiare ogni 4 giorni" *e nient'altro*, su una popolazi
 
 <!--[^caveats]: **Remember: all these simulations are super simplified, for educational purposes.**
 
-    One simplification: When you tell this simulation "Infect 1 new person every X days", it's actually increasing # of infected by 1/X each day. Same for future settings in these simulations – "Recover every X days" is actually reducing # of infected by 1/X each day.
+    One simplification: When you tell this simulation "Infect 1 new person every X days", it's actually increasing # of infected by 1/X each day. Same for future settings in these simulations - "Recover every X days" is actually reducing # of infected by 1/X each day.
 
     Those *aren't* exactly the same, but it's close enough, and for educational purposes it's less opaque than setting the transmission/recovery rates directly.
 -->
 
 [^caveats]: **Ricorda: tutte queste simulazioni sono ipersemplificate a scopo didattico.**
 
-    Esempio di semplificazione: Quando dici al simulatore "Infetta 1 nuova persona ogni X giorni", quello che il simulatore fa è aumentare il numero di infetti di 1/X ogni giorno. La stessa cosa vale per impostazioni che vedremo nelle prossime simulazioni – "Guarisci ogni X giorni" vuol dire in realtà "riduci il numero di infettati di 1/X ogni giorno".
+    Esempio di semplificazione: Quando dici al simulatore "Infetta 1 nuova persona ogni X giorni", quello che il simulatore fa è aumentare il numero di infetti di 1/X ogni giorno. La stessa cosa vale per impostazioni che vedremo nelle prossime simulazioni - "Guarisci ogni X giorni" vuol dire in realtà "riduci il numero di infettati di 1/X ogni giorno".
 
     Le due cose (quello che "dici" al simulatore e quello che "fa") non sono *esattamente* equivalenti, ma ci vanno vicino. A scopo didattico, è meno astruso che impostare direttamente le velocità di trasmissione e guarigione.
 
@@ -149,7 +149,7 @@ Questa è la **curva di crescita logistica**, "a forma di S". Inizia piano, espl
 
 Ma questa simulazione è *ancora* sbagliata. Ci stiamo perdendo il fatto che le persone <icon i></icon> Infette ad un certo punto smettono di essere contagiosi, sia perché 1) guariscono 2) "guariscono" ma con danni ai polmoni o 3) muoiono.
 
-<!--For simplicity's sake, let's pretend that all <icon i></icon> Infectious people become <icon r></icon> Recovered. (Just remember that in reality, some are dead.) <span class="nowrap"><icon r></icon>s</span> can't be infected again, and let's pretend – *for now!* – that they stay immune for life.-->
+<!--For simplicity's sake, let's pretend that all <icon i></icon> Infectious people become <icon r></icon> Recovered. (Just remember that in reality, some are dead.) <span class="nowrap"><icon r></icon>s</span> can't be infected again, and let's pretend - *for now!* - that they stay immune for life.-->
 
 Per semplicità, fingiamo che tutte le persone <icon i></icon> Infette diventano <icon r></icon> Guariti. (Ricorda però che, in realtà, alcuni sono morti.) I <span class="nowrap"><icon r></icon>s</span> non possono essere infettati di nuovo e fingiamo - *per ora!* - che rimangano immuni a vita.
 
@@ -208,7 +208,7 @@ la *seconda* idea più importate dell'epidemiologia di base:
 
 **NOTA: le simulazioni usate per guidare le decisioni politiche sono molto, *molto* più sofisticate di questa!** Ma il modello SIR è comunque adatto a spiegare i principi generali, anche fa perdere le sfumature.
 
-<!---Actually, let's add one more nuance: before an <icon s></icon> becomes an <span class="nowrap"><icon i></icon>,</span> they first become <icon e></icon> Exposed. This is when they have the virus but can't pass it on yet – infect*ed* but not yet infect*ious*.-->
+<!---Actually, let's add one more nuance: before an <icon s></icon> becomes an <span class="nowrap"><icon i></icon>,</span> they first become <icon e></icon> Exposed. This is when they have the virus but can't pass it on yet - infect*ed* but not yet infect*ious*.-->
 
 Però aggiungiamola, un'altra sfumatura: un <icon s></icon>, prima di diventare <icon i></icon>, passa per la fase <icon e></icon> "Esposto", quella in cui ha il virus ma ancora non può ancora trasmetterlo - sei *infetto*, ma non *contagioso*. <!-- In effetti qui "infettivo" serviva a mantenere il gioco di parole-->
 
@@ -226,9 +226,9 @@ Però aggiungiamola, un'altra sfumatura: un <icon s></icon>, prima di diventare 
 
 Per il COVID-19, si stima che una persona sia <icon e></icon> infetta-ma-non-contagiosa *in media* per 3 giorni.[^latent] Cosa succede se aggiungiamo anche questo alla simulazione?
 
-<!--[^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)-->
+<!--[^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8-3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)-->
 
-[^latent]: “Assumendo una distribuzione del periodo di incubazione media di 5,2 giorni ricavata da uno studio dei primi casi di COVID-19, deduciamo che la fase contagiosa ha inizio 2,3 giorni (IC 95%, 0,8–3,0 giorni) prima dell'inizio dei sintomi” (traduzione: Se i sintomi iniziano al giorno 5, la fase contagiosa inizia 2 giorni prima, ovvero al giorno 3) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
+[^latent]: “Assumendo una distribuzione del periodo di incubazione media di 5,2 giorni ricavata da uno studio dei primi casi di COVID-19, deduciamo che la fase contagiosa ha inizio 2,3 giorni (IC 95%, 0,8-3,0 giorni) prima dell'inizio dei sintomi” (traduzione: Se i sintomi iniziano al giorno 5, la fase contagiosa inizia 2 giorni prima, ovvero al giorno 3) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
 
 <!--
 <b style='color:#ff4040'>Red <b style='color:#FF9393'>+ Pink</b> curve</b> is *current* cases (infectious <icon i></icon> + exposed <span class="nowrap"><icon e></icon>),</span>    
@@ -266,7 +266,7 @@ Nel corso di una epidemia, a mano a mano che il numero degli immuni aumenta e si
 
 **R<sub>0</sub>** (si pronuncia R-con-zero) è il valore di R *all'inizio di una epidemia, prima che ci sia immunità o che si facciano interventi specifici*. R<sub>0</sub> si avvicina di più a riflettere la "potenza" del virus in sé, ma cambia comunque da un luogo all'altro. Per esempio, R<sub>0</sub> è più alto nelle città che nelle aree rurali.
 
-<!--(Most news articles – and even some research papers! – confuse R and R<sub>0</sub>. Again, science terminology is bad)-->
+<!--(Most news articles - and even some research papers! - confuse R and R<sub>0</sub>. Again, science terminology is bad)-->
 
 (La maggior parte degli articoli di giornale - ed anche alcuni articoli di ricerca! - confonde R con R<sub>0</sub>. Di nuovo, la terminologia scientifica non è granché)
 
@@ -274,25 +274,25 @@ Nel corso di una epidemia, a mano a mano che il numero degli immuni aumenta e si
 
 Per "l'" influenza stagionale, R<sub>0</sub> è circa 1,28[^r0_flu]. Questo significa che all'*inizio* di un'epidemia di influenza, ogni <icon i></icon> infetta *in media* 1,28 altre persone. (Se ti suona strano che non sia un numero intero, ricorda che la mamma "media" ha 2,4 bambini. Ciò non significa che ci sono bambini dimezzati che sgambettano.)
 
-<!--[^r0_flu]: “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)-->
+<!--[^r0_flu]: “The median R value for seasonal influenza was 1.28 (IQR: 1.19-1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)-->
 
-[^r0_flu]: “Il valore mediano di R per l'influenza stagionale è stato di 1,28 (IQR: 1,19–1,37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
+[^r0_flu]: “Il valore mediano di R per l'influenza stagionale è stato di 1,28 (IQR: 1,19-1,37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
 <!--The R<sub>0</sub> for COVID-19 is estimated to be around 2.2,[^r0_covid] though one *not-yet-finalized* study estimates it was 5.7(!) in Wuhan.[^r0_wuhan]-->
 
 Si stima che, per il COVID-19, R<sub>0</sub> sia circa 2,2[^r0_covid] benché uno studio *non ancora portato a termine* stima che fosse 5,7 a Wuhan.[^r0_wuhan]
 
-<!--[^r0_covid]: “We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)-->
+<!--[^r0_covid]: “We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4-3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)-->
 
-[^r0_covid]: “Stimiamo che il numero di riproduzione di base R0 di 2019-nCoV sia intorno a 2,2 (intervallo di credibilità al 90%: 1,4–3,8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
+[^r0_covid]: “Stimiamo che il numero di riproduzione di base R0 di 2019-nCoV sia intorno a 2,2 (intervallo di credibilità al 90%: 1,4-3,8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
-<!--[^r0_wuhan]: “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)-->
+<!--[^r0_wuhan]: “we calculated a median R0 value of 5.7 (95% CI 3.8-8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)-->
 
-[^r0_wuhan]: “abbiamo calcolato un valore mediano di R0 pari a 5,7 (IC 95% 3,8–8,9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
+[^r0_wuhan]: “abbiamo calcolato un valore mediano di R0 pari a 5,7 (IC 95% 3,8-8,9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
 
-<!--In our simulations – *at the start & on average* – an <icon i></icon> infects someone every 4 days, over 10 days. "4 days" goes into "10 days" two-and-a-half times. This means – *at the start & on average* – each <icon i></icon> infects 2.5 others. Therefore, R<sub>0</sub> = 2.5. (caveats:[^r0_caveats_sim])-->
+<!--In our simulations - *at the start & on average* - an <icon i></icon> infects someone every 4 days, over 10 days. "4 days" goes into "10 days" two-and-a-half times. This means - *at the start & on average* - each <icon i></icon> infects 2.5 others. Therefore, R<sub>0</sub> = 2.5. (caveats:[^r0_caveats_sim])-->
 
-Nelle nostre simulazioni – *all'inizio e in media* – un <icon i></icon> contagia qualcun altro ogni 4 giorni, su un periodo di 10 giorni. "4 giorni" sta in "10 giorni" due volte e mezzo. Questo significa che – *all'inizio e in media* – ogni <icon i></icon> ne infetta altri 2,5. Quindi, R<sub>0</sub> = 2,5. (attenzione:[^r0_caveats_sim])
+Nelle nostre simulazioni - *all'inizio e in media* - un <icon i></icon> contagia qualcun altro ogni 4 giorni, su un periodo di 10 giorni. "4 giorni" sta in "10 giorni" due volte e mezzo. Questo significa che - *all'inizio e in media* - ogni <icon i></icon> ne infetta altri 2,5. Quindi, R<sub>0</sub> = 2,5. (attenzione:[^r0_caveats_sim])
 
 <!--[^r0_caveats_sim]: This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes.-->
 
@@ -326,17 +326,17 @@ Ora, giochiamo di nuovo con il modello SEIR, ma mostriamo R<sub>0</sub>, R nel t
 		<iframe src="sim?stage=epi-7" width="800" height="540"></iframe>
 </div>
 
-<!--**NOTE: Total cases *does not stop* at herd immunity, but overshoots it!** And it crosses the threshold *exactly* when current cases peak. (This happens no matter how you change the settings – try it for yourself!)-->
+<!--**NOTE: Total cases *does not stop* at herd immunity, but overshoots it!** And it crosses the threshold *exactly* when current cases peak. (This happens no matter how you change the settings - try it for yourself!)-->
 
-**NOTA: I casi totali *non si fermano* all'immunità di gregge ma vanno oltre!!** E attraversano la soglia *esattamente* nel momento del picco. (Questo succede comunque tu cambi le impostazione – prova pure!)
+**NOTA: I casi totali *non si fermano* all'immunità di gregge ma vanno oltre!!** E attraversano la soglia *esattamente* nel momento del picco. (Questo succede comunque tu cambi le impostazione - prova pure!)
 
 <!--This is because when there are more <span class="nowrap">non-<icon s></icon>s</span> than the herd immunity threshold, you get R < 1. And when R < 1, new cases stop growing: a peak.-->
 
 Questo perché quando i <span class="nowrap">non-<icon s></icon>s</span> superano la soglia di immunità di gregge, R < 1. E quando R < 1, i nuovi casi smettono di crescere: un picco.
 
-<!--**If there's only one lesson you take away from this guide, here it is** – it's an extremely complex diagram so please take time to fully absorb it:-->
+<!--**If there's only one lesson you take away from this guide, here it is** - it's an extremely complex diagram so please take time to fully absorb it:-->
 
-**Se c'è una sola lezione che da portare a casa da questa guida, eccola** – è un diagramma estremamente complesso, quindi prenditi pure il tempo che ti serve per metabolizzarlo per bene:
+**Se c'è una sola lezione che da portare a casa da questa guida, eccola** - è un diagramma estremamente complesso, quindi prenditi pure il tempo che ti serve per metabolizzarlo per bene:
 
 ![](pics/r3.png)
 
@@ -379,9 +379,9 @@ E' un paradosso. Il COVID-19 è estremamente contagioso, ma per fermarlo ci bast
 
 (Se pensi che R<sub>0</sub> or altri numeri nelle nostre simulazioni siano troppo alti o troppo bassi, va bene, stai mettendo alla prova le nostre assuzioni! Alla fine di questa guida troverai una "Modalità Sandbox" dove puoi inserire i *tuoi* numeri e simulare quello che succede.)
 
-<!--*Every* COVID-19 intervention you've heard of – handwashing, social/physical distancing, lockdowns, self-isolation, contact tracing & quarantining, face masks, even "herd immunity" – they're *all* doing the same thing:-->
+<!--*Every* COVID-19 intervention you've heard of - handwashing, social/physical distancing, lockdowns, self-isolation, contact tracing & quarantining, face masks, even "herd immunity" - they're *all* doing the same thing:-->
 
-*Ogni* intervento contro il COVID-19 di cui hai sentito parlare – lavarsi le mani, distanziamento fisico/sociale, lockdown, autoisolamento, tracciamento di contatti e quarantena, mascherine e perfino l'"immunità di gregge" – sono *tutti* volti a fare la stessa cosa:
+*Ogni* intervento contro il COVID-19 di cui hai sentito parlare - lavarsi le mani, distanziamento fisico/sociale, lockdown, autoisolamento, tracciamento di contatti e quarantena, mascherine e perfino l'"immunità di gregge" - sono *tutti* volti a fare la stessa cosa:
 
 <!--Getting R < 1.-->
 
@@ -410,7 +410,7 @@ Tenetevi forte per un atterraggio di emergenza...
 <!--###Scenario 0: Do Absolutely Nothing-->
 ###Scenario 0: Non Fare Assolutamente Niente
 
-<!--Around 1 in 20 people infected with COVID-19 need to go to an ICU (Intensive Care Unit).[^icu_covid] In a rich country like the USA, there's 1 ICU bed per 3400 people.[^icu_us] Therefore, the USA can handle 20 out of 3400 people being *simultaneously* infected – or, 0.6% of the population.-->
+<!--Around 1 in 20 people infected with COVID-19 need to go to an ICU (Intensive Care Unit).[^icu_covid] In a rich country like the USA, there's 1 ICU bed per 3400 people.[^icu_us] Therefore, the USA can handle 20 out of 3400 people being *simultaneously* infected - or, 0.6% of the population.-->
 Delle persone che contraggono il COVID-19, circa 1 su 20 ha bisogno di esssere ricoverata in un reparto di terapia intensiva.[^icu_covid] In un Paese ricco come gli Stati Uniti, c'é 1 posto in terapia intensiva ogni 3400 people.[^icu_us]. Di conseguenza, gli USA sono in grado di gestire una situazione in cui un massimo di 20 persone ogni 3400 - ossia lo 0.6% della popolazione - sono infette *contemporaneamente*.
 
 <!--[^icu_covid]: ["Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Between 4.9% to 11.5% of *all* COVID-19 cases required ICU. Generously picking the lower range, that's 5% or 1 in 20. Note that this total is specific to the US's age structure, and will be higher in countries with older populations, lower in countries with younger populations.-->
@@ -436,7 +436,7 @@ Molto male.
 Ecco cosa rileva il [report dell' Imperial College del 16 marzo](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/): non facendo nulla, i posti in terapia intensiva si esauricono, con oltre l'80% della popolazione che si ammala.
 (ricorda: il numero totale dei casi *supera* la soglia dell'immunità di gregge)
 
-<!--Even if only 0.5% of infected die – a generous assumption when there's no more ICUs – in a large country like the US, with 300 million people, 0.5% of 80% of 300 million = still 1.2 million dead... *IF we did nothing.*-->
+<!--Even if only 0.5% of infected die - a generous assumption when there's no more ICUs - in a large country like the US, with 300 million people, 0.5% of 80% of 300 million = still 1.2 million dead... *IF we did nothing.*-->
 Se anche fosse che solo lo 0.5% di chi contrae il virus muore - un'assunzione ottimistica, nello scenario in cui non ci sono più posti in terapia intensiva disponibili - per un Paese grande come gli USA, con 300 milioni di abitanti, lo 0.5% dell' 80% di 300 milioni avrebbe significato pur sempre 1.2 milioni di morti... *SE non avessimo fatto niente.*
 
 <!--(Lots of news & social media reported "80% will be infected" *without* "IF WE DO NOTHING". Fear was channelled into clicks, not understanding. *Sigh.*)-->
@@ -464,8 +464,8 @@ Innanzitutto, diamo uno sguardo alle due maniere principali di "appiattire la cu
 <!--Increased handwashing cuts flus & colds in high-income countries by ~25%[^handwashing], while the city-wide lockdown in London cut close contacts by ~70%[^london]. So, let's assume handwashing can reduce R by *up to* 25%, and distancing can reduce R by *up to* 70%:-->
 Nei Paesi ad alto reddito, lavarsi le mani più spesso diminuisce l'incidenza di influenze & raffreddori del ~25%[^handwashing], mentre il lockdown imposto al livello dell'intera città di Londra ha ridotto i contatti ravvicinati del ~70%[^london]. Quindi, assumiamo che lavarsi spesso le mani possa ridurre R *al più* del 25%, e che il distanziamento sociale possa abbassarlo *al più* del 70%:
 
-<!--[^handwashing]: “All eight eligible studies reported that handwashing lowered risks of respiratory infection, with risk reductions ranging from 6% to 44% [pooled value 24% (95% CI 6–40%)].” We rounded up the pooled value to 25% in these simulations for simplicity. [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Note: as this meta-analysis points out, the quality of studies for handwashing (at least in high-income countries) are awful.-->
-[^handwashing]: “tutti e otto gli studi pertinenti riportano che lavarsi le mani riduce il rischio di malattie respiratorie, con una riduzione del rischio che varia tra il 6% e il 44% [valore aggregato 24% (95% CI 6–40%)].” Per semplicità, in queste simulazioni abbiamo arrotondato per eccesso il valore aggregato al 25%. [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Nota: come indicato da questa meta-analisi, la qualità degli studi sul lavarsi le mani è (almeno per quel che riguarda i Paesi ad alto reddito) pessima.
+<!--[^handwashing]: “All eight eligible studies reported that handwashing lowered risks of respiratory infection, with risk reductions ranging from 6% to 44% [pooled value 24% (95% CI 6-40%)].” We rounded up the pooled value to 25% in these simulations for simplicity. [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Note: as this meta-analysis points out, the quality of studies for handwashing (at least in high-income countries) are awful.-->
+[^handwashing]: “tutti e otto gli studi pertinenti riportano che lavarsi le mani riduce il rischio di malattie respiratorie, con una riduzione del rischio che varia tra il 6% e il 44% [valore aggregato 24% (95% CI 6-40%)].” Per semplicità, in queste simulazioni abbiamo arrotondato per eccesso il valore aggregato al 25%. [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Nota: come indicato da questa meta-analisi, la qualità degli studi sul lavarsi le mani è (almeno per quel che riguarda i Paesi ad alto reddito) pessima.
 
 <!--[^london]: “We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown”. We rounded it down to 70% in these simulations for simplicity. [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html)-->
 [^london]: “Abbiamo osservato una riduzione del 73% nel numero medio di contatti quotidiani per partecipante. Questo sarebbe sufficiente per portare R0 da un valore di 2.6 prima del lockdown a 0.62 (0.37 - 0.89) durante il lockdown”. Per semplicità, in queste simulazioni abbiamo arrotondato per difetto al 70%. [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html)
@@ -480,8 +480,8 @@ Nei Paesi ad alto reddito, lavarsi le mani più spesso diminuisce l'incidenza di
 		<iframe src="sim?stage=int-2a&format=calc" width="285" height="260"></iframe>
 </div>
 
-<!--Now, let's simulate what happens to a COVID-19 epidemic if, starting March 2020, we had increased handwashing but only *mild* physical distancing – so that R is lower, but still above 1:-->
-Ora, simuliamo cosa accadrebbe ad un'epidemia di COVID-19 se, a partire da Marzo 2020, avessimo aumentato la frequenza con cui ci laviamo le mani ma imponendo un distanziamento sociale in forma *leggera* – in questo modo, R si abbassa ma rimane superiore a 1:
+<!--Now, let's simulate what happens to a COVID-19 epidemic if, starting March 2020, we had increased handwashing but only *mild* physical distancing - so that R is lower, but still above 1:-->
+Ora, simuliamo cosa accadrebbe ad un'epidemia di COVID-19 se, a partire da Marzo 2020, avessimo aumentato la frequenza con cui ci laviamo le mani ma imponendo un distanziamento sociale in forma *leggera* - in questo modo, R si abbassa ma rimane superiore a 1:
 
 <div class="sim">
 		<iframe src="sim?stage=int-2&format=lines" width="800" height="540"></iframe>
@@ -493,8 +493,8 @@ Tre cose da tenere a mente:
 <!--1. This *reduces* total cases! **Even if you don't get R < 1, reducing R still saves lives, by reducing the 'overshoot' above herd immunity.** Lots of folks think "Flatten The Curve" spreads out cases without reducing the total. This is impossible in *any* Epidemiology 101 model. But because the news reported "80%+ will be infected" as inevitable, folks thought total cases will be the same no matter what. *Sigh.*-->
 1. In questo modo, il numero totale di casi *diminuisce*! **Anche se R non diventa < 1, ridurlo salva delle vite, riducendo il 'surplus' rispetto all'immunità di gregge.** Molte persone credono che "Appiattire La Curva" rallenti i contagi senza ridurne il numero totale. Questo è impossibile in *ogni* modello epidemiologico, anche il più banale. Ma dal momento che la stampa ha riportato il fatto che "oltre l'80% verrà contagiato" come inevitabile, la gente si è messa in testa che il numero totale dei casi sarà lo stesso in qualsiasi caso. *Sigh.*
 
-<!--2. Due to the extra interventions, current cases peak *before* herd immunity is reached. In fact, in this simulation, total cases only overshoots *a tiny bit* above herd immunity – the UK's plan! At that point, R < 1, you can let go of all other interventions, and COVID-19 stays contained! Well, except for one problem...-->
-2. Grazie all'azione sopra descritta, il numero di casi attivi raggiunge il picco *prima* del raggiungimento dell'immunità di gregge. Difatti, in questa simulazione, il numero totale di casi arriva ad essere soltanto *leggermente* al di sopra della soglia dell'immunità di gregge – il piano del Regno Unito! A tal punto, con R < 1, si possono lasciar perdere tutti gli interventi straordinari, l'epidemia di COVID-19 è contenuta! Ma c'è un problema...
+<!--2. Due to the extra interventions, current cases peak *before* herd immunity is reached. In fact, in this simulation, total cases only overshoots *a tiny bit* above herd immunity - the UK's plan! At that point, R < 1, you can let go of all other interventions, and COVID-19 stays contained! Well, except for one problem...-->
+2. Grazie all'azione sopra descritta, il numero di casi attivi raggiunge il picco *prima* del raggiungimento dell'immunità di gregge. Difatti, in questa simulazione, il numero totale di casi arriva ad essere soltanto *leggermente* al di sopra della soglia dell'immunità di gregge - il piano del Regno Unito! A tal punto, con R < 1, si possono lasciar perdere tutti gli interventi straordinari, l'epidemia di COVID-19 è contenuta! Ma c'è un problema...
 
 <!--3. You still run out of ICUs. For several months. (and remember, we *already* tripled ICUs for these simulations)-->
 3. Finiscono comunque i posti in terapia intensiva. Per diversi mesi. (e ricorda, li abbiamo *già* triplicati per queste simulazioni)
@@ -509,7 +509,7 @@ Cioé, non ci si può limitare ad "appiattire" la curva, la curva va *schiacciat
 <!--###Scenario 2: Months-Long Lockdown-->
 ###Scenario 2: Diversi Mesi Di Lockdown
 
-<!--Let's see what happens if we *crush* the curve with a 5-month lockdown, reduce <icon i></icon> to nearly nothing, then finally – *finally* – return to normal life:-->
+<!--Let's see what happens if we *crush* the curve with a 5-month lockdown, reduce <icon i></icon> to nearly nothing, then finally - *finally* - return to normal life:-->
 Vediamo cosa succede se *schiacciamo* la curva con un lockdown di 5 mesi, riducendo il numero degli <icon i></icon> a quasi zero per poi finalmente - *finalmente* - ritornare alla vita normale:
 
 <div class="sim">
@@ -556,7 +556,7 @@ Ma attenzione: sarebbe bello poter semplicemente tracciare una linea per rappres
 <!--[^loneliness]: See [Figure 6 from Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Of course, big disclaimer that they found a *correlation*. But unless you want to try randomly assigning people to be lonely for life, observational evidence is all you're gonna get.-->
 [^loneliness]: Vedi la [Figura 6 di Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Certo, è importante tenere a mente che quella che viene riportata è soltanto una *correlazione*. Ma a meno di voler voler sperimentare condannando persone a caso alla soluitudine vita natural durante, non si può che rifarsi all'evidenza osservativa.
 
-<!--**Financial Health:** "What about the economy" sounds like you care more about dollars than lives, but "the economy" isn't just stocks: it's people's ability to provide food & shelter for their loved ones, to invest in their kids' futures, and enjoy arts, foods, videogames – the stuff that makes life worth living. And besides, poverty *itself* has horrible impacts on mental and physical health.-->
+<!--**Financial Health:** "What about the economy" sounds like you care more about dollars than lives, but "the economy" isn't just stocks: it's people's ability to provide food & shelter for their loved ones, to invest in their kids' futures, and enjoy arts, foods, videogames - the stuff that makes life worth living. And besides, poverty *itself* has horrible impacts on mental and physical health.-->
 **Solidità finanziaria:** "E l'economia?" suona come quel che direbbe qualcuno che mette il denaro davanti alle vite umane, ma "l'economia" non riguarda solo il mercato azionario: riguarda la possibilità per le persone di procurare vitto e alloggio per i loro cari, di investire nel futuro dei loro figli, di godersi l'arte, il cibo, i videogiochi - quelle cose che rendono la vita degna di essere vissuta. E oltretutto, la povertà *stessa* ha un impatto tremendo sulla salute sia mentale che fisica.
 
 <!--Not saying we *shouldn't* lock down again! We'll look at "circuit breaker" lockdowns later. Still, it's not ideal.-->
@@ -580,11 +580,11 @@ Ma appunto! “Un lockdown non è una cura, è solo un nuovo inizio”... **e un
 <!--To understand how Taiwan & South Korea contained COVID-19, we need to understand the exact timeline of a typical COVID-19 infection[^timeline]:-->
 Per capire come Taiwan & la Corea del Sud siano riuscite a tenere sotto controllo il COVID-19, bisogna capire quali siano le tempistiche esatte di un'infezione da COVID-19[^timeline]:
 
-<!--[^timeline]: **3 days on average to infectiousness:** “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)-->
+<!--[^timeline]: **3 days on average to infectiousness:** “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8-3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)-->
 [^timeline]: **media di 3 giorni prima della fase contagiosa:** “Ipotizzando, in base ai dati di un altro studio relativo ai primi casi di COVID-19, una distribuzione del periodo di incubazione in media di 5,2 giorni, abbiamo dedotto che la fase contagiosa inizia già 2,3 giorni (95% CI, 0,8-3,0 giorni) prima dell'insorgenza dei sintomi.” (tradotto: Assumendo che i sintomi si manifestino al giorno 5, la fase contagiosa ha inizio 2 giorni prima = la fase contagiosa inizia al giorno 3) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)  
 
-    <!--**4 days on average to infecting someone else:** “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)-->
-    **media di 4 giorni prima di contagiare qualcun altro:** “L'intervallo [seriale] medio è di 3.96 giorni (95% CI 3.53–4.39 giorni)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)
+    <!--**4 days on average to infecting someone else:** “The mean [serial] interval was 3.96 days (95% CI 3.53-4.39 days)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)-->
+    **media di 4 giorni prima di contagiare qualcun altro:** “L'intervallo [seriale] medio è di 3.96 giorni (95% CI 3.53-4.39 giorni)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)
 
     <!--    **5 days on average to feeling symptoms:** “The median incubation period was estimated to be 5.1 days (95% CI, 4.5 to 5.8 days)” [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)-->
     **media di 5 giorni prima di accorgersi dei sintomi:** “Si stima che la mediana del periodo di incubazione sia 5.1 days (95% CI, 4.5 to 5.8 giorni)” [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)
@@ -599,8 +599,8 @@ Se i contagiati si autoisolano solo quando già sanno di essere malati (cioè, a
 <!--And in fact, 44% of all transmissions are like this: *pre*-symptomatic! [^pre_symp]-->
 Difatti, il 44% di tutti i contagi è così: *pre*-sintomatico! [^pre_symp]
 
-<!--[^pre_symp]: “We estimated that 44% (95% confidence interval, 25–69%) of secondary cases were infected during the index cases’ presymptomatic stage” [He, X., Lau, E.H.Y., Wu, P. et al](https://www.nature.com/articles/s41591-020-0869-5)-->
-[^pre_symp]: “Stimiamo che il 44% (intervallo di confidenza 95%, 25–69%) dei casi secondari sia stato infettato durante la fase presintomatica dei casi di riferimento” [He, X., Lau, E.H.Y., Wu, P. et al](https://www.nature.com/articles/s41591-020-0869-5)
+<!--[^pre_symp]: “We estimated that 44% (95% confidence interval, 25-69%) of secondary cases were infected during the index cases’ presymptomatic stage” [He, X., Lau, E.H.Y., Wu, P. et al](https://www.nature.com/articles/s41591-020-0869-5)-->
+[^pre_symp]: “Stimiamo che il 44% (intervallo di confidenza 95%, 25-69%) dei casi secondari sia stato infettato durante la fase presintomatica dei casi di riferimento” [He, X., Lau, E.H.Y., Wu, P. et al](https://www.nature.com/articles/s41591-020-0869-5)
 
 <!--But, if we find *and quarantine* a symptomatic case's recent close contacts... we stop the spread, by staying one step ahead!-->
 Ma se troviamo *e mettiamo in quarantena* le persone che sono state recentemente a stretto contatto con un caso sintomatico... fermiamo la diffusione del virus, standogli un passo avanti!
@@ -616,8 +616,8 @@ Si chiama **contact tracing** (tracciamento dei contatti). Si tratta di un'idea 
 <!--(It also lets us use our limited tests more efficiently, to find pre-symptomatic <span class="nowrap"><icon i></icon>s</span> without needing to test almost everyone.)-->
 (Ci permette anche di utilizzare il limitato numero di test che abbiamo a disposizione in modo più efficiente, in modo tale da trovare <span class="nowrap"><icon i></icon>s</span> presintomatici senza bisogno di testare un numero enorme di persone.)
 
-<!--Traditionally, contacts are found with in-person interviews, but those *alone* are too slow for COVID-19's ~48 hour window. That's why contact tracers need help, and be supported by – *NOT* replaced by – contact tracing apps.-->
-Tradizionalmente, il tracciamento dei contatti avviene attraverso interviste faccia a faccia, che però *da sole* sono troppo lente per la finestra di ~48 ore del COVID-19. Ecco perché gli addetti al contact tracing hanno bisogno di aiuto, e di essere supportati – *NON* sostituiti – dalle app di contact tracing.
+<!--Traditionally, contacts are found with in-person interviews, but those *alone* are too slow for COVID-19's ~48 hour window. That's why contact tracers need help, and be supported by - *NOT* replaced by - contact tracing apps.-->
+Tradizionalmente, il tracciamento dei contatti avviene attraverso interviste faccia a faccia, che però *da sole* sono troppo lente per la finestra di ~48 ore del COVID-19. Ecco perché gli addetti al contact tracing hanno bisogno di aiuto, e di essere supportati - *NON* sostituiti - dalle app di contact tracing.
 
 <!--(This idea didn't come from "techies": using an app to fight COVID-19 was first proposed by [a team of Oxford epidemiologists](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936).)-->
 (Questa idea di usare un'app nella lotta al COVID-19 non viene dai "nerd": è stati inizialmente proposta da [un team di epidemiologi di Oxford](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936).)
@@ -625,8 +625,8 @@ Tradizionalmente, il tracciamento dei contatti avviene attraverso interviste fac
 <!--Wait, apps that trace who you've been in contact with?... Does that mean giving up privacy, giving in to Big Brother?-->
 Un attimo, app che tengono traccia delle persone con cui sei stato in contatto?... Non significa rinunciare alla privacy, arrendersi al Grande Fratello?
 
-<!--Heck no! **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, a team of epidemiologists & cryptographers (including one of us, Marcel Salathé) is *already* making a contact tracing app – with code available to the public – that reveals **no info about your identity, location, who your contacts are, or even *how many contacts* you've had.**-->
-Niente affatto! **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, un team di epidemiologi & crittografi (compreso uno di noi, Marcel Salathé) sta *già* realizzando un'app di contact tracing – il cui codice è pubblicamente accessibile – che **non rivela alcuna informazione sulla tua identità, sulla tua posizione, sui contatti che hai avuto e neanche sul *numero di contatti* che hai avuto.**
+<!--Heck no! **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, a team of epidemiologists & cryptographers (including one of us, Marcel Salathé) is *already* making a contact tracing app - with code available to the public - that reveals **no info about your identity, location, who your contacts are, or even *how many contacts* you've had.**-->
+Niente affatto! **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, un team di epidemiologi & crittografi (compreso uno di noi, Marcel Salathé) sta *già* realizzando un'app di contact tracing - il cui codice è pubblicamente accessibile - che **non rivela alcuna informazione sulla tua identità, sulla tua posizione, sui contatti che hai avuto e neanche sul *numero di contatti* che hai avuto.**
 
 <!--Here's how it works:-->
 Ecco come funziona:
@@ -665,7 +665,7 @@ Ma come si fa con chi non ha uno smartphone? E con le maniglie delle porte? E co
 <!--(Footnote rant about the confusion about pre-symptomatic vs "true" asymptomatic. "True" asymptomatics are rare:[^rant])-->
 (Nota-sproloquio sulla confusione tra presintomatici e "veri" asintomatici. I "veri" asintomatici sono rari:[^rant])
 
-<!--[^rant]: Lots of news reports – and honestly, many research papers – did not distinguish between "cases who showed no symptoms when we tested them" (pre-symptomatic) and "cases who showed no symptoms *ever*" (true asymptomatic). The only way you could tell the difference is by following up with cases later.-->
+<!--[^rant]: Lots of news reports - and honestly, many research papers - did not distinguish between "cases who showed no symptoms when we tested them" (pre-symptomatic) and "cases who showed no symptoms *ever*" (true asymptomatic). The only way you could tell the difference is by following up with cases later.-->
 [^rant]: Molti notiziari - e a dire il vero anche molti articoli scientifici - non hanno fatto distinzioni tra "casi che non mostravano sintomi al momento del test" (presintomatici) e "casi che non hanno *mai* mostrato sintomi" (veri asintomatici). L'unico modo per distinguerli è di seguirli nel tempo.
 
     <!--Which is what [this study](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) did. (Disclaimer: "Early release articles are not considered as final versions.") In a call center in South Korea that had a COVID-19 outbreak, "only 4 (1.9%) remained asymptomatic within 14 days of quarantine, and none of their household contacts acquired secondary infections."-->
@@ -698,7 +698,7 @@ Isolare i casi *sintomatici* ridurrebbe R fino al 40%, e mettere i loro contatti
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
 </div>
 
-<!--Thus, even without 100% contact quarantining, we can get R < 1 *without a lockdown!* Much better for our mental & financial health. (As for the cost to folks who have to self-isolate/quarantine, *governments should support them* – pay for the tests, job protection, subsidized paid leave, etc. Still way cheaper than intermittent lockdown.)-->
+<!--Thus, even without 100% contact quarantining, we can get R < 1 *without a lockdown!* Much better for our mental & financial health. (As for the cost to folks who have to self-isolate/quarantine, *governments should support them* - pay for the tests, job protection, subsidized paid leave, etc. Still way cheaper than intermittent lockdown.)-->
 Quindi, anche senza mettere in quarantena il 100% dei contatti, possiamo arrivare a R < 1 *senza un lockdown!* Molto meglio per la nostra salute mentale e finanziaria. (Per quel che riguarda i costi cui vanno incontro coloro che si autoisolano o vengono messi in quarantena, *è compito dei governi supportarli* - pagamento dei test, salvaguardia dei posti di lavori, congedo pagato con sussidi, ecc. Anche così, i costi sono molto più bassi di quelli di un lockdown intermittente.)
 
 <!--We then keep R < 1 until we have a vaccine, which turns susceptible <span class="nowrap"><icon s></icon>s</span> into immune <span class="nowrap"><icon r></icon>s.</span> Herd immunity, the *right* way:-->
@@ -787,7 +787,7 @@ Ad ogni modo, le epidemie sono come il poker. **Scommetti solo se sei sicuro al 
 <!--Cost: If homemade cloth masks (which are ~2/3 as effective as surgical masks[^homemade]), super cheap. If surgical masks, more expensive but still pretty cheap.-->
 Costi: Se mascherine fai-da-te di stoffa (che hanno i ~2/3 dell'efficacia di quelle chirurgiche [^homemade]), bassissimi. Nel caso di mascherine chirurgiche, più alti ma comunque abbastanza contenuti.
 
-<!--Benefit: Even if it's a 50–50 chance of surgical masks reducing transmission by 0% or 70%, the average "expected value" is still 35%, same as a half-lockdown! So let's guess-timate that surgical masks reduce R by up to 35%, discounted for our uncertainty. (Again, you can challenge our assumptions by turning the sliders up/down)-->
+<!--Benefit: Even if it's a 50-50 chance of surgical masks reducing transmission by 0% or 70%, the average "expected value" is still 35%, same as a half-lockdown! So let's guess-timate that surgical masks reduce R by up to 35%, discounted for our uncertainty. (Again, you can challenge our assumptions by turning the sliders up/down)-->
 Benefici: Anche ci fosse una probabilità del 50-50 che le maschere chirurgiche riducano la trasmissione dello 0% o del 70%, il "valore atteso" medio sarebbe comunque del 35%, lo stesso di un mezzo lockdown! Supponiamo dunque che le mascherine chirurgiche riducano R fino al 35%, al ribasso per la nostra incertezza. (Anche in questo caso, è possibile modificare le nostre assunzioni spostando gli slider su e giù)
 
 <div class="sim">
@@ -800,10 +800,10 @@ Benefici: Anche ci fosse una probabilità del 50-50 che le maschere chirurgiche 
 <!--[^mask_args]: **"We need to save supplies for hospitals."** *Absolutely agreed.* But that's more of an argument for increasing mask production, not rationing. In the meantime, we can make cloth masks.-->
 [^mask_args]: **"Dobbiamo tenere da parte le mascherine per gli ospedali."** *Assolutamente d'accordo.* Ma qui si tratta più di potenziare la produzione di mascherine che di razionarle. Nel frattempo, possiamo costruirci le mascherine di stoffa.
 
-   <!--**"They're hard to wear correctly."** It's also hard to wash your hands according to the WHO Guidelines – seriously, "Step 3) right palm over left dorsum"?! – but we still recommend handwashing, because imperfect is still better than nothing.-->
+   <!--**"They're hard to wear correctly."** It's also hard to wash your hands according to the WHO Guidelines - seriously, "Step 3) right palm over left dorsum"?! - but we still recommend handwashing, because imperfect is still better than nothing.-->
    **"Sono difficili da indossare correttamente."** E' difficile anche lavarsi le mani secondo le Linee Guida dell'OMS - seriamente, "Step 3) palmo destro sopra il dorso sinistro"?! - ma questo non ci impedisce di raccomandare di lavarsi le mani, perché farlo in modo imperfetto è comunque meglio di niente.
 
-   <!--**"It'll make people more reckless with handwashing & social distancing."** Sure, and safety belts make people ignore stop signs, and flossing makes people eat rocks. But seriously, we'd argue the opposite: masks are a *constant physical reminder* to be careful – and in East Asia, masks are also a symbol of solidarity!-->
+   <!--**"It'll make people more reckless with handwashing & social distancing."** Sure, and safety belts make people ignore stop signs, and flossing makes people eat rocks. But seriously, we'd argue the opposite: masks are a *constant physical reminder* to be careful - and in East Asia, masks are also a symbol of solidarity!-->
    **"Farà sì che le persone stiano meno attente a lavarsi le mani e al distanziamento sociale."** Certo, infatti le cinture di sicurezza fanno sì che la gente ignori i cartelli stradali, e il filo interdentale fa sì che la gente mangi rocce. Seriamente, noi sosterremmo il contrario: le mascherine *ci ricordano in modo tangibile e costante* di stare attenti - e in Asia orientale, sono anche un simbolo di solidarietà!
 
 
@@ -829,7 +829,7 @@ Per il COVID-19, ogni 1° Celsius (1.8° Fahrenheit) extra fa scendere R del 1.2
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
 </div>
 
-<!--Summer alone won't make R < 1, but if we have limited resources, we can scale back some interventions in the summer – so we can scale them *higher* in the winter.-->
+<!--Summer alone won't make R < 1, but if we have limited resources, we can scale back some interventions in the summer - so we can scale them *higher* in the winter.-->
 Da sola, l'estate non porterà R ad essere < 1, ma se abbiamo risorse limitate, in estate possiamo "alleggerire" certe misure, così da poterle riprendere ad applicare *su larga scala* in inverno.
 
 <!--**A "Circuit Breaker" Lockdown:**-->
@@ -977,7 +977,7 @@ Anche nel terribile scenario "nessun-vaccino", abbiamo ancora 3 vie di uscita. D
 
 3) Fare interventi R < 1 finchè non svilupperemo trattamenti che ridurranno di molto il ricorrere a terapie intensive per il COVID-19. (Che dovremmo farlo *comunque!*) Ridurre l'uso delle terapie intensive di 10 volte è come incrementare il numero di terapie intensive di 10 volte:
 
-**Ecco una simulazione di *nessuna* immunità, *nessun* vaccino, e nessun intervento – solo aumentando lentamente la capacità per sopravvivere ai picchi nel lungo termine:**
+**Ecco una simulazione di *nessuna* immunità, *nessun* vaccino, e nessun intervento - solo aumentando lentamente la capacità per sopravvivere ai picchi nel lungo termine:**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
