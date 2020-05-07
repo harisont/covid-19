@@ -688,7 +688,7 @@ Isolare i casi *sintomatici* ridurrebbe R fino al 40%, e mettere i loro contatti
 -->
     * I casi sintomatici contribuiscono ad R per lo 0.8 (40%)
     * I casi presintomatici contribuiscono ad R per lo 0.9 (45%)
-    * I casi asintomatici contribuiscono ad R per lo 0.1 (5%, though their model has uncertainty and it could be much lower)
+    * I casi asintomatici contribuiscono ad R per lo 0.1 (5%, anche se il modello ha un margine di incertezza e questo numero potrebbe essere molto più basso)
     * Gli elementi dell'ambiente, come le maniglie delle porte, contribuiscono a R per lo 0.2 (10%)
 
     <!--And add up the pre- & a-symptomatic contacts (45% + 5%) and you get 50% of R!-->
@@ -702,7 +702,7 @@ Isolare i casi *sintomatici* ridurrebbe R fino al 40%, e mettere i loro contatti
 Quindi, anche senza mettere in quarantena il 100% dei contatti, possiamo arrivare a R < 1 *senza un lockdown!* Molto meglio per la nostra salute mentale e finanziaria. (Per quel che riguarda i costi cui vanno incontro coloro che si autoisolano o vengono messi in quarantena, *è compito dei governi supportarli* - pagamento dei test, salvaguardia dei posti di lavori, congedo pagato con sussidi, ecc. Anche così, i costi sono molto più bassi di quelli di un lockdown intermittente.)
 
 <!--We then keep R < 1 until we have a vaccine, which turns susceptible <span class="nowrap"><icon s></icon>s</span> into immune <span class="nowrap"><icon r></icon>s.</span> Herd immunity, the *right* way:-->
-Teniamo quindi R < 1 finché non è pronto un vaccino, che trasforma i suscettibili <span class="nowrap"><icon s></icon>s</span> in immuni <span class="nowrap"><icon r></icon>s.</span> L'immunità di gregge, *fatta bene*:
+Quindi, teniamo R < 1 finché non è pronto un vaccino, che trasforma i suscettibili <span class="nowrap"><icon s></icon>s</span> in immuni <span class="nowrap"><icon r></icon>s:</span> l'immunità di gregge, ottenuta *come si deve*:
 
 <div class="sim">
 		<iframe src="sim?stage=int-4b&format=calc" width="285" height="230"></iframe>
@@ -716,8 +716,8 @@ Bene, abbiamo parlato abbastanza. Ecco una simulazione di:
 
 1. Un lockdown di qualche mese, finché sostenibile...
 2. Il passaggio a "Testare, Tracciare, Isolare" finché sostenibile...
-3. Vaccinare abbastanza persone, il che significa...
-4. Vittoria.
+3. La vaccinazione di un numero sufficiente di persone, il che implica...
+4. La vittoria.
 
 <div class="sim">
 		<iframe src="sim?stage=int-5&format=lines" width="800" height="540"></iframe>
@@ -732,35 +732,36 @@ Ecco come battiamo il COVID-19.
 ...
 
 <!--But what if things *still* go wrong? Things have gone horribly wrong already. That's fear, and that's good! Fear gives us energy to create *backup plans*.-->
-Ma che si fa se le cose vanno male *comunque*? Le cose sono già andate tremendamente male. E' paura, e questo è positivo! La paura ci dà le energie per creare *piani di backup*.
+Ma che si fa se le cose vanno male *comunque*? Le cose sono già andate tremendamente male. Abbiamo paura, e questo è positivo! La paura ci dà le energie per creare *piani B*.
 
 <!--The pessimist invents the parachute.-->
 Il pessimista inventa il paracadute.
 
 <!--###Scenario 4+: Masks For All, Summer, Circuit Breakers-->
-###Scenario 4+: Mascherine Per Tutti, Estate, Circuit Breakers
+###Scenario 4+: Mascherine Per Tutti, Estate, Circuit Breaker
 
 
 <!--What if R<sub>0</sub> is way higher than we thought, and the above interventions, even with mild distancing, *still* aren't enough to get R < 1?-->
 Cosa succederebbe se R<sub>0</sub> fosse molto più alto di quel che pensavamo e gli interventi di cui sopra, anche con una forma leggera di distanziamento, non fossero *ancora* abbastanza per arrivare a R < 1?
 
 <!--Remember, even if we can't get R < 1, reducing R still reduces the "overshoot" in total cases, thus saving lives. But still, R < 1 is the ideal, so here's a few other ways to reduce R:-->
-Ricorda, anche se non si arriva ad R < 1, ridurre R significa comunque ridurre il surplus nei casi totali, salvando vite. Ma in ogni caso, R < 1 è l'ideale, quindi ecco qualche altro modo per ridurre R:
+Ricorda, anche se non si arriva ad R < 1, ridurre R significa comunque ridurre il surplus di casi totali, salvando vite. Ma in ogni caso, R < 1 è l'ideale, quindi ecco qualche altro modo per ridurre R:
 
 <!--**Masks For All:**-->
 **Mascherine Per Tutti:**
 
 <!--*"Wait,"* you might ask, *"I thought face masks don't stop you from getting sick?"*-->
-*"Aspetta,"* potresti chiederti, *"Mi pareva che le mascherine non impedissero di ammalarsi?"*
+*"Aspetta,"* potresti chiederti, *"Mi pareva che le mascherine non impedissero di ammalarsi...!?"*
 
 <!--You're right. Masks don't stop you from getting sick[^incoming]... they stop you from getting *others* sick.-->
 Hai ragione. Le mascherine non impediscono che tu ti ammali[^incoming]... impediscono che tu faccia ammalare *gli altri*.
 
 <!--[^incoming]: “None of these surgical masks exhibited adequate filter performance and facial fit characteristics to be considered respiratory protection devices.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742)-->
-TODO: [^incoming]: “Nessuna di queste mascherine chirurgiche ha dato prova di funzionare da filtro e adattarsi al volto in maniera idonea per essere considerata un dispositivo di protezione respiratorio.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742)
+[^incoming]: “Nessuna di queste mascherine chirurgiche ha dato prova di fare da filtro e adattarsi al volto in maniera idonea per essere considerata un dispositivo di protezione respiratorio.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742)
 
 <!--[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)-->
-TODO: [^outgoing]: “La riduzione complessiva di 3.4 volte [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
+<!--TODO-->
+[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
 
 <!--[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) See Table 1: a 100% cotton T-shirt has around 2/3 the filtration efficiency as a surgical mask, for the two bacterial aerosols they tested.-->
 [^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Vedi Tabella 1: una maglietta 100% cotone ha all'incirca i 2/3 della capacità di filtraggio di una mascherina chirurgica, per i due aerosol batterici testati.
@@ -769,7 +770,7 @@ TODO: [^outgoing]: “La riduzione complessiva di 3.4 volte [70% reduction] in a
 ![](pics/masks.png)
 
 <!--To put a number on it: surgical masks *on the infectious person* reduce cold & flu viruses in aerosols by 70%.[^outgoing] Reducing transmissions by 70% would be as large an impact as a lockdown!-->
-Tanto per metterci un numero: le mascherine chirurgiche, *se indossate dalla persona infetta* riducono i virus di raffreddore e influenza negli aerosols del 70%.[^outgoing] Ridurre le trasmissioni del 70% avrebbe un impatto paragonabile a quello di un lockdown!
+Tanto per metterci un numero: le mascherine chirurgiche, *se indossate dalla persona infetta*, riducono la presenza dei virus del raffreddore e dell'influenza negli aerosol del 70%.[^outgoing] Ridurre le trasmissioni del 70% avrebbe un impatto paragonabile a quello di un lockdown!
 
 <!--However, we don't know for sure the impact of masks on COVID-19 *specifically*. In science, one should only publish a finding if you're 95% sure of it. (...should.[^replication]) Masks, as of May 1st 2020, are less than "95% sure".-->
 Tuttavia, non sappiamo per certo quale sia l'impatto delle mascherine sul COVID-19 *nello specifico*. Quando si fa scienza, un risultato andrebbe pubblicato solo se sicuro al 95%. (...in teoria.[^replication]) Le mascherine, al 1 Maggio 2020, sono "sicure a meno del 95%".
@@ -797,7 +798,7 @@ Benefici: Anche ci fosse una probabilità del 50-50 che le maschere chirurgiche 
 (altri argomenti a favore/contro le mascherine:[^mask_args])
 
 <!--[^mask_args]: **"We need to save supplies for hospitals."** *Absolutely agreed.* But that's more of an argument for increasing mask production, not rationing. In the meantime, we can make cloth masks.-->
-[^mask_args]: **"Dobbiamo tenere da parte le mascherine per gli ospedali."** *Assolutamente d'accordo.* Ma qui si tratta più di potenziare la produzione di mascherine, non dii razionare. Nel frattempo, possiamo farci le mascherine di stoffa.
+[^mask_args]: **"Dobbiamo tenere da parte le mascherine per gli ospedali."** *Assolutamente d'accordo.* Ma qui si tratta più di potenziare la produzione di mascherine che di razionarle. Nel frattempo, possiamo costruirci le mascherine di stoffa.
 
    <!--**"They're hard to wear correctly."** It's also hard to wash your hands according to the WHO Guidelines – seriously, "Step 3) right palm over left dorsum"?! – but we still recommend handwashing, because imperfect is still better than nothing.-->
    **"Sono difficili da indossare correttamente."** E' difficile anche lavarsi le mani secondo le Linee Guida dell'OMS - seriamente, "Step 3) palmo destro sopra il dorso sinistro"?! - ma questo non ci impedisce di raccomandare di lavarsi le mani, perché farlo in modo imperfetto è comunque meglio di niente.
@@ -807,7 +808,7 @@ Benefici: Anche ci fosse una probabilità del 50-50 che le maschere chirurgiche 
 
 
 <!--Masks *alone* won't get R < 1. But if handwashing & "Test, Trace, Isolate" only gets us to R = 1.10, having just 1/3 of people wear masks would tip that over to R < 1, virus contained!-->
-*Da sole*, le mascherine non porteranno R ad essere < 1. Ma se il lavarsi le mani e il "Testare, Tracciare, Isolare" ci portassero solo ad R = 1.10, avere anche solo 1/3 delle persone che indossano le mascherine ribalterebbe la situazione: R < 1, virus contenuto!
+*Da sole*, le mascherine non ci faranno arrivare ad R < 1. Ma se il lavarsi le mani e il "Testare, Tracciare, Isolare" ci portassero solo ad R = 1.10, avere anche solo 1/3 delle persone che indossano le mascherine ribalterebbe la situazione: R < 1, virus contenuto!
 
 <!--**Summer:**-->
 **Estate:**
@@ -819,7 +820,7 @@ Ok, non è un "intervento" sotto il nostro controllo, ma aiuterà! Alcune testat
 Per il COVID-19, ogni 1° Celsius (1.8° Fahrenheit) extra fa scendere R del 1.2%.[^heat] La differenza estate-inverno a New York è di 26°C (47°F),[^nyc_heat] quindi l'estate farà scendere R del ~31%.
 
 <!--[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)-->
-[^heat]: “Un aumento della temperatura di un grado Celsius [...] abbassa R dellp 0.0225” e “Il valore medio di R in queste 100 città è 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
+[^heat]: “Un aumento della temperatura di un grado Celsius [...] abbassa R dello 0.0225” e “Il valore medio di R in queste 100 città è 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
 
 <!--[^nyc_heat]: In 2019 at Central Park, hottest month (July) was 79.6°F, coldest month (Jan) was 32.5°F. Difference is 47.1°F, or ~26°C. [PDF from Weather.gov](https://www.weather.gov/media/okx/Climate/CentralPark/monthlyannualtemp.pdf)-->
 [^nyc_heat]: Nel 2019, a Central Park, nel mese più caldo (luglio) la temperatura era di 79.6°F, nel più freddo (Gennaio) di 32.5°F. La differenza è di 47.1°F, cioè ~26°C. [PDF from Weather.gov](https://www.weather.gov/media/okx/Climate/CentralPark/monthlyannualtemp.pdf)
@@ -829,7 +830,7 @@ Per il COVID-19, ogni 1° Celsius (1.8° Fahrenheit) extra fa scendere R del 1.2
 </div>
 
 <!--Summer alone won't make R < 1, but if we have limited resources, we can scale back some interventions in the summer – so we can scale them *higher* in the winter.-->
-Da sola, l'estate non porterà R ad essere < 1, ma se abbiamo risorse limitate, in estate possiamo ridurre la scala su cui adottiamo certe misure - in modo da poterle riprendere ad applicare *su larga scala* in inverno.
+Da sola, l'estate non porterà R ad essere < 1, ma se abbiamo risorse limitate, in estate possiamo "alleggerire" certe misure, così da poterle riprendere ad applicare *su larga scala* in inverno.
 
 <!--**A "Circuit Breaker" Lockdown:**-->
 **Un "Circuit Breaker" Il Lockdown:** <!-- spezza crescita? Altro...?-->
@@ -838,7 +839,7 @@ Da sola, l'estate non porterà R ad essere < 1, ma se abbiamo risorse limitate, 
 E se tutto questo non fosse *ancora* abbastanza per arrivare a R < 1... potremmo riproporre il lockdown.
 
 <!--But we wouldn't have to be 2-months-closed / 1-month-open over & over! Because R is reduced, we'd only need one or two more "circuit breaker" lockdowns before a vaccine is available. (Singapore had to do this recently, "despite" having controlled COVID-19 for 4 months. That's not failure: this *is* what success takes.)-->
-Ma non dovremmo andare avanti countinuando a chiudere per 2 mesi, riaprire per 1 eccetera eccetera! Dal momento che R è ridotto, avremmo bisogno di solo un paio di altri lockdown "circuit breaker" before a vaccine is available. (Di recente, Singapore ha dovuto fare così, "nonostante" avesse controllato il COVID-19 per 4 mesi. Non si tratta di un fallimento: è un passo necessario per il successo.)
+Ma non dovremmo andare avanti countinuando a chiudere per 2 mesi, riaprire per 1 e via discorrendo! Avendo ridotto R, avremmo bisogno di solo un paio di altri lockdown "circuit breaker" nell'attesa di un vaccino. (Di recente, Singapore ha dovuto fare così, "nonostante" avesse controllato il COVID-19 per 4 mesi. Non si tratta di un fallimento: è un passo necessario per il successo.)
 
 <!--Here's a simulation a "lazy case" scenario:-->
 Ecco una simulazione di uno scenario "pigro":
@@ -848,8 +849,8 @@ Ecco una simulazione di uno scenario "pigro":
 3. One more "circuit breaker" lockdown before a vaccine's found.-->
 
 1. Lockdown, poi
-2. Una moderata dose di igiene & "Testare, Tracciare, Isolare", con una dose ridotta di "Mascherine Per Tutti", poi...
-3. Un ulteriore lockdown "circuit breaker" nell'attesa di un vaccino.
+2. Moderata dose di igiene & "Testare, Tracciare, Isolare", con una dose ridotta di "Mascherine Per Tutti", poi...
+3. Ulteriore lockdown "circuit breaker" nell'attesa di un vaccino.
 
 <div class="sim">
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
@@ -858,7 +859,8 @@ Ecco una simulazione di uno scenario "pigro":
 <!--Not to mention all the *other* interventions we could do, to further push R down:-->
 Questo senza stare nemmeno a menzionare tutte le *altre* misure che potremmo prendere, per ridurre ulteriormente R:
 
-<!--* Travel restrictions/quarantines
+<!--
+* Travel restrictions/quarantines
 * Temperature checks at malls & schools
 * Deep-cleaning public spaces
 * [Replacing hand-shaking with foot-bumping](https://twitter.com/V_actually/status/1233785527788285953)
@@ -867,24 +869,24 @@ Questo senza stare nemmeno a menzionare tutte le *altre* misure che potremmo pre
 * Controlli della temperatura nei centri commerciali e nelle scuole
 * Pulizie a fondo dei luoghi pubblici
 * [Sostituzione delle strette di mano con il foot-bumping](https://twitter.com/V_actually/status/1233785527788285953)
-* E tutte le altre trovate che l'ingegno umano ci porterà
+* E tutte le altre trovate ingegnose che ci verranno in mente
 
 <p>. . .</p>
 
 <!--We hope these plans give you hope.-->
-Speriamo che questi piani ti diano speranza.
+Speriamo che questi piani ti restituiscano la speranza.
 
 <!--**Even under a pessimistic scenario, it *is* possible to beat COVID-19, while protecting our mental and financial health.** Use the lockdown as a "reset button", keep R < 1 with case isolation + privacy-protecting contract tracing + at *least* cloth masks for all... and life can get back to a normal-ish!-->
 **Anche in uno scenario pessimistico, *è* possibile sconfiggere il COVID-19, proteggendo la nostra salute mentale e la nostra stabilità economica.** Usiamo il lockdown come "tasto di reset", teniamo R < 1 tramite isolamento dei casi + contract tracing a tutela della privacy + mascherine *quantomeno* di stoffa per tutti... e la vita può tornare più o meno normale!
 
 <!--Sure, you may have dried-out hands. But you'll get to invite a date out to a comics bookstore! You'll get to go out with friends to watch the latest Hollywood cash-grab. You'll get to people-watch at a library, taking joy in people going about the simple business of *being alive.*-->
-Certo, magari avrai le mani secche. Ma potrai organizzare un appuntamento in fumetteria! Potrai uscire con gli amici per guardare le ultime novità di Hollywood. Potrai guardare la gente in biblioteca, rallegrandoti del fatto che la gente si diletta <!--?--> del mero *essere vivi.*
+Certo, magari avrai le mani secche. Ma potrai organizzare un appuntamento in fumetteria! Potrai uscire con gli amici per guardare le ultime novità di Hollywood. Potrai guardare la gente in biblioteca, rallegrandoti del fatto che la gente è contenta del semplice *essere vivi.*
 
 <!--Even under the worst-case scenario... life perseveres.-->
 Anche nella peggiore delle ipotesi... la vita continua.
 
 <!--So now, let's plan for some *worse* worst-case scenarios. Water landing, get your life jacket, and please follow the lights to the emergency exits:-->
-Perciò, adesso facciamo dei piani per qualche scenario *ancora peggiore*. Atterraggio in acqua, prendete il giubbotto di salvataggio e seguite il sentiero luminoso fino alle uscite di emergenza:
+Adesso facciamo dei piani per qualche scenario *ancora peggiore*. Atterraggio in acqua, prendete il giubbotto di salvataggio e seguite il sentiero luminoso fino alle uscite di emergenza:
 
 <!-- NUOVO CAPITOLO - I Prossimi anni -->
 
