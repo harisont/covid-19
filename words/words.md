@@ -158,7 +158,7 @@ Si stima che, con il COVID-19, si rimanga <icon i></icon> Infetti per 10 giorni,
 
 <!--[^infectiousness]: “The median communicable period \[...\] was 9.5 days.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Yes, we know "median" is not the same as "average". For simplified educational purposes, close enough.-->
 
-[^infectiousness]: “Il periodo di comunicabilità mediano \[...\] è stato di 9,5 giorni.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Sì, sappiamo che la "mediana" non è la stessa cosa della media. Ma, semplificando a scopo didattico, ci si avvicina.
+[^infectiousness]: “La fase contagiosa mediana \[...\] è stata di 9,5 giorni.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Sì, sappiamo che la "mediana" non è la stessa cosa della media. Ma, semplificando a scopo didattico, ci si avvicina.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-3" width="800" height="540"></iframe>
@@ -248,31 +248,31 @@ Non cambia molto! Quanto a lungo si resti <icon e></icon> Esposti cambia il rapp
 
 <!--Why's that? Because of the *first*-most important idea in Epidemiology 101:-->
 
-Perché è così? Perché questa è la *prima* e più importante idea dell'epidemiologia di base:
+Perché è così? Per via della *prima* e più importante idea dell'epidemiologia di base:
 
 ![](pics/r.png)
 
 <!--Short for "Reproduction number". It's the *average* number of people an <icon i></icon> infects *before* they recover (or die).-->
 
-Abbreviazione per "Numero di riproduzione". E' il numero *medio* di persone che un <icon i></icon> infetta *prima* di guarire (o morire).
+Abbreviazione per "Numero di Riproduzione". E' il numero *medio* di persone che un <icon i></icon> infetta *prima* di guarire (o di morire).
 
 ![](pics/r2.png)
 
 <!--**R** changes over the course of an outbreak, as we get more immunity & interventions.-->
 
-**R** cambia nel corso di una epidemia, a mano a mano che c'è più immunità e si fanno più interventi.
+Nel corso di una epidemia, a mano a mano che il numero degli immuni aumenta e si fanno degli interventi, il valore di **R** cambia.
 
 <!--**R<sub>0</sub>** (pronounced R-nought) is what R is *at the start of an outbreak, before immunity or interventions*. R<sub>0</sub> more closely reflects the power of the virus itself, but it still changes from place to place. For example, R<sub>0</sub> is higher in dense cities than sparse rural areas.-->
 
-**R<sub>0</sub>** (si pronuncia R-con-zero) è R *all'inizio di una epidemia, prima di immunità ed interventi*. R<sub>0</sub> riflette più da vicino la potenza del virus in sè, ma cambia comunque da luogo a luogo. Per esempio, R<sub>0</sub> è più alto nelle città che nelle aree rurali.
+**R<sub>0</sub>** (si pronuncia R-con-zero) è il valore di R *all'inizio di una epidemia, prima che ci sia immunità o che si facciano interventi specifici*. R<sub>0</sub> si avvicina di più a riflettere la "potenza" del virus in sé, ma cambia comunque da un luogo all'altro. Per esempio, R<sub>0</sub> è più alto nelle città che nelle aree rurali.
 
 <!--(Most news articles – and even some research papers! – confuse R and R<sub>0</sub>. Again, science terminology is bad)-->
 
-(La maggior parte degli articoli di giornale – ed anche alcuni articoli di ricerca! – confondono R con R<sub>0</sub>. Di nuovo, la terminologia scientifica è pessima)
+(La maggior parte degli articoli di giornale - ed anche alcuni articoli di ricerca! - confonde R con R<sub>0</sub>. Di nuovo, la terminologia scientifica non è granché)
 
 <!--The R<sub>0</sub> for "the" seasonal flu is around 1.28[^r0_flu]. This means, at the *start* of a flu outbreak, each <icon i></icon> infects 1.28 others *on average.* (If it sounds weird that this isn't a whole number, remember that the "average" mom has 2.4 children. This doesn't mean there's half-children running about.)-->
 
-Il R<sub>0</sub> per *la* influenza stagionale è attorno a 1,28[^r0_flu]. Questo significa che all'*inizio* di una epidemia di influenza, ogni <icon i></icon> infetta 1,28 altre persone *in media.* (Se ti suona strano che non sia un numero intero, ricorda che la mamma "media" ha 2,4 bambini. Ciò non significa che ci sono mezzi bambini che sgambettano.)
+Per "l'" influenza stagionale, R<sub>0</sub> è circa 1,28[^r0_flu]. Questo significa che all'*inizio* di un'epidemia di influenza, ogni <icon i></icon> infetta *in media* 1,28 altre persone. (Se ti suona strano che non sia un numero intero, ricorda che la mamma "media" ha 2,4 bambini. Ciò non significa che ci sono bambini dimezzati che sgambettano.)
 
 <!--[^r0_flu]: “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)-->
 
@@ -280,11 +280,11 @@ Il R<sub>0</sub> per *la* influenza stagionale è attorno a 1,28[^r0_flu]. Quest
 
 <!--The R<sub>0</sub> for COVID-19 is estimated to be around 2.2,[^r0_covid] though one *not-yet-finalized* study estimates it was 5.7(!) in Wuhan.[^r0_wuhan]-->
 
-L'R<sub>0</sub> per COVID-19 si stima essere intorno a 2,2[^r0_covid] benché uno studio *non ancora portato a termine* stima che fosse 5,7 a Wuhan.[^r0_wuhan]
+Si stima che, per il COVID-19, R<sub>0</sub> sia circa 2,2[^r0_covid] benché uno studio *non ancora portato a termine* stima che fosse 5,7 a Wuhan.[^r0_wuhan]
 
 <!--[^r0_covid]: “We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)-->
 
-[^r0_covid]: “Stimiamo che il numero di riproduzione di base R0 di 2019-nCoV essere intorno a 2,2 (intervallo di credibilità al 90%: 1,4–3,8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
+[^r0_covid]: “Stimiamo che il numero di riproduzione di base R0 di 2019-nCoV sia intorno a 2,2 (intervallo di credibilità al 90%: 1,4–3,8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
 <!--[^r0_wuhan]: “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)-->
 
