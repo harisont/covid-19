@@ -11,7 +11,7 @@
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
-				🕐 30 min <!--play/read-->lettura/interazione
+				tempo di lettura/sperimentazione: 🕐 30 min
 				&nbsp;&middot;&nbsp;
 			</b>
 			<!--by-->di
@@ -19,7 +19,7 @@
 			(<!--epidemiologist-->epidemiologo)
 			e
 			<a href="https://ncase.me/">Nicky Case</a>
-			(<!--art/code-->arte/codice)
+			(<!--art/code-->artista/programmatore<!--trice-->)
 		</div>
 	</div>
 </div>
