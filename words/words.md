@@ -28,7 +28,7 @@
 	"The only thing to fear is fear itself" was stupid advice.
 -->
 
-"L'unica cosa di cui avere paura è la paura stessa" è un consiglio stupido.
+"L'unica cosa di cui avere paura è la paura stessa", disse Franklin D. Roosevelt. Era un consiglio stupido.
 
 <!--Sure, don't hoard toilet paper – but if policymakers fear fear itself, they'll downplay real dangers to avoid "mass panic". Fear's not the problem, it's how we *channel* our fear. Fear gives us energy to deal with dangers now, and prepare for dangers later.-->
 
