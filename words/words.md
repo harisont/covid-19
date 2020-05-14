@@ -63,7 +63,7 @@ Questa guida (originale pubblicato il 1 Maggio 2020. clicca questa nota!→[^tim
 
 <!--So, buckle in: we're about to experience some turbulence.-->
 
-Quindi, tenetevi forte: stiamo per attraversare una zona di turbulenza.
+Quindi, tenetevi forte: stiamo per attraversare una zona di turbolenza.
 
 <div class="section chapter">
     <div>
