@@ -9,7 +9,7 @@
 <body>
 
 	<div id="sandbox">
-	
+
 		<div id="controls">
 
 			<div id="hide_on_first_playthrough">
@@ -18,7 +18,7 @@
 					In <i>media</i>,
 					ogni <icon i></icon>...
 					<br><br>
-					
+
 					<div id="label_transmission">
 						Infetta 1 <icon s></icon> per <span id="label_p_transmission">N</span> giorni
 						<br>
@@ -34,14 +34,14 @@
 						<br>
 						<input class="sim_input" type="range" id="p_exposed" min="1" max="30" step="1" value="3">
 					</div>
-					
+
 					<div id="label_c_recovery">
 						<input class="sim_checkbox" type="checkbox" id="c_recovery">
 						Occorrono <span id="label_p_recovery">N</span> giorni per passare da <icon i></icon> a <icon r></icon>
 						<br>
 						<input class="sim_input" type="range" id="p_recovery" min="1" max="30" step="1" value="10">
 					</div>
-					
+
 					<div id="label_c_waning">
 						<input class="sim_checkbox" type="checkbox" id="c_waning">
 						Perde l'immunità <icon s></icon> in <span id="label_p_waning">N</span> mesi
@@ -96,7 +96,7 @@
 						<br>
 					</span>
 					<span id="int_block_4">
-						Forza dell' Estate
+						Forza dell'Estate
 						<br>
 						<input class="sim_input recordable" type="range" id="p_summer" min="0" max="1" step="0.001" value="0">
 						<br>
@@ -109,13 +109,13 @@
 					</span>
 
 					<span id="label_re">
-						R è ora <span id="label_p_re" toFixed="2"></span>
+						R = <span id="label_p_re" toFixed="2"></span>
 						<canvas class="r_canvas" id="canvas_re"></canvas>
 						<!--<input class="sim_input" type="range" id="p_re" min="0" max="6" step="0.01" disabled>-->
 					</span>
 
 					<span id="hospital_capacity">
-						Capacità Terapia Intensiva a <span id="label_p_hospital">N</span>%
+						Capacità Terapia Intensiva: <span id="label_p_hospital">N</span>%
 						<br>
 						<input class="sim_input recordable" type="range" id="p_hospital" min="100" max="1000" step="1" value="333">
 					</span>
@@ -180,7 +180,7 @@
 				-->
 			</div>
 			<div id="legend">
-				
+
 				<span id="label_susceptible" class="lines">
 					<icon s></icon> Suscettibili<span id="show_percent_s"></span>
 					<br>
@@ -196,15 +196,15 @@
 				<span id="label_removed" class="lines">
 					<icon r></icon> Guariti<span id="show_percent_r"></span>
 				</span>
-				
+
 				<br class="lines">
-				
+
 				<span id="label_herd_immunity">
 				- - - Immunità di gregge
 				</span>
 
 				<br class="lines">
-				
+
 				<span id="label_capacity">
 				––– Capacità Terapia Intensiva
 				</span>
@@ -264,4 +264,3 @@
 <script src="js/main.js"></script>
 
 <script src="js/simplebar.min.js"></script>
-
