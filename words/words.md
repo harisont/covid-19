@@ -587,7 +587,7 @@ Per capire come Taiwan & la Corea del Sud siano riuscite a tenere sotto controll
     **media di 4 giorni prima di contagiare qualcun altro:** “L'intervallo [seriale] medio è di 3,96 giorni (95% CI 3,53-4,39 giorni)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)
 
     <!--    **5 days on average to feeling symptoms:** “The median incubation period was estimated to be 5.1 days (95% CI, 4.5 to 5.8 days)” [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)-->
-    **media di 5 giorni prima di accorgersi dei sintomi:** “Si stima che la mediana del periodo di incubazione sia 5,1 days (95% CI, 4,5 to 5,8 giorni)” [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)
+    **media di 5 giorni prima di accorgersi dei sintomi:** “Si stima che la mediana del periodo di incubazione sia di 5,1 giorni (95% CI da 4,5 a 5,8 giorni)” [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)
 
 ![](pics/timeline1.png)
 
