@@ -669,7 +669,7 @@ Ma come si fa con chi non ha uno smartphone? E con le maniglie delle porte? E co
 [^rant]: Molti notiziari - e a dire il vero anche molti articoli scientifici - non hanno fatto distinzioni tra "casi che non mostravano sintomi al momento del test" (presintomatici) e "casi che non hanno *mai* mostrato sintomi" (veri asintomatici). L'unico modo per distinguerli è di seguirli nel tempo.
 
     <!--Which is what [this study](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) did. (Disclaimer: "Early release articles are not considered as final versions.") In a call center in South Korea that had a COVID-19 outbreak, "only 4 (1.9%) remained asymptomatic within 14 days of quarantine, and none of their household contacts acquired secondary infections."-->
-    Che è quello che è stato fatto in [questo studio](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article). (Disclaimer: "gli articoli pubblicati in anteprima non vanno considerati una versione finale.") In un call center in Corea del Sud che presentava un focolaio di COVID-19, "solo 4 (1.9%) sono rimasti asintomatici per tutti e 14 i giorni di quarantena, e nessuno dei loro contatti familiari ha contratto infezioni secondarie."
+    Che è quello che è stato fatto in [questo studio](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article). (Disclaimer: "gli articoli pubblicati in anteprima non vanno considerati una versione finale.") In un call center in Corea del Sud che presentava un focolaio di COVID-19, "solo 4 (1,9%) sono rimasti asintomatici per tutti e 14 i giorni di quarantena, e nessuno dei loro contatti familiari ha contratto infezioni secondarie."
 
     <!--So that means "true asymptomatics" are rare, and catching the disease from a true asymptomatic may be even rarer!-->
     Questo significa che i "veri asintomatici" sono rari, e che prendere il virus da un vero asintomatico potrebbe essere più raro ancora!
@@ -678,7 +678,7 @@ Ma come si fa con chi non ha uno smartphone? E con le maniglie delle porte? E co
 Isolare i casi *sintomatici* ridurrebbe R fino al 40%, e mettere i loro contatti *pre/asintomatici* in quarantena lo ridurrebbe fino al 50%[^oxford]:
 
 <!--[^oxford]: From the same Oxford study that first recommended apps to fight COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) See Figure 2. Assuming R<sub>0</sub> = 2.0, they found that:-->    
-[^oxford]: Dallo stesso studio di Oxford che per primo ha raccomandato l'utilizzo di app nella lotta al COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Vedi Figura 2. Assumendo R<sub>0</sub> = 2.0, hanno osservato che:    
+[^oxford]: Dallo stesso studio di Oxford che per primo ha raccomandato l'utilizzo di app nella lotta al COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Vedi Figura 2. Assumendo R<sub>0</sub> = 2,0, hanno osservato che:    
 
 <!--
     * Symptomatics contribute R = 0.8 (40%)
@@ -686,10 +686,10 @@ Isolare i casi *sintomatici* ridurrebbe R fino al 40%, e mettere i loro contatti
     * Asymptomatics contribute R = 0.1 (5%, though their model has uncertainty and it could be much lower)
     * Environmental stuff like doorknobs contribute R = 0.2 (10%)
 -->
-    * I casi sintomatici contribuiscono ad R per lo 0.8 (40%)
-    * I casi presintomatici contribuiscono ad R per lo 0.9 (45%)
-    * I casi asintomatici contribuiscono ad R per lo 0.1 (5%, anche se il modello ha un margine di incertezza e questo numero potrebbe essere molto più basso)
-    * Gli elementi dell'ambiente, come le maniglie delle porte, contribuiscono a R per lo 0.2 (10%)
+    * I casi sintomatici contribuiscono ad R per lo 0,8 (40%)
+    * I casi presintomatici contribuiscono ad R per lo 0,9 (45%)
+    * I casi asintomatici contribuiscono ad R per lo 0,1 (5%, anche se il modello ha un margine di incertezza e questo numero potrebbe essere molto più basso)
+    * Gli elementi dell'ambiente, come le maniglie delle porte, contribuiscono a R per lo 0,2 (10%)
 
     <!--And add up the pre- & a-symptomatic contacts (45% + 5%) and you get 50% of R!-->
     Sommando i contatti presintomatici a quelli asintomatici (45% + 5%) otteniamo il 50% di R!
@@ -807,7 +807,7 @@ Benefici: Anche ci fosse una probabilità del 50-50 che le maschere chirurgiche 
 
 
 <!--Masks *alone* won't get R < 1. But if handwashing & "Test, Trace, Isolate" only gets us to R = 1.10, having just 1/3 of people wear masks would tip that over to R < 1, virus contained!-->
-*Da sole*, le mascherine non ci faranno arrivare ad R < 1. Ma se il lavarsi le mani e il "Testare, Tracciare, Isolare" ci portassero solo ad R = 1.10, avere anche solo 1/3 delle persone che indossano le mascherine ribalterebbe la situazione: R < 1, virus contenuto!
+*Da sole*, le mascherine non ci faranno arrivare ad R < 1. Ma se il lavarsi le mani e il "Testare, Tracciare, Isolare" ci portassero solo ad R = 1,10, avere anche solo 1/3 delle persone che indossano le mascherine ribalterebbe la situazione: R < 1, virus contenuto!
 
 <!--**Summer:**-->
 **Estate:**
@@ -816,13 +816,13 @@ Benefici: Anche ci fosse una probabilità del 50-50 che le maschere chirurgiche 
 Ok, non è un "intervento" sotto il nostro controllo, ma aiuterà! Alcune testate giornalistiche riportano che l'estate non avrà conseguenze sul COVID-19. Hanno ragione a metà: l'estate non porterà R ad essere < 1, ma *ridurrà* R.
 
 <!--For COVID-19, every extra 1° Celsius (1.8° Fahrenheit) makes R drop by 1.2%.[^heat] The summer-winter difference in New York City is 26°C (47°F),[^nyc_heat] so summer will make R drop by ~31%.-->
-Per il COVID-19, ogni 1° Celsius (1.8° Fahrenheit) extra fa scendere R del 1.2%.[^heat] La differenza estate-inverno a New York è di 26°C (47°F),[^nyc_heat] quindi l'estate farà scendere R del ~31%.
+Per il COVID-19, ogni 1° Celsius (1,8° Fahrenheit) extra fa scendere R del 1,2%.[^heat] La differenza estate-inverno a New York è di 26°C (47°F),[^nyc_heat] quindi l'estate farà scendere R del ~31%.
 
 <!--[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)-->
-[^heat]: “Un aumento della temperatura di un grado Celsius [...] abbassa R dello 0.0225” e “Il valore medio di R in queste 100 città è 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
+[^heat]: “Un aumento della temperatura di un grado Celsius [...] abbassa R dello 0,0225” e “Il valore medio di R in queste 100 città è 1,83”. 0,0225 ÷ 1,83 = ~1,2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
 
 <!--[^nyc_heat]: In 2019 at Central Park, hottest month (July) was 79.6°F, coldest month (Jan) was 32.5°F. Difference is 47.1°F, or ~26°C. [PDF from Weather.gov](https://www.weather.gov/media/okx/Climate/CentralPark/monthlyannualtemp.pdf)-->
-[^nyc_heat]: Nel 2019, a Central Park, nel mese più caldo (luglio) la temperatura era di 79.6°F, nel più freddo (Gennaio) di 32.5°F. La differenza è di 47.1°F, cioè ~26°C. [PDF from Weather.gov](https://www.weather.gov/media/okx/Climate/CentralPark/monthlyannualtemp.pdf)
+[^nyc_heat]: Nel 2019, a Central Park, nel mese più caldo (luglio) la temperatura era di 79,6°F, nel più freddo (Gennaio) di 32,5°F. La differenza è di 47,1°F, cioè ~26°C. [PDF from Weather.gov](https://www.weather.gov/media/okx/Climate/CentralPark/monthlyannualtemp.pdf)
 
 <div class="sim">
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
