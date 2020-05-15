@@ -28,7 +28,7 @@
 	"The only thing to fear is fear itself" was stupid advice.
 -->
 
-"L'unica cosa di cui avere paura è la paura stessa" è un consiglio stupido.
+"L'unica cosa di cui avere paura è la paura stessa", disse Franklin D. Roosevelt. Era un consiglio stupido.
 
 <!--Sure, don't hoard toilet paper - but if policymakers fear fear itself, they'll downplay real dangers to avoid "mass panic". Fear's not the problem, it's how we *channel* our fear. Fear gives us energy to deal with dangers now, and prepare for dangers later.-->
 
@@ -308,7 +308,7 @@ Nelle nostre simulazioni - *all'inizio e in media* - un <icon i></icon> contagia
 
 <!--But remember, the fewer <span class="nowrap"><icon s></icon>s</span> there are, the *slower* <span class="nowrap"><icon s></icon>s</span> become <span class="nowrap"><icon i></icon>s.</span> The *current* reproduction number (R) depends not just on the *basic* reproduction number (R<sub>0</sub>), but *also* on how many people are no longer <icon s></icon> Susceptible. (For example, by recovering & getting natural immunity.)-->
 
-Ma ricorda, meno <span class="nowrap"><icon s></icon></span> ci sono, più *lentamente* i <span class="nowrap"><icon s></icon></span> diventano <span class="nowrap"><icon i></icon>.</span>. Il numero di riproduzione *effettivo* (R) dipende non solo dal numero di riproduzione *di base* (R<sub>0</sub>), ma *anche* da quante persone sono non più <icon s></icon> Suscettibili. (Per esempio, perché guariscono e guadagnano una immunità naturale.)
+Ma ricorda, meno <span class="nowrap"><icon s></icon></span> ci sono, più *lentamente* i <span class="nowrap"><icon s></icon></span> diventano <span class="nowrap"><icon i></icon>.</span>. Il numero di riproduzione *netto* (o effettivo) R dipende non solo dal numero di riproduzione *di base* (R<sub>0</sub>), ma *anche* su qaunte persone non sono più <icon s></icon> Suscettibili. (Per esempio, perché guariscono e guadagnano una immunità naturale.)
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
@@ -760,8 +760,7 @@ Hai ragione. Le mascherine non impediscono che tu ti ammali[^incoming]... impedi
 [^incoming]: “Nessuna di queste mascherine chirurgiche ha dato prova di fare da filtro e adattarsi al volto in maniera idonea per essere considerata un dispositivo di protezione respiratorio.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742)
 
 <!--[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)-->
-<!--TODO-->
-[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
+[^outgoing]: “La riduzione complessiva di 3,4 volte [riduzione del 70%] nel numero delle copie [del virus] presenti nell'aerosol che abbiamo osservato, combinata con una eliminazione quasi completa di spruzzi di droplets di maggiori dimensioni dimostrate da Johnson et al., suggeriscono che le mascherine chirurgiche portate da persone infette potrebbero avere un impatto signficativo dal punto di vista clinico nella trasmissione [della malattia].” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
 
 <!--[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) See Table 1: a 100% cotton T-shirt has around 2/3 the filtration efficiency as a surgical mask, for the two bacterial aerosols they tested.-->
 [^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Vedi Tabella 1: una maglietta 100% cotone ha all'incirca i 2/3 della capacità di filtraggio di una mascherina chirurgica, per i due aerosol batterici testati.
