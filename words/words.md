@@ -19,7 +19,7 @@
 			(<!--epidemiologist-->epidemiologo)
 			e
 			<a href="https://ncase.me/">Nicky Case</a>
-			(<!--art/code-->artista/programmatore<!--trice-->)
+			(<!--art/code-->artista/programmatorə<!--trice-->)
 		</div>
 	</div>
 </div>
@@ -92,7 +92,7 @@ Si stima che, *in media*, *all'inizio* di una epidemia di COVID-19, il virus ven
 
 <!--[^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53-4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Disclaimer: Early release articles are not considered as final versions)-->
 
-[^serial_interval]: “L'intervallo [seriale] medio è stato di 3,96 giorni (95% IC 3,53-4,39 giorni)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Attenzione: gli articoli pubblicati in anteprima non vanno considerati una versione finale)
+[^serial_interval]: “L'intervallo [seriale] medio è stato di 3,96 giorni (IC 95% 3,53-4,39 giorni)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Attenzione: gli articoli pubblicati in anteprima non vanno considerati una versione finale)
 
 <!--If we simulate "double every 4 days" *and nothing else*, on a population starting with just 0.001% <span class="nowrap"><icon i></icon>,</span> what happens?-->
 Se simuliamo questo "raddoppiare ogni 4 giorni" *e nient'altro*, su una popolazione che inizia con solo lo 0,001% di <span class="nowrap"><icon i></icon>,</span> cosa succede?
@@ -228,7 +228,7 @@ Per il COVID-19, si stima che una persona sia <icon e></icon> contagiata-ma-non-
 
 <!--[^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8-3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)-->
 
-[^latent]: “Assumendo una distribuzione del periodo di incubazione media di 5,2 giorni ricavata da uno studio dei primi casi di COVID-19, deduciamo che la fase contagiosa ha inizio 2,3 giorni (IC 95%, 0,8-3,0 giorni) prima dell'inizio dei sintomi” (traduzione: Se i sintomi iniziano al giorno 5, la fase contagiosa inizia 2 giorni prima, ovvero al giorno 3) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
+[^latent]: “Assumendo una distribuzione del periodo di incubazione media di 5,2 giorni ricavata da uno studio dei primi casi di COVID-19, deduciamo che la fase contagiosa ha inizio 2,3 giorni (IC 95% 0,8-3,0 giorni) prima dell'inizio dei sintomi” (traduzione: Se i sintomi iniziano al giorno 5, la fase contagiosa inizia 2 giorni prima, ovvero al giorno 3) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
 
 <!--
 <b style='color:#ff4040'>Red <b style='color:#FF9393'>+ Pink</b> curve</b> is *current* cases (infectious <icon i></icon> + exposed <span class="nowrap"><icon e></icon>),</span>    
@@ -411,14 +411,14 @@ Tenetevi forte per un atterraggio di emergenza...
 ###Scenario 0: Non Fare Assolutamente Niente
 
 <!--Around 1 in 20 people infected with COVID-19 need to go to an ICU (Intensive Care Unit).[^icu_covid] In a rich country like the USA, there's 1 ICU bed per 3400 people.[^icu_us] Therefore, the USA can handle 20 out of 3400 people being *simultaneously* infected - or, 0.6% of the population.-->
-Delle persone che contraggono il COVID-19, circa 1 su 20 ha bisogno di esssere ricoverata in un reparto di terapia intensiva.[^icu_covid] In un Paese ricco come gli Stati Uniti, c'é 1 posto in terapia intensiva ogni 3400 people.[^icu_us]. Di conseguenza, gli USA sono in grado di gestire una situazione in cui un massimo di 20 persone ogni 3400 - ossia lo 0.6% della popolazione - sono infette *contemporaneamente*.
+Delle persone che contraggono il COVID-19, circa 1 su 20 ha bisogno di essere ricoverata in un reparto di terapia intensiva.[^icu_covid] In un Paese ricco come gli Stati Uniti, c'è 1 posto in terapia intensiva ogni 3400 people.[^icu_us]. Di conseguenza, gli USA sono in grado di gestire una situazione in cui un massimo di 20 persone ogni 3400 - ossia lo 0,6% della popolazione - sono infette *contemporaneamente*.
 
 <!--[^icu_covid]: ["Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Between 4.9% to 11.5% of *all* COVID-19 cases required ICU. Generously picking the lower range, that's 5% or 1 in 20. Note that this total is specific to the US's age structure, and will be higher in countries with older populations, lower in countries with younger populations.-->
 
-[^icu_covid]: ["Percentuale di casi di COVID-19 negli Stati Uniti dal 12 Febbraio al 16 Marzo 2020 che hanno richiesto ricovero in terapia intensiva, per fasce di età"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Tra il 4.9% e il 11.5% di *tutti* i casi di COVID-19 hanno richiesto il ricovero in terapia intensiva. Scegliendo, ottimisticamente, il limite inferiore, si tratta del 5%, cioé 1 su 20. Si noti che questo totale è specifico della struttura demografica degli USA, e sarà dunque più alto in Paesi dove l'età media è più alta e più basso in Paesi dove è più bassa.
+[^icu_covid]: ["Percentuale di casi di COVID-19 negli Stati Uniti dal 12 Febbraio al 16 Marzo 2020 che hanno richiesto ricovero in terapia intensiva, per fasce di età"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Tra il 4,9% e il 11,5% di *tutti* i casi di COVID-19 hanno richiesto il ricovero in terapia intensiva. Scegliendo, ottimisticamente, il limite inferiore, si tratta del 5%, cioè 1 su 20. Si noti che questo totale è specifico della struttura demografica degli USA, e sarà dunque più alto in Paesi dove l'età media è più alta e più basso in Paesi dove è più bassa.
 
 <!--[^icu_us]: “Number of ICU beds = 96,596”. From [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) USA Population was 328,200,000 in 2019. 96,596 out of 328,200,000 = roughly 1 in 3400.-->
-[^icu_us]: “Numero di letti in terapia intensiva = 96,596”. Secondo [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) il numero degli abitanti degli USA era 328,200,000 nel 2019. 96,596 su 328,200,000 = circa 1 su 3400.
+[^icu_us]: “Numero di letti in terapia intensiva = 96 596”. Secondo [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) il numero degli abitanti degli USA era 328 200 000 nel 2019. 96 596 su 328 200 000 = circa 1 su 3400.
 
 
 <!--Even if we *more than tripled* that capacity to 2%, here's what would've happened *if we did absolutely nothing:*-->
@@ -437,7 +437,7 @@ Ecco cosa rileva il [report dell' Imperial College del 16 marzo](http://www.impe
 (ricorda: il numero totale dei casi *supera* la soglia dell'immunità di gregge)
 
 <!--Even if only 0.5% of infected die - a generous assumption when there's no more ICUs - in a large country like the US, with 300 million people, 0.5% of 80% of 300 million = still 1.2 million dead... *IF we did nothing.*-->
-Se anche fosse che solo lo 0.5% di chi contrae il virus muore - un'assunzione ottimistica, nello scenario in cui non ci sono più posti in terapia intensiva disponibili - per un Paese grande come gli USA, con 300 milioni di abitanti, lo 0.5% dell' 80% di 300 milioni avrebbe significato pur sempre 1.2 milioni di morti... *SE non avessimo fatto niente.*
+Se anche fosse che solo lo 0,5% di chi contrae il virus muore - un'assunzione ottimistica, nello scenario in cui non ci sono più posti in terapia intensiva disponibili - per un Paese grande come gli USA, con 300 milioni di abitanti, lo 0,5% dell' 80% di 300 milioni avrebbe significato pur sempre 1,2 milioni di morti... *SE non avessimo fatto niente.*
 
 <!--(Lots of news & social media reported "80% will be infected" *without* "IF WE DO NOTHING". Fear was channelled into clicks, not understanding. *Sigh.*)-->
 (Su molti giornali & social media è stato riportato che "l'80% della popolazione verrà contagiato" *senza* aggiungere "SE NON FACCIAMO NIENTE". La paura è stata incanalata nei click, non nella comprensione dei fatti. *Sigh.*)
@@ -465,10 +465,10 @@ Innanzitutto, diamo uno sguardo alle due maniere principali di "appiattire la cu
 Nei Paesi ad alto reddito, lavarsi le mani più spesso diminuisce l'incidenza di influenze & raffreddori del ~25%[^handwashing], mentre il lockdown imposto al livello dell'intera città di Londra ha ridotto i contatti ravvicinati del ~70%[^london]. Quindi, assumiamo che lavarsi spesso le mani possa ridurre R *al più* del 25%, e che il distanziamento sociale possa abbassarlo *al più* del 70%:
 
 <!--[^handwashing]: “All eight eligible studies reported that handwashing lowered risks of respiratory infection, with risk reductions ranging from 6% to 44% [pooled value 24% (95% CI 6-40%)].” We rounded up the pooled value to 25% in these simulations for simplicity. [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Note: as this meta-analysis points out, the quality of studies for handwashing (at least in high-income countries) are awful.-->
-[^handwashing]: “tutti e otto gli studi pertinenti riportano che lavarsi le mani riduce il rischio di malattie respiratorie, con una riduzione del rischio che varia tra il 6% e il 44% [valore aggregato 24% (95% CI 6-40%)].” Per semplicità, in queste simulazioni abbiamo arrotondato per eccesso il valore aggregato al 25%. [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Nota: come indicato da questa meta-analisi, la qualità degli studi sul lavarsi le mani è (almeno per quel che riguarda i Paesi ad alto reddito) pessima.
+[^handwashing]: “tutti e otto gli studi pertinenti riportano che lavarsi le mani riduce il rischio di malattie respiratorie, con una riduzione del rischio che varia tra il 6% e il 44% [valore aggregato 24% (IC 95% 6-40%)].” Per semplicità, in queste simulazioni abbiamo arrotondato per eccesso il valore aggregato al 25%. [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Nota: come indicato da questa meta-analisi, la qualità degli studi sul lavarsi le mani è (almeno per quel che riguarda i Paesi ad alto reddito) pessima.
 
 <!--[^london]: “We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown”. We rounded it down to 70% in these simulations for simplicity. [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html)-->
-[^london]: “Abbiamo osservato una riduzione del 73% nel numero medio di contatti quotidiani per partecipante. Questo sarebbe sufficiente per portare R0 da un valore di 2.6 prima del lockdown a 0.62 (0.37 - 0.89) durante il lockdown”. Per semplicità, in queste simulazioni abbiamo arrotondato per difetto al 70%. [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html)
+[^london]: “Abbiamo osservato una riduzione del 73% nel numero medio di contatti quotidiani per partecipante. Questo sarebbe sufficiente per portare R0 da un valore di 2,6 prima del lockdown a 0,62 (0,37 - 0,89) durante il lockdown”. Per semplicità, in queste simulazioni abbiamo arrotondato per difetto al 70%. [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html)
 
 <!--**Play with this calculator to see how % of <span class="nowrap">non-<icon s></icon>,</span> handwashing, and distancing reduce R:** (this calculator visualizes their *relative* effects, which is why increasing one *looks* like it decreases the effect of the others.[^log_caveat])-->
 **Gioca con questa calcolatrice per vedere come la percentuale di <span class="nowrap">non-<icon s></icon>,</span> il lavarsi le mani e il distanziamento sociale riducono R:** (questa calcolatrice mostra i loro effetti *relativi*, per cui *sembra* che incrementare il valore di un parametro decrementi quello degli altri.[^log_caveat])
@@ -581,13 +581,13 @@ Ma appunto! “Un lockdown non è una cura, è solo un nuovo inizio”... **e un
 Per capire come Taiwan & la Corea del Sud siano riuscite a tenere sotto controllo il COVID-19, bisogna capire quali siano le tempistiche esatte di un'infezione da COVID-19[^timeline]:
 
 <!--[^timeline]: **3 days on average to infectiousness:** “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8-3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)-->
-[^timeline]: **media di 3 giorni prima della fase contagiosa:** “Ipotizzando, in base ai dati di un altro studio relativo ai primi casi di COVID-19, una distribuzione del periodo di incubazione in media di 5,2 giorni, abbiamo dedotto che la fase contagiosa inizia già 2,3 giorni (95% CI, 0,8-3,0 giorni) prima dell'insorgenza dei sintomi.” (tradotto: Assumendo che i sintomi si manifestino al giorno 5, la fase contagiosa ha inizio 2 giorni prima = la fase contagiosa inizia al giorno 3) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)  
+[^timeline]: **media di 3 giorni prima della fase contagiosa:** “Ipotizzando, in base ai dati di un altro studio relativo ai primi casi di COVID-19, una distribuzione del periodo di incubazione in media di 5,2 giorni, abbiamo dedotto che la fase contagiosa inizia già 2,3 giorni (IC 95% 0,8-3,0 giorni) prima dell'insorgenza dei sintomi.” (tradotto: Assumendo che i sintomi si manifestino al giorno 5, la fase contagiosa ha inizio 2 giorni prima = la fase contagiosa inizia al giorno 3) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)  
 
     <!--**4 days on average to infecting someone else:** “The mean [serial] interval was 3.96 days (95% CI 3.53-4.39 days)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)-->
-    **media di 4 giorni prima di contagiare qualcun altro:** “L'intervallo [seriale] medio è di 3.96 giorni (95% CI 3.53-4.39 giorni)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)
+    **media di 4 giorni prima di contagiare qualcun altro:** “L'intervallo [seriale] medio è di 3,96 giorni (IC 95% 3,53-4,39 giorni)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)
 
     <!--    **5 days on average to feeling symptoms:** “The median incubation period was estimated to be 5.1 days (95% CI, 4.5 to 5.8 days)” [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)-->
-    **media di 5 giorni prima di accorgersi dei sintomi:** “Si stima che la mediana del periodo di incubazione sia 5.1 days (95% CI, 4.5 to 5.8 giorni)” [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)
+    **media di 5 giorni prima di accorgersi dei sintomi:** “Si stima che la mediana del periodo di incubazione sia di 5,1 giorni (IC 95% 4,5-5,8 giorni)” [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)
 
 ![](pics/timeline1.png)
 
@@ -669,7 +669,7 @@ Ma come si fa con chi non ha uno smartphone? E con le maniglie delle porte? E co
 [^rant]: Molti notiziari - e a dire il vero anche molti articoli scientifici - non hanno fatto distinzioni tra "casi che non mostravano sintomi al momento del test" (presintomatici) e "casi che non hanno *mai* mostrato sintomi" (veri asintomatici). L'unico modo per distinguerli è di seguirli nel tempo.
 
     <!--Which is what [this study](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) did. (Disclaimer: "Early release articles are not considered as final versions.") In a call center in South Korea that had a COVID-19 outbreak, "only 4 (1.9%) remained asymptomatic within 14 days of quarantine, and none of their household contacts acquired secondary infections."-->
-    Che è quello che è stato fatto in [questo studio](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article). (Disclaimer: "gli articoli pubblicati in anteprima non vanno considerati una versione finale.") In un call center in Corea del Sud che presentava un focolaio di COVID-19, "solo 4 (1.9%) sono rimasti asintomatici per tutti e 14 i giorni di quarantena, e nessuno dei loro contatti familiari ha contratto infezioni secondarie."
+    Che è quello che è stato fatto in [questo studio](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article). (Disclaimer: "gli articoli pubblicati in anteprima non vanno considerati una versione finale.") In un call center in Corea del Sud che presentava un focolaio di COVID-19, "solo 4 (1,9%) sono rimasti asintomatici per tutti e 14 i giorni di quarantena, e nessuno dei loro contatti familiari ha contratto infezioni secondarie."
 
     <!--So that means "true asymptomatics" are rare, and catching the disease from a true asymptomatic may be even rarer!-->
     Questo significa che i "veri asintomatici" sono rari, e che prendere il virus da un vero asintomatico potrebbe essere più raro ancora!
@@ -678,7 +678,7 @@ Ma come si fa con chi non ha uno smartphone? E con le maniglie delle porte? E co
 Isolare i casi *sintomatici* ridurrebbe R fino al 40%, e mettere i loro contatti *pre/asintomatici* in quarantena lo ridurrebbe fino al 50%[^oxford]:
 
 <!--[^oxford]: From the same Oxford study that first recommended apps to fight COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) See Figure 2. Assuming R<sub>0</sub> = 2.0, they found that:-->    
-[^oxford]: Dallo stesso studio di Oxford che per primo ha raccomandato l'utilizzo di app nella lotta al COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Vedi Figura 2. Assumendo R<sub>0</sub> = 2.0, hanno osservato che:    
+[^oxford]: Dallo stesso studio di Oxford che per primo ha raccomandato l'utilizzo di app nella lotta al COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Vedi Figura 2. Assumendo R<sub>0</sub> = 2,0, hanno osservato che:    
 
 <!--
     * Symptomatics contribute R = 0.8 (40%)
@@ -686,10 +686,10 @@ Isolare i casi *sintomatici* ridurrebbe R fino al 40%, e mettere i loro contatti
     * Asymptomatics contribute R = 0.1 (5%, though their model has uncertainty and it could be much lower)
     * Environmental stuff like doorknobs contribute R = 0.2 (10%)
 -->
-    * I casi sintomatici contribuiscono ad R per lo 0.8 (40%)
-    * I casi presintomatici contribuiscono ad R per lo 0.9 (45%)
-    * I casi asintomatici contribuiscono ad R per lo 0.1 (5%, anche se il modello ha un margine di incertezza e questo numero potrebbe essere molto più basso)
-    * Gli elementi dell'ambiente, come le maniglie delle porte, contribuiscono a R per lo 0.2 (10%)
+    * I casi sintomatici contribuiscono ad R per lo 0,8 (40%)
+    * I casi presintomatici contribuiscono ad R per lo 0,9 (45%)
+    * I casi asintomatici contribuiscono ad R per lo 0,1 (5%, anche se il modello ha un margine di incertezza e questo numero potrebbe essere molto più basso)
+    * Gli elementi dell'ambiente, come le maniglie delle porte, contribuiscono a R per lo 0,2 (10%)
 
     <!--And add up the pre- & a-symptomatic contacts (45% + 5%) and you get 50% of R!-->
     Sommando i contatti presintomatici a quelli asintomatici (45% + 5%) otteniamo il 50% di R!
@@ -807,7 +807,7 @@ Benefici: Anche ci fosse una probabilità del 50-50 che le maschere chirurgiche 
 
 
 <!--Masks *alone* won't get R < 1. But if handwashing & "Test, Trace, Isolate" only gets us to R = 1.10, having just 1/3 of people wear masks would tip that over to R < 1, virus contained!-->
-*Da sole*, le mascherine non ci faranno arrivare ad R < 1. Ma se il lavarsi le mani e il "Testare, Tracciare, Isolare" ci portassero solo ad R = 1.10, avere anche solo 1/3 delle persone che indossano le mascherine ribalterebbe la situazione: R < 1, virus contenuto!
+*Da sole*, le mascherine non ci faranno arrivare ad R < 1. Ma se il lavarsi le mani e il "Testare, Tracciare, Isolare" ci portassero solo ad R = 1,10, avere anche solo 1/3 delle persone che indossano le mascherine ribalterebbe la situazione: R < 1, virus contenuto!
 
 <!--**Summer:**-->
 **Estate:**
@@ -816,13 +816,13 @@ Benefici: Anche ci fosse una probabilità del 50-50 che le maschere chirurgiche 
 Ok, non è un "intervento" sotto il nostro controllo, ma aiuterà! Alcune testate giornalistiche riportano che l'estate non avrà conseguenze sul COVID-19. Hanno ragione a metà: l'estate non porterà R ad essere < 1, ma *ridurrà* R.
 
 <!--For COVID-19, every extra 1° Celsius (1.8° Fahrenheit) makes R drop by 1.2%.[^heat] The summer-winter difference in New York City is 26°C (47°F),[^nyc_heat] so summer will make R drop by ~31%.-->
-Per il COVID-19, ogni 1° Celsius (1.8° Fahrenheit) extra fa scendere R del 1.2%.[^heat] La differenza estate-inverno a New York è di 26°C (47°F),[^nyc_heat] quindi l'estate farà scendere R del ~31%.
+Per il COVID-19, ogni 1° Celsius (1,8° Fahrenheit) extra fa scendere R del 1,2%.[^heat] La differenza estate-inverno a New York è di 26°C (47°F),[^nyc_heat] quindi l'estate farà scendere R del ~31%.
 
 <!--[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)-->
-[^heat]: “Un aumento della temperatura di un grado Celsius [...] abbassa R dello 0.0225” e “Il valore medio di R in queste 100 città è 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
+[^heat]: “Un aumento della temperatura di un grado Celsius [...] abbassa R dello 0,0225” e “Il valore medio di R in queste 100 città è 1,83”. 0,0225 ÷ 1,83 = ~1,2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
 
 <!--[^nyc_heat]: In 2019 at Central Park, hottest month (July) was 79.6°F, coldest month (Jan) was 32.5°F. Difference is 47.1°F, or ~26°C. [PDF from Weather.gov](https://www.weather.gov/media/okx/Climate/CentralPark/monthlyannualtemp.pdf)-->
-[^nyc_heat]: Nel 2019, a Central Park, nel mese più caldo (luglio) la temperatura era di 79.6°F, nel più freddo (Gennaio) di 32.5°F. La differenza è di 47.1°F, cioè ~26°C. [PDF from Weather.gov](https://www.weather.gov/media/okx/Climate/CentralPark/monthlyannualtemp.pdf)
+[^nyc_heat]: Nel 2019, a Central Park, nel mese più caldo (luglio) la temperatura era di 79,6°F, nel più freddo (Gennaio) di 32,5°F. La differenza è di 47,1°F, cioè ~26°C. [PDF from Weather.gov](https://www.weather.gov/media/okx/Climate/CentralPark/monthlyannualtemp.pdf)
 
 <div class="sim">
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
