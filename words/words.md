@@ -686,13 +686,14 @@ Isolare i casi *sintomatici* ridurrebbe R fino al 40%, e mettere i loro contatti
     * Asymptomatics contribute R = 0.1 (5%, though their model has uncertainty and it could be much lower)
     * Environmental stuff like doorknobs contribute R = 0.2 (10%)
 -->
-    * I casi sintomatici contribuiscono ad R per lo 0,8 (40%)
-    * I casi presintomatici contribuiscono ad R per lo 0,9 (45%)
-    * I casi asintomatici contribuiscono ad R per lo 0,1 (5%, anche se il modello ha un margine di incertezza e questo numero potrebbe essere molto più basso)
-    * Gli elementi dell'ambiente, come le maniglie delle porte, contribuiscono a R per lo 0,2 (10%)
 
-    <!--And add up the pre- & a-symptomatic contacts (45% + 5%) and you get 50% of R!-->
-    Sommando i contatti presintomatici a quelli asintomatici (45% + 5%) otteniamo il 50% di R!
+* I casi sintomatici contribuiscono ad R per lo 0,8 (40%)
+* I casi presintomatici contribuiscono ad R per lo 0,9 (45%)
+* I casi asintomatici contribuiscono ad R per lo 0,1 (5%, anche se il modello ha un margine di incertezza e questo numero potrebbe essere molto più basso)
+* Gli elementi dell'ambiente, come le maniglie delle porte, contribuiscono a R per lo 0,2 (10%)
+
+<!--And add up the pre- & a-symptomatic contacts (45% + 5%) and you get 50% of R!-->
+Sommando i contatti presintomatici a quelli asintomatici (45% + 5%) otteniamo il 50% di R!
 
 <div class="sim">
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
