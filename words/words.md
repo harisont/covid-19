@@ -50,7 +50,7 @@ Onestamente, noi (Marcel, epidemiologo e Nicky, artista/programmatorə) siamo pr
 
 <!--This guide (published May 1st, 2020. click this footnote!→[^timestamp]) is meant to give you hope *and* fear. To beat COVID-19 **in a way that also protects our mental & financial health**, we need optimism to create plans, and pessimism to create backup plans. As Gladys Bronwyn Stern once said, *“The optimist invents the airplane and the pessimist the parachute.”*-->
 
-Questa guida (originale pubblicato il 1 Maggio 2020. clicca questa nota!→[^timestamp]) vuole infonderti *sia* speranza *sia* paura. Per battere il COVID-19 **in un modo che protegge anche la nostra salute mentale e finanziaria**, abbiamo bisogna di ottimismo per fare dei piani e di pessimismo per avere un piano B. Come disse Gladys Bronwyn Stern: *“L'ottimista inventa l'aereoplano e il pessimista il paracadute.”*
+Questa guida (originale pubblicato il 1 Maggio 2020. clicca questa nota!→[^timestamp]) vuole infonderti *sia* speranza *sia* paura. Per battere il COVID-19 **in un modo che protegge anche la nostra salute mentale e finanziaria**, abbiamo bisogno di ottimismo per fare dei piani e di pessimismo per avere un piano B. Come disse Gladys Bronwyn Stern: *“L'ottimista inventa l'aereoplano e il pessimista il paracadute.”*
 
 <!--[^timestamp]: These footnotes will have sources, links, or bonus commentary. Like this commentary!
 
@@ -125,7 +125,7 @@ Questa è la **curva di crescita esponenziale.** Inizia piano, poi esplode. Da "
 
 <!--But, this simulation is wrong. Exponential growth, thankfully, can't go on forever. One thing that stops a virus from spreading is if others *already* have the virus:-->
 
-Ma questa simulazione è sbagliata. La crescita esponenziale, grazie a dio, non può andare avanti per sempre. Una cosa che impedisce al virus di fermarsi è che gli altri abbiano *già* il virus:
+Ma questa simulazione è sbagliata. La crescita esponenziale, grazie a dio, non può andare avanti per sempre. Una cosa che impedisce al virus di diffondersi è che gli altri abbiano *già* il virus:
 
 ![](pics/susceptibles.png)
 
@@ -147,11 +147,11 @@ Questa è la **curva di crescita logistica**, "a forma di S". Inizia piano, espl
 
 <!--But, this simulation is *still* wrong. We're missing the fact that <icon i></icon> Infectious people eventually stop being infectious, either by 1) recovering, 2) "recovering" with lung damage, or 3) dying.-->
 
-Ma questa simulazione è *ancora* sbagliata. Ci stiamo perdendo il fatto che le persone <icon i></icon> Infette ad un certo punto smettono di essere contagiosi, sia perché 1) guariscono 2) "guariscono" ma con danni ai polmoni o 3) muoiono.
+Ma questa simulazione è *ancora* sbagliata. Ci stiamo perdendo il fatto che le persone <icon i></icon> Infette ad un certo punto smettono di essere contagiose, perché 1) guariscono 2) "guariscono" ma con danni ai polmoni o 3) muoiono.
 
 <!--For simplicity's sake, let's pretend that all <icon i></icon> Infectious people become <icon r></icon> Recovered. (Just remember that in reality, some are dead.) <span class="nowrap"><icon r></icon>s</span> can't be infected again, and let's pretend - *for now!* - that they stay immune for life.-->
 
-Per semplicità, fingiamo che tutte le persone <icon i></icon> Infette diventino <icon r></icon> Guarite. (Ricorda però che, in realtà, alcuni sono morti.) I <span class="nowrap"><icon r></icon></span> non possono essere infettati di nuovo e fingiamo - *per ora!* - che rimangano immuni a vita.
+Per semplicità, fingiamo che tutte le persone <icon i></icon> Infette diventino <icon r></icon> Guarite. (Ricorda però che, in realtà, alcune sono morte.) I <span class="nowrap"><icon r></icon></span> non possono essere infettati di nuovo e fingiamo - *per ora!* - che rimangano immuni a vita.
 
 <!--With COVID-19, it's estimated you're <icon i></icon> Infectious for 10 days, *on average*.[^infectiousness] That means some folks will recover before 10 days, some after. **Here's what that looks like, with a simulation *starting* with 100% <span class="nowrap"><icon i></icon>:</span>**-->
 Si stima che, con il COVID-19, si rimanga <icon i></icon> Infetti per 10 giorni, *in media*.[^infectiousness] Ciò significa che alcune persone recuperano prima di 10 giorni, altre dopo. **Ecco cosa vuol dire, nel caso di una simulazione che *inizia* con il 100% di <span class="nowrap"><icon i></icon>:</span>**
@@ -210,7 +210,7 @@ la *seconda* idea più importate dell'epidemiologia di base:
 
 <!---Actually, let's add one more nuance: before an <icon s></icon> becomes an <span class="nowrap"><icon i></icon>,</span> they first become <icon e></icon> Exposed. This is when they have the virus but can't pass it on yet - infect*ed* but not yet infect*ious*.-->
 
-Però aggiungiamola, un'altra sfumatura: un <icon s></icon>, prima di diventare <icon i></icon>, passa per la fase <icon e></icon> "Esposto", quella in cui ha il virus ma ancora non può ancora trasmetterlo - sei *infetto*, ma non *contagioso*.  L'<icon e></icon> "Esposto" è infetto, o meglio contagi_ato_, ma non ancora contagi_oso_."
+Però aggiungiamola, un'altra sfumatura: un <icon s></icon>, prima di diventare <icon i></icon>, passa per la fase <icon e></icon> "Esposto", quella in cui ha il virus ma non può ancora trasmetterlo - sei *infetto*, ma non *contagioso*.  L'<icon e></icon> "Esposto" è infetto, o meglio contagi_ato_, ma non ancora contagi_oso_."
 
 ![](pics/seir.png)
 
@@ -292,7 +292,7 @@ Si stima che, per il COVID-19, R<sub>0</sub> sia circa 2,2[^r0_covid] benché un
 
 <!--In our simulations - *at the start & on average* - an <icon i></icon> infects someone every 4 days, over 10 days. "4 days" goes into "10 days" two-and-a-half times. This means - *at the start & on average* - each <icon i></icon> infects 2.5 others. Therefore, R<sub>0</sub> = 2.5. (caveats:[^r0_caveats_sim])-->
 
-Nelle nostre simulazioni - *all'inizio e in media* - un <icon i></icon> contagia qualcun altro ogni 4 giorni, su un periodo di 10 giorni. "4 giorni" sta in "10 giorni" due volte e mezzo. Questo significa che - *all'inizio e in media* - ogni <icon i></icon> ne infetta altri 2,5. Quindi, R<sub>0</sub> = 2,5. (attenzione:[^r0_caveats_sim])
+Nelle nostre simulazioni - *all'inizio e in media* - un <icon i></icon> contagia qualcun altro ogni 4 giorni, considerando un periodo di 10 giorni. "4 giorni" sta in "10 giorni" due volte e mezzo. Questo significa che - *all'inizio e in media* - ogni <icon i></icon> ne infetta altri 2,5. Quindi, R<sub>0</sub> = 2,5. (attenzione:[^r0_caveats_sim])
 
 <!--[^r0_caveats_sim]: This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes.-->
 
@@ -308,7 +308,7 @@ Nelle nostre simulazioni - *all'inizio e in media* - un <icon i></icon> contagia
 
 <!--But remember, the fewer <span class="nowrap"><icon s></icon>s</span> there are, the *slower* <span class="nowrap"><icon s></icon>s</span> become <span class="nowrap"><icon i></icon>s.</span> The *current* reproduction number (R) depends not just on the *basic* reproduction number (R<sub>0</sub>), but *also* on how many people are no longer <icon s></icon> Susceptible. (For example, by recovering & getting natural immunity.)-->
 
-Ma ricorda, meno <span class="nowrap"><icon s></icon></span> ci sono, più *lentamente* i <span class="nowrap"><icon s></icon></span> diventano <span class="nowrap"><icon i></icon>.</span>. Il numero di riproduzione *netto* (o effettivo) R dipende non solo dal numero di riproduzione *di base* (R<sub>0</sub>), ma *anche* su qaunte persone non sono più <icon s></icon> Suscettibili. (Per esempio, perché guariscono e guadagnano una immunità naturale.)
+Ma ricorda, meno <span class="nowrap"><icon s></icon></span> ci sono, più *lentamente* i <span class="nowrap"><icon s></icon></span> diventano <span class="nowrap"><icon i></icon>.</span>. Il numero di riproduzione *netto* (o effettivo) R dipende non solo dal numero di riproduzione *di base* (R<sub>0</sub>), ma *anche* su quante persone non sono più <icon s></icon> Suscettibili. (Per esempio, perché guariscono e guadagnano una immunità naturale.)
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
@@ -328,7 +328,7 @@ Ora, giochiamo di nuovo con il modello SEIR, ma mostriamo R<sub>0</sub>, R nel t
 
 <!--**NOTE: Total cases *does not stop* at herd immunity, but overshoots it!** And it crosses the threshold *exactly* when current cases peak. (This happens no matter how you change the settings - try it for yourself!)-->
 
-**NOTA: I casi totali *non si fermano* all'immunità di gregge ma vanno oltre!!** E attraversano la soglia *esattamente* nel momento del picco. (Questo succede comunque tu cambi le impostazione - prova pure!)
+**NOTA: I casi totali *non si fermano* all'immunità di gregge ma vanno oltre!!** E attraversano la soglia *esattamente* nel momento del picco. (Questo succede comunque tu cambi le impostazioni - prova pure!)
 
 <!--This is because when there are more <span class="nowrap">non-<icon s></icon>s</span> than the herd immunity threshold, you get R < 1. And when R < 1, new cases stop growing: a peak.-->
 
@@ -389,7 +389,7 @@ Arrivare a R < 1.
 
 <!--So now, let's use our "epidemic flight simulator" to figure this out: How can we get R < 1 in a way **that also protects our mental health *and* financial health?**-->
 
-Quindi ora, usiamo il nostro "simulatore di volo epidemiologico" per cercare di capire questa cosa: Come possiamo avere R < 1 in una modo **che siano protette anche la nostra salute mentale *e* le nostre finanze?**
+Quindi ora, usiamo il nostro "simulatore di volo epidemiologico" per cercare di capire questa cosa: come possiamo avere R < 1 in modo **che siano protette anche la nostra salute mentale *e* le nostre finanze?**
 
 <!--Brace yourselves for an emergency landing...-->
 
@@ -411,7 +411,7 @@ Tenetevi forte per un atterraggio di emergenza...
 ###Scenario 0: Non Fare Assolutamente Niente
 
 <!--Around 1 in 20 people infected with COVID-19 need to go to an ICU (Intensive Care Unit).[^icu_covid] In a rich country like the USA, there's 1 ICU bed per 3400 people.[^icu_us] Therefore, the USA can handle 20 out of 3400 people being *simultaneously* infected - or, 0.6% of the population.-->
-Delle persone che contraggono il COVID-19, circa 1 su 20 ha bisogno di essere ricoverata in un reparto di terapia intensiva.[^icu_covid] In un Paese ricco come gli Stati Uniti, c'è 1 posto in terapia intensiva ogni 3400 people.[^icu_us]. Di conseguenza, gli USA sono in grado di gestire una situazione in cui un massimo di 20 persone ogni 3400 - ossia lo 0,6% della popolazione - sono infette *contemporaneamente*.
+Delle persone che contraggono il COVID-19, circa 1 su 20 ha bisogno di essere ricoverata in un reparto di terapia intensiva.[^icu_covid] In un Paese ricco come gli Stati Uniti, c'è 1 posto in terapia intensiva ogni 3400 persone.[^icu_us]. Di conseguenza, gli USA sono in grado di gestire una situazione in cui un massimo di 20 persone ogni 3400 - ossia lo 0,6% della popolazione - sono infette *contemporaneamente*.
 
 <!--[^icu_covid]: ["Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Between 4.9% to 11.5% of *all* COVID-19 cases required ICU. Generously picking the lower range, that's 5% or 1 in 20. Note that this total is specific to the US's age structure, and will be higher in countries with older populations, lower in countries with younger populations.-->
 
@@ -551,10 +551,10 @@ In questo modo *si riuscirebbe* a non superare la capacità dei reparti di terap
 Ma attenzione: sarebbe bello poter semplicemente tracciare una linea per rappresentare la capacità dei reparti di terapia intensiva, ma ci sono anche molti fattori importanti che *non possiamo* simulare qui. Per esempio:
 
 <!--**Mental Health:** Loneliness is one of the biggest risk factors for depression, anxiety, and suicide. And it's as associated with an early death as smoking 15 cigarettes a day.[^loneliness]-->
-**Salute Mentale:** La soluitudine è uno dei più importanti fattori di rischio legati a depressione, ansia e suicidi, ed è correlata alla morte precoce quando fumare 15 sigarette al giorno.[^loneliness]
+**Salute Mentale:** La solitudine è uno dei più importanti fattori di rischio legati a depressione, ansia e suicidi, ed è correlata alla morte precoce quanto fumare 15 sigarette al giorno.[^loneliness]
 
 <!--[^loneliness]: See [Figure 6 from Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Of course, big disclaimer that they found a *correlation*. But unless you want to try randomly assigning people to be lonely for life, observational evidence is all you're gonna get.-->
-[^loneliness]: Vedi la [Figura 6 di Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Certo, è importante tenere a mente che quella che viene riportata è soltanto una *correlazione*. Ma a meno di voler voler sperimentare condannando persone a caso alla soluitudine vita natural durante, non si può che rifarsi all'evidenza osservativa.
+[^loneliness]: Vedi la [Figura 6 di Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Certo, è importante tenere a mente che quella che viene riportata è soltanto una *correlazione*. Ma a meno di voler voler sperimentare condannando persone a caso alla solitudine vita natural durante, non si può che rifarsi all'evidenza osservativa.
 
 <!--**Financial Health:** "What about the economy" sounds like you care more about dollars than lives, but "the economy" isn't just stocks: it's people's ability to provide food & shelter for their loved ones, to invest in their kids' futures, and enjoy arts, foods, videogames - the stuff that makes life worth living. And besides, poverty *itself* has horrible impacts on mental and physical health.-->
 **Solidità finanziaria:** "E l'economia?" suona come quel che direbbe qualcuno che mette il denaro davanti alle vite umane, ma "l'economia" non riguarda solo il mercato azionario: riguarda la possibilità per le persone di procurare vitto e alloggio per i loro cari, di investire nel futuro dei loro figli, di godersi l'arte, il cibo, i videogiochi - quelle cose che rendono la vita degna di essere vissuta. E oltretutto, la povertà *stessa* ha un impatto tremendo sulla salute sia mentale che fisica.
@@ -620,7 +620,7 @@ Si chiama **contact tracing** (tracciamento dei contatti). Si tratta di un'idea 
 Tradizionalmente, il tracciamento dei contatti avviene attraverso interviste faccia a faccia, che però *da sole* sono troppo lente per la finestra di ~48 ore del COVID-19. Ecco perché gli addetti al contact tracing hanno bisogno di aiuto, e di essere supportati - *NON* sostituiti - dalle app di contact tracing.
 
 <!--(This idea didn't come from "techies": using an app to fight COVID-19 was first proposed by [a team of Oxford epidemiologists](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936).)-->
-(Questa idea di usare un'app nella lotta al COVID-19 non viene dai "nerd": è stati inizialmente proposta da [un team di epidemiologi di Oxford](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936).)
+(Questa idea di usare un'app nella lotta al COVID-19 non viene dai "nerd": è stata inizialmente proposta da [un team di epidemiologi di Oxford](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936).)
 
 <!--Wait, apps that trace who you've been in contact with?... Does that mean giving up privacy, giving in to Big Brother?-->
 Un attimo, app che tengono traccia delle persone con cui sei stato in contatto?... Non significa rinunciare alla privacy, arrendersi al Grande Fratello?
@@ -967,7 +967,7 @@ Che succederebbe se non ci fosse un vaccino per *anni*? Oppure *mai*?
 
 **Siamo chiari: questo è improbabile.** Molti epidemiologi si aspettano un vaccino tra 1 o 2 anni. E' vero che non esiste un vaccino per nessun altro coronavirus ma questo perché la SARS è stata debellata velocemente e "il" raffreddore comune non è mai valso l'investimento.
 
-Comunque, i ricercatori che si occupano di malattie infettive hanno espresso qualche preoccupazione: E se non riuscissimo a produrne abbastanza?[^vax_enough] E se il vaccino, sviluppato in tutta fretta, non fosse sicuro?[^vax_safe]
+Comunque, i ricercatori che si occupano di malattie infettive hanno espresso qualche preoccupazione: e se non riuscissimo a produrne abbastanza?[^vax_enough] E se il vaccino, sviluppato in tutta fretta, non fosse sicuro?[^vax_safe]
 
 [^vax_enough]: “Se arriverà un vaccino per il coronavirus, riuscirà il mondo a produrne abbastanza?” [by Roxanne Khamsi, su Nature](https://www.nature.com/articles/d41586-020-01063-8)
 
@@ -977,7 +977,7 @@ Anche nel terribile scenario "nessun-vaccino", abbiamo ancora 3 vie di uscita. D
 
 1) Fare interventi intermittenti o leggeri per mantenere R < 1, in modo da raggiungere l'"immunità di gregge naturale". (Attenzione: questo causerà molte morti e polmoni danneggiati. *E* non funzionerà se l'immunità non è duratura.)
 
-2) Fare interventi per mantenere R < 1 per sempre. Il contact tracing e l'uso mascherine diventera la nuova normalità nel mondo post COVID-19, come i test HIV e l'uso dei preservativi sono diventati normali nel mondo post-HIV.
+2) Fare interventi per mantenere R < 1 per sempre. Il contact tracing e l'uso di mascherine diventerà la nuova normalità nel mondo post COVID-19, come i test HIV e l'uso dei preservativi sono diventati normali nel mondo post-HIV.
 
 3) Fare interventi per mantenere R < 1 finchè non sviluppiamo trattamenti che riducono di molto la probabilità che sia necessario ricorrere alla terapia intensiva per il COVID-19. (Cosa che dovremmo fare *comunque!*) Ridurre l'uso delle terapie intensive di 10 volte è come incrementare il numero di terapie intensive di 10 volte:
 
@@ -1040,7 +1040,7 @@ Quindi cosa significa questo per TE, ora?
 
 <!--**For policymakers:** Make laws to support folks who have to self-isolate/quarantine. Hire more manual contact tracers, *supported* by privacy-protecting contact tracing apps. Direct more funds into the stuff we should be building, like...-->
 
-**Per i politici:** Fai delle leggi che supportino la gente che che deve autoisolarsi o stare in quarantena. Assumi più addetti al contact tracing, *supportati* da app di contact tracing che tutelino la privacy. Stanzia i fondi necessari per cose che dovremmo produrre in quantità maggiori più, per esempio...
+**Per i politici:** Fai delle leggi che supportino la gente che deve autoisolarsi o stare in quarantena. Assumi più addetti al contact tracing, *supportati* da app di contact tracing che tutelino la privacy. Stanzia i fondi necessari per cose che dovremmo produrre in quantità maggiori più, per esempio...
 
 <!--**For builders:** Build tests. Build ventilators. Build personal protective equipment for hospitals. Build tests. Build masks. Build apps. Build antivirals, prophylactics, and other treatments that aren't vaccines. Build vaccines. Build tests. Build tests. Build tests. Build hope.-->
 
